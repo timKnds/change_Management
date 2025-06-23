@@ -1,0 +1,57 @@
+### 1. Funktionale, logische und physische Detailarchitektur
+
+#### Funktionale Architektur
+Die funktionale Architektur beschreibt, was die Fahrdynamikregelung (FDR) tun soll:
+- **Stabilitätskontrolle**: Überwacht und regelt die Fahrzeugstabilität durch gezielte Eingriffe in die Bremsen und Motorsteuerung.
+- **Traktionskontrolle**: Verhindert das Durchdrehen der Räder beim Beschleunigen.
+- **Kurvenkontrolle**: Optimiert die Fahrzeugdynamik in Kurven durch gezielte Brems- und Motoreingriffe.
+- **Bremskraftverteilung**: Regelt die Bremskraftverteilung zwischen den Rädern, um die Stabilität zu erhöhen.
+- **Notbremsassistent**: Erhöht die Bremskraft in Notfallsituationen.
+- **Schlupfregelung**: Verhindert das Blockieren der Räder beim Bremsen.
+
+#### Logische Architektur
+Die logische Architektur beschreibt, wie die Funktionen miteinander interagieren:
+- **Sensorik**: 
+  - Raddrehzahlsensoren
+  - Gierratensensor
+  - Lenkwinkelsensor
+  - Beschleunigungssensoren
+- **Steueralgorithmen**:
+  - Stabilitätskontrollalgorithmus
+  - Traktionskontrollalgorithmus
+  - Kurvenkontrollalgorithmus
+  - Bremskraftverteilungsalgorithmus
+  - Notbremsassistent-Algorithmus
+  - Schlupfregelungsalgorithmus
+- **Aktoren**:
+  - Bremsaktuatoren
+  - Motorsteuerung
+- **Kommunikation**:
+  - CAN-Bus oder FlexRay für die Kommunikation mit anderen Fahrzeugsystemen
+
+#### Physische Architektur
+Die physische Architektur beschreibt, wie die logischen Komponenten physisch im Fahrzeug integriert sind:
+- **Steuergerät (ECU)**: Zentraler Rechner, der die Fahrdynamikregelung steuert.
+- **Sensoren**: An den relevanten Stellen im Fahrzeug montiert (z.B. Raddrehzahlsensoren an den Rädern, Gierratensensor in der Fahrzeugmitte).
+- **Aktoren**: Bremsaktuatoren an den Bremsen, Motorsteuerung im Motorraum.
+- **Kommunikationsnetzwerk**: Verkabelung und Schnittstellen für die Datenübertragung (z.B. CAN-Bus).
+
+### 2. Technische Anforderungen an die Komponente
+- **Reaktionszeit**: Die FDR muss innerhalb von Millisekunden auf Sensordaten reagieren können.
+- **Zuverlässigkeit**: Die FDR muss unter allen Betriebsbedingungen zuverlässig funktionieren.
+- **Redundanz**: Kritische Komponenten sollten redundant ausgelegt sein, um Ausfallsicherheit zu gewährleisten.
+- **Temperaturbereich**: Die FDR muss in einem weiten Temperaturbereich (z.B. -40°C bis +85°C) zuverlässig arbeiten.
+- **EMV-Schutz**: Die FDR muss gegen elektromagnetische Störungen geschützt sein.
+- **Diagnosefähigkeit**: Die FDR muss in der Lage sein, Fehler zu erkennen und zu diagnostizieren.
+- **Sicherheitsanforderungen**: Die FDR muss den relevanten Sicherheitsstandards (z.B. ISO 26262) entsprechen.
+- **Kommunikationsprotokolle**: Unterstützung für gängige Fahrzeugnetzwerke wie CAN-Bus oder FlexRay.
+
+### 3. Relevante Schnittstellen zu Nachbarsystemen
+- **ABS (Antiblockiersystem)**: Austausch von Daten zur Radgeschwindigkeit und Bremskraft.
+- **ESP (Elektronisches Stabilitätsprogramm)**: Austausch von Daten zur Fahrzeugstabilität und Gierrate.
+- **Motorsteuergerät**: Austausch von Daten zur Motorleistung und Drehmomentregelung.
+- **Lenkwinkelsensor**: Übermittlung des Lenkwinkels zur Berechnung der Fahrzeugdynamik.
+- **Telematiksystem**: Übermittlung von Diagnosedaten und Fehlercodes.
+- **Bremssteuergerät**: Steuerung der Bremsaktuatoren und Übermittlung von Bremskraftdaten.
+- **Fahrwerksteuerung**: Austausch von Daten zur Fahrwerksdynamik und Dämpfungseinstellungen.
+- **Reifendruckkontrollsystem (TPMS)**: Übermittlung von Reifendruckdaten zur Optimierung der Traktionskontrolle.

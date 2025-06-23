@@ -1,0 +1,52 @@
+### 1. Funktionale, logische und physische Detailarchitektur der Fahrerassistenzfunktionen
+
+#### Funktionale Architektur
+Die funktionale Architektur beschreibt die grundlegenden Funktionen und Aufgaben der Fahrerassistenzfunktionen:
+
+- **Erkennung und Klassifizierung**: Erkennung von Objekten, Fußgängern, Fahrzeugen und Straßenschildern.
+- **Umfeldüberwachung**: Überwachung des Fahrzeugumfelds, einschließlich der Fahrspur, des toten Winkels und der Verkehrszeichen.
+- **Fahrzeugsteuerung**: Unterstützung bei der Steuerung des Fahrzeugs, z.B. durch Spurhalteassistent, adaptive Geschwindigkeitsregelung und Notbremsassistent.
+- **Kommunikation**: Austausch von Informationen mit anderen Fahrzeugen und der Infrastruktur (V2X-Kommunikation).
+- **Benutzerinteraktion**: Anzeige von Warnungen und Informationen für den Fahrer, sowie Steuerung über Bedienelemente.
+
+#### Logische Architektur
+Die logische Architektur beschreibt die Struktur und die Beziehungen zwischen den verschiedenen Komponenten und Modulen:
+
+- **Sensoren**: Kameras, Radar, Lidar, Ultraschall und andere Sensoren zur Erfassung der Umgebung.
+- **Datenfusion**: Verarbeitung und Integration von Sensordaten zur Erstellung eines umfassenden Bildes der Fahrzeugumgebung.
+- **Entscheidungslogik**: Algorithmen zur Analyse der Daten und zur Entscheidungsfindung (z.B. Machine Learning, Regelbasierte Systeme).
+- **Aktuatoren**: Steuerungselemente für Bremsen, Lenkung und Antriebssysteme.
+- **Kommunikationsmodule**: V2X-Kommunikationseinheiten und interne Netzwerke zur Datenübertragung.
+- **Benutzerinterface**: Anzeigen, akustische Signale und Bedienelemente zur Interaktion mit dem Fahrer.
+
+#### Physische Architektur
+Die physische Architektur beschreibt die konkrete Umsetzung und Platzierung der Komponenten im Fahrzeug:
+
+- **Sensoren**: Anordnung der Kameras, Radar, Lidar und Ultraschallsensoren an strategischen Positionen am Fahrzeug (z.B. Front, Heck, Seiten).
+- **Rechenmodule**: Zentralisierte oder verteilte Steuergeräte zur Verarbeitung der Sensordaten und zur Entscheidungsfindung.
+- **Aktuatoren**: Mechanische und elektronische Komponenten zur Steuerung von Bremsen, Lenkung und Antrieb.
+- **Kommunikationsmodule**: Einbau der V2X-Kommunikationseinheiten und internen Netzwerke.
+- **Benutzerinterface**: Platzierung der Anzeigen und Bedienelemente im Cockpit und auf dem Armaturenbrett.
+
+### 2. Technische Anforderungen an die Komponente
+
+- **Erkennungsgenauigkeit**: Hohe Genauigkeit bei der Erkennung und Klassifizierung von Objekten und Verkehrssituationen.
+- **Reaktionszeit**: Schnelle Verarbeitung und Reaktion auf erkannte Gefahren und Verkehrssituationen.
+- **Zuverlässigkeit**: Hohe Zuverlässigkeit und Verfügbarkeit der Fahrerassistenzfunktionen unter verschiedenen Bedingungen (Wetter, Lichtverhältnisse).
+- **Sicherheit**: Sicherstellung der Sicherheit des Fahrers und der Insassen durch präzise und fehlerfreie Steuerung.
+- **Kommunikationsfähigkeit**: Unterstützung von V2X-Kommunikation für den Austausch von Informationen mit anderen Fahrzeugen und der Infrastruktur.
+- **Benutzerfreundlichkeit**: Intuitive und leicht verständliche Benutzeroberfläche für die Interaktion mit dem Fahrer.
+- **Energieeffizienz**: Optimierung des Energieverbrauchs der Fahrerassistenzsysteme.
+- **Kompatibilität**: Integration und Kompatibilität mit anderen Fahrzeugkomponenten und -systemen.
+
+### 3. Relevante Schnittstellen zu Nachbarsystemen
+
+- **Motorsteuerung**: Schnittstelle zur Steuerung des Antriebs und der Geschwindigkeit des Fahrzeugs.
+- **Bremssteuerung**: Schnittstelle zur Steuerung der Bremsen für Notbremsassistent und adaptive Geschwindigkeitsregelung.
+- **Lenksteuerung**: Schnittstelle zur Steuerung der Lenkung für Spurhalteassistent und andere Lenkfunktionen.
+- **Kommunikationsmodule**: Schnittstelle zur V2X-Kommunikationseinheit für den Austausch von Informationen mit anderen Fahrzeugen und der Infrastruktur.
+- **Infotainment-System**: Schnittstelle zur Anzeige von Fahrerassistenzinformationen und Warnungen auf dem Infotainment-Bildschirm.
+- **Sensoren**: Schnittstelle zu den verschiedenen Sensoren (Kamera, Radar, Lidar, Ultraschall) zur Erfassung der Fahrzeugumgebung.
+- **Fahrzeugnetzwerk**: Schnittstelle zum internen Fahrzeugnetzwerk für die Datenübertragung zwischen den verschiedenen Steuergeräten und Modulen.
+
+Diese Architektur und Anforderungen stellen sicher, dass die Fahrerassistenzfunktionen zuverlässig, sicher und effizient arbeiten und eine nahtlose Integration in das Fahrzeug ermöglichen.

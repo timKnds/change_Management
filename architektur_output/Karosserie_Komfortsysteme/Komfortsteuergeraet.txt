@@ -1,0 +1,55 @@
+### 1. Funktionale, logische und physische Detailarchitektur
+
+#### Funktionale Architektur
+Die funktionale Architektur beschreibt die Hauptfunktionen des Komfortsteuergeräts:
+- **Zentralverriegelung**: Steuerung der Türverriegelung und -entriegelung.
+- **Fensterhebersteuerung**: Kontrolle der elektrischen Fensterheber.
+- **Spiegelverstellung**: Steuerung der elektrischen Außenspiegel.
+- **Sitzverstellung**: Steuerung der elektrischen Sitzverstellung und Sitzheizung.
+- **Innenbeleuchtung**: Steuerung der Innenbeleuchtung.
+- **Alarmanlage**: Integration und Steuerung der Alarmanlage.
+- **Klimaautomatik**: Unterstützung und Steuerung der Klimaanlage.
+- **Diagnose und Fehlererkennung**: Selbstdiagnose und Meldung von Fehlern.
+
+#### Logische Architektur
+Die logische Architektur beschreibt die Struktur und die Interaktionen zwischen den logischen Komponenten:
+- **Eingabemodule**: Schalter, Sensoren und Bedienelemente (z.B. Türgriffe, Fensterheberschalter, Sitzverstellungsschalter).
+- **Verarbeitungsmodul**: Mikrocontroller/Prozessor, der die Eingaben verarbeitet und entsprechende Ausgaben steuert.
+- **Ausgabemodule**: Aktuatoren und Motoren (z.B. Türschlösser, Fensterhebermotoren, Sitzverstellmotoren).
+- **Kommunikationsschnittstellen**: CAN-Bus, LIN-Bus zur Kommunikation mit anderen Steuergeräten und dem zentralen Fahrzeugnetzwerk.
+- **Speichermodule**: EEPROM/Flash-Speicher für Konfigurationsdaten und Fehlerprotokolle.
+
+#### Physische Architektur
+Die physische Architektur beschreibt die tatsächliche Hardware und deren Anordnung:
+- **Gehäuse**: Schutzgehäuse für das Steuergerät, das gegen Umwelteinflüsse (Feuchtigkeit, Staub, Vibration) geschützt ist.
+- **Leiterplatte (PCB)**: Träger der elektronischen Bauteile (Mikrocontroller, Speicher, Schnittstellen).
+- **Anschlüsse**: Steckverbinder für die Verbindung zu den Eingabe- und Ausgabemodulen sowie den Kommunikationsbussen.
+- **Kühlung**: Passive oder aktive Kühlung, falls notwendig.
+- **Befestigungspunkte**: Mechanische Befestigungspunkte zur sicheren Montage im Fahrzeug.
+
+### 2. Technische Anforderungen an die Komponente
+
+- **Betriebsspannung**: 9V bis 16V DC.
+- **Betriebstemperaturbereich**: -40°C bis +85°C.
+- **Schutzklasse**: IP67 (Schutz gegen Staub und zeitweiliges Untertauchen).
+- **EMV-Anforderungen**: Erfüllung der EMV-Richtlinien für Automotive-Anwendungen.
+- **Kommunikationsprotokolle**: Unterstützung von CAN-Bus und LIN-Bus.
+- **Reaktionszeit**: Maximal 100 ms für die Verarbeitung von Eingaben und Steuerung der Ausgaben.
+- **Speicher**: Mindestens 256 KB Flash-Speicher und 32 KB RAM.
+- **Lebensdauer**: Mindestens 10 Jahre oder 200.000 km.
+- **Sicherheitsanforderungen**: Einhaltung der ISO 26262 für funktionale Sicherheit.
+- **Diagnosefähigkeit**: Unterstützung von OBD-II-Diagnoseprotokollen.
+- **Fehlertoleranz**: Fähigkeit zur Erkennung und Meldung von Fehlern sowie zum Betrieb im Degradationsmodus.
+
+### 3. Relevante Schnittstellen zu Nachbarsystemen
+
+- **Zentrales Steuergerät (BCM - Body Control Module)**: Kommunikation über CAN-Bus für zentrale Steuerungsbefehle und Statusmeldungen.
+- **Türsteuergeräte**: Verbindung über LIN-Bus oder CAN-Bus zur Steuerung der Türverriegelung und Fensterheber.
+- **Klimasteuergerät**: Kommunikation zur Unterstützung der Klimaautomatik.
+- **Alarmanlage**: Schnittstelle zur Integration und Steuerung der Alarmfunktionen.
+- **Diagnosegerät**: OBD-II-Schnittstelle für Diagnose und Fehlerauslesung.
+- **Sitzsteuergeräte**: Verbindung zur Steuerung der Sitzverstellung und Sitzheizung.
+- **Spiegelsteuergeräte**: Schnittstelle zur Steuerung der Außenspiegel.
+- **Innenbeleuchtungssystem**: Verbindung zur Steuerung der Innenbeleuchtung.
+
+Diese detaillierte Architektur und die Anforderungen stellen sicher, dass das Komfortsteuergerät zuverlässig und effizient arbeitet und die gewünschten Komfortfunktionen im Fahrzeug bereitstellt.

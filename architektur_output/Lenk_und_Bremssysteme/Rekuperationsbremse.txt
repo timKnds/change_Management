@@ -1,0 +1,47 @@
+### 1. Funktionale, logische und physische Detailarchitektur der Rekuperationsbremse
+
+#### Funktionale Architektur
+Die funktionale Architektur beschreibt die Hauptfunktionen der Rekuperationsbremse:
+- **Energieumwandlung**: Umwandlung der kinetischen Energie des Fahrzeugs in elektrische Energie.
+- **Energierückspeisung**: Rückspeisung der gewonnenen elektrischen Energie in die Fahrzeugbatterie.
+- **Bremskraftsteuerung**: Steuerung der Bremskraft, um eine optimale Verzögerung des Fahrzeugs zu gewährleisten.
+- **Systemüberwachung**: Überwachung der Systemparameter und Diagnose von Fehlern.
+- **Kommunikation**: Austausch von Informationen mit anderen Fahrzeugsystemen wie dem Antriebsstrang, dem Batteriemanagementsystem und dem Fahrerassistenzsystem.
+
+#### Logische Architektur
+Die logische Architektur beschreibt die Interaktion der verschiedenen Subsysteme und Komponenten:
+- **Sensoren**: Erfassen von Fahrzeuggeschwindigkeit, Bremsdruck, Batteriezustand und weiteren relevanten Parametern.
+- **Steuergerät (ECU)**: Verarbeitung der Sensordaten und Steuerung der Rekuperationsbremse.
+- **Leistungselektronik**: Umwandlung der kinetischen Energie in elektrische Energie und Steuerung der Rückspeisung in die Batterie.
+- **Batteriemanagementsystem (BMS)**: Überwachung und Steuerung des Ladezustands der Batterie.
+- **Kommunikationsbus**: CAN-Bus oder FlexRay zur Kommunikation zwischen den verschiedenen Steuergeräten und Systemen.
+
+#### Physische Architektur
+Die physische Architektur beschreibt die tatsächliche Hardware und deren Anordnung im Fahrzeug:
+- **Sensoren**: Geschwindigkeitssensoren, Drucksensoren, Temperatursensoren, die an verschiedenen Stellen des Fahrzeugs angebracht sind.
+- **Steuergerät (ECU)**: Ein zentrales Steuergerät, das in der Nähe des Antriebsstrangs oder im Motorraum installiert ist.
+- **Leistungselektronik**: Module, die in der Nähe der Batterie und des Antriebsstrangs installiert sind.
+- **Batterie**: Die Hochvoltbatterie, die typischerweise im Fahrzeugboden oder im Heck untergebracht ist.
+- **Kabel und Steckverbindungen**: Hochstromkabel und Kommunikationsleitungen, die die verschiedenen Komponenten verbinden.
+
+### 2. Technische Anforderungen an die Komponente
+
+- **Effizienz**: Die Rekuperationsbremse muss eine hohe Effizienz bei der Umwandlung von kinetischer in elektrische Energie aufweisen (mindestens 70%).
+- **Kompatibilität**: Kompatibel mit dem bestehenden Batteriemanagementsystem und den Kommunikationsprotokollen (z.B. CAN-Bus, FlexRay).
+- **Zuverlässigkeit**: Hohe Zuverlässigkeit und Langlebigkeit der Komponenten, um den Anforderungen des Fahrzeugs gerecht zu werden.
+- **Sicherheitsanforderungen**: Erfüllung aller relevanten Sicherheitsstandards (z.B. ISO 26262) und Schutz vor Überhitzung, Überladung und Kurzschluss.
+- **Diagnosefähigkeit**: Integrierte Diagnosefunktionen zur Überwachung und Fehlererkennung.
+- **Umweltbedingungen**: Beständigkeit gegenüber extremen Temperaturen, Feuchtigkeit und Vibrationen.
+- **Regelbarkeit**: Präzise Steuerung der Bremskraft für unterschiedliche Fahrbedingungen und Fahreranforderungen.
+- **Integration**: Einfache Integration in bestehende Fahrzeugplattformen und -architekturen.
+
+### 3. Relevante Schnittstellen zu Nachbarsystemen
+
+- **Antriebsstrang**: Schnittstelle zur Steuerung des Elektromotors und zur Erfassung der Fahrzeuggeschwindigkeit.
+- **Batteriemanagementsystem (BMS)**: Schnittstelle zur Überwachung und Steuerung des Ladezustands der Batterie.
+- **Fahrerassistenzsysteme**: Schnittstelle zur Integration mit Systemen wie dem adaptiven Tempomat (ACC) und dem elektronischen Stabilitätsprogramm (ESP).
+- **Kommunikationsbus (CAN/FlexRay)**: Schnittstelle zur Kommunikation zwischen den verschiedenen Steuergeräten und Systemen.
+- **Diagnosesystem**: Schnittstelle zur Fahrzeugdiagnose und Fehlerauslese.
+- **Bremssteuerungssystem**: Schnittstelle zur konventionellen Bremsanlage für die Koordination zwischen mechanischer und elektrischer Bremskraft.
+
+Diese Architektur und Anforderungen bieten eine umfassende Grundlage für die Entwicklung und Integration einer Rekuperationsbremse in ein modernes Fahrzeug.

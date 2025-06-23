@@ -1,0 +1,54 @@
+### 1. Funktionale, logische und physische Detailarchitektur der Hochvoltbatterie
+
+#### Funktionale Architektur
+Die funktionale Architektur beschreibt die Hauptfunktionen der Hochvoltbatterie:
+- **Energieversorgung**: Bereitstellung von elektrischer Energie für den Antrieb und andere Fahrzeugkomponenten.
+- **Energiespeicherung**: Speicherung von elektrischer Energie, die während des Bremsens oder über externe Ladequellen gewonnen wird.
+- **Batteriemanagement**: Überwachung und Steuerung der Lade- und Entladevorgänge, Temperaturmanagement und Zellenausgleich.
+- **Sicherheit**: Schutz vor Überladung, Tiefentladung, Überhitzung und Kurzschluss.
+
+#### Logische Architektur
+Die logische Architektur beschreibt die Struktur und die Beziehungen zwischen den verschiedenen Subsystemen und Komponenten:
+- **Batteriezellen**: Einzelne Zellen, die in Modulen zusammengefasst sind.
+- **Batteriemodule**: Gruppen von Zellen, die in Serie und parallel geschaltet sind, um die gewünschte Spannung und Kapazität zu erreichen.
+- **Batteriemanagementsystem (BMS)**: Elektronische Einheit zur Überwachung und Steuerung der Batterieparameter.
+  - **Zellspannungsüberwachung**
+  - **Temperaturüberwachung**
+  - **Ladezustandsüberwachung (SOC)**
+  - **Gesundheitszustandsüberwachung (SOH)**
+- **Kühl- und Heizsystem**: Systeme zur Temperaturregelung der Batterie.
+- **Hochvolt-Relais und Sicherungen**: Sicherheitskomponenten zur Trennung der Batterie vom Fahrzeugnetz bei Fehlern.
+- **Kommunikationsschnittstellen**: CAN-Bus, LIN-Bus oder andere Protokolle zur Kommunikation mit dem Fahrzeugsteuergerät.
+
+#### Physische Architektur
+Die physische Architektur beschreibt die konkrete Umsetzung und den Aufbau der Hochvoltbatterie:
+- **Gehäuse**: Robustes, thermisch isoliertes und wasserdichtes Gehäuse.
+- **Batteriezellen**: Physische Anordnung der Zellen in Modulen.
+- **Kühl- und Heizsystem**: Physische Komponenten wie Kühlplatten, Lüfter, Heizmatten.
+- **Elektronik**: BMS, Sensoren, Relais und Sicherungen.
+- **Anschlüsse**: Hochvoltanschlüsse, Kommunikationsschnittstellen und Kühlmittelleitungen.
+
+### 2. Technische Anforderungen an die Komponente
+
+- **Spannung**: Nennspannung der Batterie (z.B. 400V oder 800V).
+- **Kapazität**: Gesamtkapazität der Batterie in kWh.
+- **Leistungsdichte**: Maximale Leistungsabgabe in kW.
+- **Energieeffizienz**: Wirkungsgrad der Lade- und Entladevorgänge.
+- **Lebensdauer**: Anzahl der Ladezyklen bei definiertem Kapazitätsverlust.
+- **Betriebstemperaturbereich**: Minimal- und Maximaltemperatur für den Betrieb.
+- **Sicherheitsanforderungen**: Schutz vor Überladung, Tiefentladung, Überhitzung, Kurzschluss und mechanischen Beschädigungen.
+- **Gewicht und Volumen**: Maximales Gewicht und Volumen der Batterie.
+- **Kommunikationsprotokolle**: Unterstützung von CAN-Bus, LIN-Bus oder anderen relevanten Protokollen.
+- **Umweltanforderungen**: Beständigkeit gegen Feuchtigkeit, Staub und Vibrationen.
+- **Zertifizierungen**: Einhaltung relevanter Normen und Standards (z.B. ISO 26262 für funktionale Sicherheit).
+
+### 3. Relevante Schnittstellen zu Nachbarsystemen
+
+- **Fahrzeugsteuergerät (ECU)**: Kommunikation zur Übermittlung von Batteriestatus, Ladezustand und Fehlern.
+- **Ladesystem**: Schnittstelle zum On-Board-Charger (OBC) und externen Ladegeräten.
+- **Antriebssystem**: Bereitstellung von Energie für den Elektromotor und Rückgewinnung von Energie beim Bremsen.
+- **Thermomanagementsystem**: Schnittstellen zur Kühlung und Heizung der Batterie.
+- **Diagnosesystem**: Schnittstellen zur Fahrzeugdiagnose und Wartung.
+- **Sicherheits- und Überwachungssysteme**: Kommunikation mit Sicherheitssystemen zur Überwachung und Notabschaltung bei Fehlern.
+
+Diese detaillierte Architektur und die Anforderungen stellen sicher, dass die Hochvoltbatterie sicher, effizient und zuverlässig arbeitet und nahtlos in das Gesamtsystem des Fahrzeugs integriert ist.

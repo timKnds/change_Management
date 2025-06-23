@@ -1,0 +1,52 @@
+### 1. Funktionale, logische und physische Detailarchitektur
+
+#### Funktionale Architektur
+Die funktionale Architektur beschreibt die Hauptfunktionen des Inverters:
+
+- **DC/AC-Umwandlung**: Wandelt Gleichstrom (DC) in Wechselstrom (AC) um.
+- **Leistungsregelung**: Regelt die Ausgangsleistung basierend auf den Anforderungen des Motors.
+- **Überwachung und Schutz**: Überwacht die Betriebsbedingungen und schützt vor Überlastung, Überhitzung und Kurzschluss.
+- **Kommunikation**: Schnittstellen zur Fahrzeugsteuerung und anderen Systemen.
+
+#### Logische Architektur
+Die logische Architektur beschreibt die internen logischen Komponenten und deren Interaktionen:
+
+- **Eingangsfilter**: Filtert Störungen aus dem DC-Eingang.
+- **Leistungselektronik**: Enthält IGBTs oder MOSFETs zur Umwandlung von DC in AC.
+- **Steuerungseinheit**: Mikrocontroller oder DSP zur Regelung der Leistungselektronik.
+- **Überwachungs- und Schutzmodule**: Sensoren und Schaltungen zur Überwachung der Temperatur, Strom und Spannung.
+- **Kommunikationsmodule**: CAN, LIN oder andere Kommunikationsschnittstellen.
+
+#### Physische Architektur
+Die physische Architektur beschreibt die physische Anordnung der Komponenten:
+
+- **Gehäuse**: Robustes und thermisch effizientes Gehäuse zur Unterbringung aller Komponenten.
+- **Kühlung**: Lüfter oder Flüssigkeitskühlung zur Wärmeabfuhr.
+- **Anschlüsse**: Elektrische Anschlüsse für DC-Eingang, AC-Ausgang und Kommunikationsschnittstellen.
+- **Montagepunkte**: Mechanische Befestigungspunkte zur Integration in das Fahrzeug.
+
+### 2. Technische Anforderungen an die Komponente
+
+- **Eingangsspannung**: 300V bis 800V DC.
+- **Ausgangsspannung**: 230V bis 400V AC.
+- **Ausgangsfrequenz**: 50Hz bis 60Hz.
+- **Leistungsbereich**: 10kW bis 200kW.
+- **Wirkungsgrad**: Mindestens 95%.
+- **Betriebstemperaturbereich**: -40°C bis 125°C.
+- **Schutzarten**: Überstromschutz, Überspannungsschutz, Überhitzungsschutz.
+- **Kommunikationsschnittstellen**: CAN, LIN, Ethernet.
+- **EMV-Konformität**: Entspricht den relevanten EMV-Richtlinien.
+- **Kühlung**: Aktiv oder passiv, je nach Leistungsbereich.
+- **Lebensdauer**: Mindestens 10 Jahre oder 150.000 km.
+
+### 3. Relevante Schnittstellen zu Nachbarsystemen
+
+- **Batteriemanagementsystem (BMS)**: Schnittstelle zur Überwachung und Regelung der Batteriezustände.
+- **Motorsteuerung**: Kommunikation zur Regelung der Motorleistung und -drehzahl.
+- **Fahrzeugsteuerung**: Schnittstelle zur Integration in das zentrale Steuerungssystem des Fahrzeugs.
+- **Ladesystem**: Schnittstelle zur Steuerung des Ladevorgangs, falls der Inverter auch als Ladegerät fungiert.
+- **Thermomanagementsystem**: Schnittstelle zur Regelung der Kühlung des Inverters.
+- **Diagnosesystem**: Schnittstelle zur Fehlerdiagnose und Wartung.
+- **Sicherheitssteuerung**: Kommunikation zur Überwachung und Einhaltung von Sicherheitsprotokollen.
+
+Diese Architektur und Anforderungen stellen sicher, dass der Inverter effizient, zuverlässig und sicher in einem Automobil eingesetzt werden kann.

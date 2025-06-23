@@ -1,0 +1,101 @@
+{
+  "BEV_Fahrzeugarchitektur": {
+    "Energieversorgungssystem": {
+      "Hochvoltbatterie": {},
+      "Ladeeinheit": {
+        "OnBoardCharger": {},
+        "DC_DC_Wandler": {}
+      },
+      "Ladeanschluss": {},
+      "Kommunikationsmodul": {
+        "ISO_15118": {}
+      },
+      "Batteriemanagementsystem": {}
+    },
+    "Antriebs_und_Fahrregelsystem": {
+      "Elektromotoren": {},
+      "Inverter": {},
+      "Motorsteuergeraete": {},
+      "Fahrdynamikregelung": {
+        "ESC": {},
+        "ABS": {},
+        "ASR": {}
+      },
+      "Torque_Vectoring_eAWD": {}
+    },
+    "Lenk_und_Bremssysteme": {
+      "Elektronisches_Lenksystem": {},
+      "Rekuperationsbremse": {},
+      "Mechanische_Bremse": {
+        "eBooster": {},
+        "Elektronische_Parkbremse": {}
+      },
+      "Bremssteuergeraet": {
+        "ESC": {}
+      }
+    },
+    "Fahrassistenz_und_Automatisierungssysteme": {
+      "Sensorik": {
+        "Radar": {},
+        "Kamera": {},
+        "Lidar": {},
+        "Ultraschall": {}
+      },
+      "Sensorfusion": {},
+      "ADAS_ECU": {},
+      "Fahrerassistenzfunktionen": {
+        "ACC": {},
+        "LKA": {},
+        "Emergency_Brake": {}
+      }
+    },
+    "Karosserie_Komfortsysteme": {
+      "Klimaanlage_Waermepumpe": {},
+      "HVAC_Steuerung": {},
+      "Sitz_und_Innenraumfunktionen": {},
+      "Komfortsteuergeraet": {
+        "Body_Control_Module": {}
+      },
+      "Licht_Fenster_Tuerensteuerung": {}
+    },
+    "Infotainment_und_Connectivity_System": {
+      "Head_Unit": {},
+      "Cockpit_Displays": {},
+      "Spracherkennung": {},
+      "Navigation": {},
+      "Smartphone_Integration": {
+        "Apple_CarPlay": {},
+        "Android_Auto": {}
+      },
+      "Connectivity_Module": {
+        "eSIM": {},
+        "Mobilfunkmodem": {}
+      },
+      "Telematiksteuergeraet": {}
+    },
+    "Fahrzeugsteuerung_EE_Architektur": {
+      "Domaenensteuergeraete": {},
+      "Zonensteuergeraete": {},
+      "Zentrales_Gateway": {},
+      "Kommunikationsbusse": {
+        "CAN": {},
+        "LIN": {},
+        "Ethernet": {},
+        "FlexRay": {}
+      },
+      "OTA_Update_Management": {}
+    },
+    "Sicherheit_und_Diagnosesysteme": {
+      "Crashsensoren": {},
+      "Airbagsteuergeraet": {},
+      "Funktionale_Sicherheit": {
+        "ISO_26262": {}
+      },
+      "Cybersecurity": {
+        "ISO_21434": {},
+        "Intrusion_Detection_System": {}
+      },
+      "OBD_Diagnose": {}
+    }
+  }
+}

@@ -1,0 +1,64 @@
+### 1. Funktionale, logische und physische Detailarchitektur
+
+#### Funktionale Architektur
+Die funktionale Architektur beschreibt die Hauptfunktionen der Torque-Vectoring-eAWD-Komponente:
+
+- **Drehmomentverteilung**: Verteilung des Drehmoments auf die einzelnen Räder zur Verbesserung der Traktion und Stabilität.
+- **Fahrdynamikregelung**: Anpassung des Drehmoments basierend auf Fahrbedingungen und Fahrerinput.
+- **Kommunikation mit anderen Systemen**: Austausch von Daten mit anderen Fahrzeugsteuergeräten (ECUs) wie ABS, ESP, und dem zentralen Fahrzeugsteuergerät.
+- **Fehlerdiagnose und -management**: Überwachung und Diagnose von Systemfehlern und Einleitung von Notfallmaßnahmen.
+
+#### Logische Architektur
+Die logische Architektur beschreibt die Struktur und Interaktion der Subsysteme:
+
+- **Steuergerät (ECU)**: Zentrale Einheit zur Steuerung und Überwachung des Systems.
+  - **Drehmomentregelung**: Algorithmen zur Berechnung der optimalen Drehmomentverteilung.
+  - **Kommunikationsschnittstelle**: CAN-Bus, FlexRay oder Ethernet zur Kommunikation mit anderen ECUs.
+  - **Fehlerdiagnosemodul**: Überwachung der Systemintegrität und Fehlererkennung.
+- **Sensoren**: Erfassen von Fahrzeugdaten wie Raddrehzahlen, Lenkwinkel, Beschleunigung und Gierrate.
+- **Aktuatoren**: Elektromotoren oder Kupplungen zur Verteilung des Drehmoments auf die Räder.
+
+#### Physische Architektur
+Die physische Architektur beschreibt die tatsächliche Hardware und deren Platzierung im Fahrzeug:
+
+- **ECU**: Im Motorraum oder im Innenraum des Fahrzeugs montiert.
+- **Sensoren**: An den Rädern, am Lenkrad und im Fahrzeugchassis verteilt.
+- **Aktuatoren**: An den Antriebswellen oder in den Radnaben integriert.
+- **Kabelbäume und Steckverbinder**: Zur Verbindung der ECU mit Sensoren und Aktuatoren.
+
+### 2. Technische Anforderungen an die Komponente
+
+- **Leistungsanforderungen**:
+  - Maximale Drehmomentverteilung: [spezifischer Wert in Nm]
+  - Reaktionszeit: < [spezifischer Wert in ms]
+  - Betriebstemperaturbereich: -40°C bis +125°C
+  - Spannungsversorgung: 12V/48V (je nach Fahrzeugarchitektur)
+
+- **Zuverlässigkeit und Sicherheit**:
+  - ISO 26262 ASIL-D Konformität
+  - MTBF (Mean Time Between Failures): > [spezifischer Wert in Stunden]
+  - Redundante Systeme für kritische Funktionen
+
+- **Kommunikationsanforderungen**:
+  - Unterstützung von CAN, FlexRay, Ethernet
+  - Kommunikationsgeschwindigkeit: [spezifischer Wert in Mbps]
+
+- **Umweltanforderungen**:
+  - Schutzart: IP67 oder höher
+  - Vibrations- und Schockfestigkeit nach [spezifischer Norm]
+
+- **Diagnose und Wartung**:
+  - OBD-II Konformität
+  - Selbstdiagnosefunktionen und Fehlercodes
+
+### 3. Relevante Schnittstellen zu Nachbarsystemen
+
+- **ABS/ESP-System**: Austausch von Daten zur Fahrzeugstabilität und Traktionskontrolle.
+- **Zentrales Fahrzeugsteuergerät (VCU)**: Koordination der Gesamtfahrzeugdynamik und Energieverteilung.
+- **Lenkwinkelsensor**: Bereitstellung von Lenkwinkeldaten für die Drehmomentverteilung.
+- **Raddrehzahlsensoren**: Erfassung der Drehzahlen der einzelnen Räder.
+- **Beschleunigungs- und Gierratensensoren**: Erfassung der Fahrzeugbewegungen zur Unterstützung der Fahrdynamikregelung.
+- **Batteriemanagementsystem (BMS)**: Überwachung und Steuerung der Energieversorgung für die Elektromotoren.
+- **Diagnosewerkzeuge**: Schnittstelle für Wartung und Fehlerdiagnose.
+
+Diese Architektur und Anforderungen bieten eine umfassende Grundlage für die Entwicklung und Integration der Torque-Vectoring-eAWD-Komponente in ein Fahrzeug.

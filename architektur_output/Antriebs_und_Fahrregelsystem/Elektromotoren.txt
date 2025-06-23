@@ -1,0 +1,71 @@
+### 1. Funktionale, logische und physische Detailarchitektur der Komponente Elektromotoren
+
+#### Funktionale Architektur
+Die funktionale Architektur beschreibt die Hauptfunktionen des Elektromotors und deren Interaktionen:
+
+- **Energieumwandlung**: Wandelt elektrische Energie in mechanische Energie um.
+- **Drehmomentsteuerung**: Regelt das Drehmoment basierend auf den Anforderungen des Fahrzeugs.
+- **Drehzahlregelung**: Kontrolliert die Drehzahl des Motors.
+- **Wärmemanagement**: Überwacht und reguliert die Temperatur des Motors.
+- **Fehlermanagement**: Erfasst und meldet Fehlerzustände.
+- **Kommunikation**: Austausch von Daten mit dem Steuergerät und anderen Systemen.
+
+#### Logische Architektur
+Die logische Architektur beschreibt die internen logischen Komponenten und deren Interaktionen:
+
+- **Leistungselektronik**: Inverter und Gleichrichter zur Steuerung der Stromzufuhr.
+- **Steuerungseinheit**: Mikrocontroller oder DSP für die Regelung und Überwachung.
+- **Sensoren**: Drehzahlsensor, Temperatursensor, Stromsensor.
+- **Kühlungssystem**: Lüfter, Kühlmittelpumpe, Kühlkörper.
+- **Kommunikationsschnittstelle**: CAN-Bus, LIN-Bus, FlexRay.
+
+#### Physische Architektur
+Die physische Architektur beschreibt die tatsächlichen physischen Komponenten und deren Anordnung:
+
+- **Stator und Rotor**: Mechanische Teile des Motors.
+- **Gehäuse**: Schutz und Struktur des Motors.
+- **Kabel und Anschlüsse**: Elektrische Verbindungen.
+- **Kühlkörper und Lüfter**: Physische Komponenten des Kühlsystems.
+- **Steuergerät**: Physische Einheit, die die Steuerungselektronik enthält.
+
+### 2. Technische Anforderungen an die Komponente
+
+- **Leistungsanforderungen**: 
+  - Nennleistung: z.B. 100 kW
+  - Spitzenleistung: z.B. 150 kW
+  - Wirkungsgrad: > 95%
+- **Drehmoment**:
+  - Maximales Drehmoment: z.B. 300 Nm
+  - Regelbereich: 0-300 Nm
+- **Drehzahl**:
+  - Maximaldrehzahl: z.B. 15,000 U/min
+  - Regelbereich: 0-15,000 U/min
+- **Betriebstemperaturbereich**: -40°C bis 125°C
+- **Kühlung**: Luft- oder Flüssigkeitskühlung
+- **Lebensdauer**: > 10 Jahre oder 200,000 km
+- **Gewicht**: z.B. < 50 kg
+- **Schutzklasse**: IP67
+- **Kommunikationsprotokolle**: Unterstützung von CAN, LIN, FlexRay
+- **Sicherheitsanforderungen**: ISO 26262 konform (funktionale Sicherheit)
+
+### 3. Relevante Schnittstellen zu Nachbarsystemen
+
+- **Batteriemanagementsystem (BMS)**: 
+  - Energieversorgung und Ladezustandsinformationen
+  - Kommunikationsschnittstelle (z.B. CAN-Bus)
+- **Fahrzeugsteuergerät (ECU)**:
+  - Steuerungsbefehle und Statusinformationen
+  - Kommunikationsschnittstelle (z.B. CAN-Bus, FlexRay)
+- **Kühlungssystem**:
+  - Kühlmittelzufuhr und -abfuhr
+  - Temperaturüberwachung
+- **Getriebe**:
+  - Mechanische Schnittstelle zur Kraftübertragung
+- **Diagnosesystem**:
+  - Fehlererkennung und -meldung
+  - Kommunikationsschnittstelle (z.B. OBD-II)
+- **Sensoren**:
+  - Drehzahlsensor, Temperatursensor, Stromsensor
+  - Direkte elektrische Verbindungen und Kommunikationsschnittstellen
+
+Diese Architektur und Anforderungen stellen sicher, dass der Elektromotor effizient, zuverlässig und sicher arbeitet und nahtlos in das Gesamtsystem des Fahrzeugs integriert wird.

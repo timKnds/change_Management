@@ -1,0 +1,53 @@
+### 1. Funktionale, logische und physische Detailarchitektur der ADAS_ECU
+
+#### Funktionale Architektur
+Die funktionale Architektur beschreibt die Hauptfunktionen der ADAS_ECU (Advanced Driver Assistance System Electronic Control Unit).
+
+- **Umgebungserkennung**: Verarbeitung von Sensordaten (Kamera, Radar, Lidar) zur Erkennung von Objekten und Hindernissen.
+- **Fahrzeugsteuerung**: Steuerung von Aktuatoren (Lenkung, Bremse, Gas) basierend auf den erkannten Objekten und Fahrsituationen.
+- **Kommunikation**: Austausch von Daten mit anderen Fahrzeugsteuergeräten und externen Systemen (z.B. Cloud, V2X).
+- **Sicherheitsüberwachung**: Überwachung der Systemintegrität und Durchführung von Notfallmaßnahmen bei Fehlfunktionen.
+- **Benutzerinteraktion**: Schnittstellen zur Anzeige von Informationen und zur Entgegennahme von Fahrerbefehlen.
+
+#### Logische Architektur
+Die logische Architektur beschreibt die Struktur und die Interaktionen der Software-Komponenten innerhalb der ADAS_ECU.
+
+- **Sensor-Datenverarbeitung**: Module zur Verarbeitung und Fusion von Sensordaten (Bildverarbeitung, Radar-Signalverarbeitung, Lidar-Datenfusion).
+- **Situationsanalyse**: Module zur Analyse der Umgebung und zur Erkennung von Fahrsituationen (Objekterkennung, Spurhalteassistent, Kollisionswarnung).
+- **Entscheidungsfindung**: Module zur Entscheidungsfindung basierend auf der Situationsanalyse (Fahrstrategie, Notbremsung, Ausweichmanöver).
+- **Aktuatorsteuerung**: Module zur Steuerung der Fahrzeugaktoren (Lenkung, Bremse, Gas).
+- **Kommunikationsschnittstellen**: Module zur Kommunikation mit anderen Steuergeräten und externen Systemen (CAN, Ethernet, V2X).
+- **Sicherheitsmanagement**: Module zur Überwachung der Systemintegrität und Durchführung von Notfallmaßnahmen (Fehlererkennung, Fallback-Strategien).
+
+#### Physische Architektur
+Die physische Architektur beschreibt die Hardware-Komponenten und deren Verbindungen innerhalb der ADAS_ECU.
+
+- **Prozessor**: Hochleistungs-CPU/GPU für die Verarbeitung von Sensordaten und Ausführung der Algorithmen.
+- **Speicher**: RAM und Flash-Speicher für die Speicherung von Daten und Software.
+- **Schnittstellen**: CAN-Bus, Ethernet, USB, V2X-Kommunikationsmodule.
+- **Sensoranschlüsse**: Anschlüsse für Kamera, Radar, Lidar und andere Sensoren.
+- **Aktuatoranschlüsse**: Anschlüsse für die Steuerung von Lenkung, Bremse und Gas.
+- **Stromversorgung**: Stromversorgungseinheit zur Versorgung der ADAS_ECU und angeschlossener Komponenten.
+- **Gehäuse**: Robustes Gehäuse zum Schutz der Elektronik vor Umwelteinflüssen und mechanischen Schäden.
+
+### 2. Technische Anforderungen an die Komponente
+
+- **Leistungsfähigkeit**: Hochleistungs-CPU/GPU zur Echtzeitverarbeitung von Sensordaten und Ausführung komplexer Algorithmen.
+- **Speicherkapazität**: Ausreichender RAM und Flash-Speicher zur Speicherung von Daten und Software.
+- **Kommunikationsfähigkeit**: Unterstützung von CAN-Bus, Ethernet und V2X für die Kommunikation mit anderen Steuergeräten und externen Systemen.
+- **Sicherheitsstandards**: Einhaltung von Sicherheitsstandards (ISO 26262) zur Gewährleistung der funktionalen Sicherheit.
+- **Robustheit**: Robustes Gehäuse und zuverlässige Stromversorgung zur Sicherstellung der Betriebssicherheit unter verschiedenen Umweltbedingungen.
+- **Echtzeitfähigkeit**: Fähigkeit zur Echtzeitverarbeitung und Entscheidungsfindung innerhalb vorgegebener Zeitlimits.
+- **Fehlererkennung und -behandlung**: Implementierung von Mechanismen zur Fehlererkennung und Durchführung von Notfallmaßnahmen.
+- **Benutzerfreundlichkeit**: Schnittstellen zur Anzeige von Informationen und zur Entgegennahme von Fahrerbefehlen.
+
+### 3. Relevante Schnittstellen zu Nachbarsystemen
+
+- **Fahrzeug-Sensoren**: Schnittstellen zu Kameras, Radar, Lidar und anderen Sensoren zur Erfassung der Umgebung.
+- **Fahrzeug-Aktoren**: Schnittstellen zur Steuerung von Lenkung, Bremse und Gas.
+- **Fahrzeugsteuergeräte**: Schnittstellen zu anderen Steuergeräten im Fahrzeug (z.B. Motorsteuergerät, Getriebesteuergerät).
+- **Kommunikationssysteme**: Schnittstellen für die Kommunikation mit externen Systemen (z.B. Cloud, V2X).
+- **Benutzerinterfaces**: Schnittstellen zur Anzeige von Informationen und zur Entgegennahme von Fahrerbefehlen (z.B. HMI, Touchscreen).
+- **Diagnosesysteme**: Schnittstellen zur Durchführung von Diagnosen und Updates der ADAS_ECU.
+
+Diese Architektur und Anforderungen bilden die Grundlage für die Entwicklung und Integration der ADAS_ECU in moderne Fahrzeuge.

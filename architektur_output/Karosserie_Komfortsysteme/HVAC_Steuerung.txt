@@ -1,0 +1,69 @@
+### 1. Funktionale, logische und physische Detailarchitektur
+
+#### Funktionale Architektur
+
+Die HVAC-Steuerung (Heating, Ventilation, and Air Conditioning) hat die folgenden Hauptfunktionen:
+- **Temperaturregelung**: Regelung der Innenraumtemperatur durch Heizen oder Kühlen.
+- **Luftverteilung**: Steuerung der Luftverteilung in verschiedene Zonen des Fahrzeugs.
+- **Luftfeuchtigkeitsregelung**: Regelung der Luftfeuchtigkeit im Innenraum.
+- **Luftqualität**: Überwachung und Verbesserung der Luftqualität durch Filterung und Frischluftzufuhr.
+- **Benutzerinterface**: Bereitstellung einer Schnittstelle für den Benutzer zur Einstellung der gewünschten Parameter.
+
+#### Logische Architektur
+
+Die logische Architektur beschreibt die internen Module und deren Interaktionen:
+- **Temperaturregelungsmodul**: Sensoren (Innen- und Außentemperatur), Heizelemente, Kühlmittelsteuerung.
+- **Luftverteilungsmodul**: Aktuatoren für Klappensteuerung, Gebläsemotoren.
+- **Feuchtigkeitsregelungsmodul**: Sensoren, Entfeuchtungseinheit.
+- **Luftqualitätsmodul**: Sensoren für Luftqualität, Filtersteuerung.
+- **Benutzerinterfacemodul**: Display, Bedienelemente, Kommunikationsschnittstelle.
+- **Kommunikationsmodul**: CAN-Bus, LIN-Bus, Diagnose-Schnittstelle.
+
+#### Physische Architektur
+
+Die physische Architektur beschreibt die tatsächliche Hardware und deren Anordnung:
+- **Steuereinheit (ECU)**: Zentraler Mikrocontroller mit integrierten Schaltkreisen für die Steuerung der HVAC-Funktionen.
+- **Sensoren**: Temperatur-, Feuchtigkeits-, und Luftqualitätssensoren, verteilt im Fahrzeuginnenraum und -außenbereich.
+- **Aktuatoren**: Motoren für Gebläse, Klappensteuerung, Heizelemente.
+- **Benutzerinterface**: Display und Bedienelemente im Armaturenbrett.
+- **Kommunikationsschnittstellen**: Anschlüsse für CAN-Bus, LIN-Bus und Diagnosegeräte.
+
+### 2. Technische Anforderungen
+
+- **Temperaturregelung**:
+  - Regelbereich: -10°C bis +30°C
+  - Regelgenauigkeit: ±1°C
+  - Reaktionszeit: < 2 Sekunden
+
+- **Luftverteilung**:
+  - Anzahl der Zonen: Mindestens 2 (Fahrer und Beifahrer)
+  - Luftstromregelung: Stufenlos einstellbar
+
+- **Feuchtigkeitsregelung**:
+  - Regelbereich: 20% bis 80% relative Luftfeuchtigkeit
+  - Regelgenauigkeit: ±5%
+
+- **Luftqualität**:
+  - Partikelfilterung: PM2.5 und PM10
+  - Gassensoren: CO2, VOC (Volatile Organic Compounds)
+
+- **Benutzerinterface**:
+  - Display: Farb-TFT mit einer Auflösung von mindestens 800x480 Pixel
+  - Bedienelemente: Haptisches Feedback, beleuchtet
+
+- **Kommunikation**:
+  - CAN-Bus: ISO 11898-2 konform
+  - LIN-Bus: ISO 17987 konform
+  - Diagnose: OBD-II konform
+
+### 3. Relevante Schnittstellen zu Nachbarsystemen
+
+- **Motorsteuerung**: Für die Integration der Heiz- und Kühlleistung des Motors.
+- **Batteriemanagementsystem (BMS)**: Bei Elektrofahrzeugen zur Optimierung des Energieverbrauchs.
+- **Fahrzeug-Infotainmentsystem**: Zur Anzeige von HVAC-Informationen und zur Steuerung über das zentrale Display.
+- **Fahrzeugdiagnosesystem**: Für die Wartung und Fehlerdiagnose.
+- **Tür- und Fenstersteuerung**: Zur Optimierung der Luftzirkulation und Temperaturregelung.
+- **Sitzheizung und -belüftung**: Zur individuellen Klimatisierung der Sitze.
+- **Umgebungslichtsensoren**: Zur Anpassung der Displayhelligkeit und zur Optimierung der Klimaregelung basierend auf Sonneneinstrahlung.
+
+Diese detaillierte Architektur und die technischen Anforderungen stellen sicher, dass die HVAC-Steuerung effizient und zuverlässig arbeitet und nahtlos in das Gesamtsystem des Fahrzeugs integriert ist.

@@ -1,0 +1,56 @@
+### 1. Funktionale, logische und physische Detailarchitektur
+
+#### Funktionale Architektur
+Die funktionale Architektur beschreibt, was das Motorsteuergerät (ECU - Engine Control Unit) tun soll.
+
+- **Motormanagement**: Steuerung der Einspritzung, Zündung, Luftzufuhr und Abgasrückführung.
+- **Diagnosefunktionen**: Überwachung und Fehlererkennung von Motor- und Abgassystemen.
+- **Kommunikation**: Austausch von Daten mit anderen Steuergeräten und Sensoren.
+- **Sicherheitsfunktionen**: Notlaufprogramme und Schutzfunktionen bei Fehlern.
+- **Leistungsoptimierung**: Anpassung der Motorparameter zur Optimierung der Leistung und Effizienz.
+
+#### Logische Architektur
+Die logische Architektur beschreibt die Struktur und Interaktionen der Softwarekomponenten innerhalb des Motorsteuergeräts.
+
+- **Eingangsverarbeitung**: Erfassung von Sensordaten (z.B. Luftmassenmesser, Temperatursensoren, Lambdasonden).
+- **Signalverarbeitung**: Filterung und Umwandlung der Sensordaten in nutzbare Informationen.
+- **Regelalgorithmen**: Implementierung von Regelkreisen für Einspritzung, Zündung und Luftzufuhr.
+- **Aktuatorensteuerung**: Ansteuerung von Aktuatoren (z.B. Einspritzventile, Zündspulen, Drosselklappe).
+- **Kommunikationsmodule**: CAN-Bus, LIN-Bus, FlexRay für die Kommunikation mit anderen Steuergeräten.
+- **Fehlerdiagnose**: OBD (On-Board-Diagnose) zur Fehlererkennung und -speicherung.
+- **Speicherverwaltung**: Verwaltung von flüchtigem und nichtflüchtigem Speicher für Parameter und Fehlercodes.
+
+#### Physische Architektur
+Die physische Architektur beschreibt die Hardwarekomponenten und deren Anordnung im Motorsteuergerät.
+
+- **Mikrocontroller**: Hauptprozessor zur Ausführung der Steuerungsalgorithmen.
+- **Speicher**: RAM, ROM, Flash-Speicher für Programmcodes und Daten.
+- **Eingangs-/Ausgangs-Schnittstellen**: Anschlüsse für Sensoren und Aktuatoren.
+- **Kommunikationsschnittstellen**: CAN, LIN, FlexRay Transceiver.
+- **Stromversorgung**: Spannungsregler und Schutzschaltungen.
+- **Gehäuse**: Schutz gegen Umwelteinflüsse (Temperatur, Feuchtigkeit, Vibration).
+
+### 2. Technische Anforderungen an die Komponente
+
+- **Leistungsfähigkeit**: Der Mikrocontroller muss ausreichend Rechenleistung und Speicher haben, um alle Steuerungs- und Diagnosefunktionen in Echtzeit auszuführen.
+- **Zuverlässigkeit**: Hohe MTBF (Mean Time Between Failures) und Schutz gegen Umwelteinflüsse.
+- **Sicherheitsanforderungen**: Erfüllung der ISO 26262 für funktionale Sicherheit.
+- **Kommunikationsfähigkeit**: Unterstützung von gängigen Fahrzeugbussen (CAN, LIN, FlexRay).
+- **Diagnosefähigkeit**: Unterstützung von OBD-II Standards und spezifischen Herstellervorgaben.
+- **Temperaturbereich**: Betriebstemperaturbereich von -40°C bis +125°C.
+- **Spannungsbereich**: Betriebsspannung von 9V bis 16V, Schutz gegen Überspannung und Unterspannung.
+- **EMV-Anforderungen**: Einhaltung der elektromagnetischen Verträglichkeit gemäß den relevanten Normen.
+- **Software-Update-Fähigkeit**: Möglichkeit zur Durchführung von Over-the-Air (OTA) Updates.
+
+### 3. Relevante Schnittstellen zu Nachbarsystemen
+
+- **Sensoren**: Luftmassenmesser, Temperatursensoren, Lambdasonden, Klopfsensoren, Kurbelwellen- und Nockenwellensensoren.
+- **Aktuatoren**: Einspritzventile, Zündspulen, Drosselklappe, Abgasrückführungsventil, Turboladersteuerung.
+- **Kommunikationsschnittstellen**: 
+  - **CAN-Bus**: Kommunikation mit anderen Steuergeräten wie Getriebesteuergerät, ABS/ESP, Body Control Module.
+  - **LIN-Bus**: Kommunikation mit peripheren Komponenten wie Lüftersteuerung.
+  - **FlexRay**: Hochgeschwindigkeitskommunikation für sicherheitskritische Anwendungen.
+- **Diagnoseanschluss**: OBD-II Schnittstelle für externe Diagnosegeräte.
+- **Stromversorgung**: Verbindung zur Fahrzeugbatterie und Bordnetz.
+
+Diese Architektur und Anforderungen stellen sicher, dass das Motorsteuergerät zuverlässig und effizient arbeitet und alle notwendigen Funktionen erfüllt.

@@ -1,0 +1,125 @@
+### Funktionale Architektur
+
+#### Funktionen der Komponente:
+1. **Sitzverstellung**:
+   - Elektrische Sitzverstellung (vor/zurück, hoch/runter, Neigung der Rückenlehne)
+   - Manuelle Sitzverstellung
+   - Sitzheizung und -kühlung
+   - Sitzmassagefunktion
+
+2. **Innenraumbeleuchtung**:
+   - Ambientebeleuchtung
+   - Leselampen
+   - Fußraumbeleuchtung
+
+3. **Klimatisierung**:
+   - Luftdüsensteuerung
+   - Temperaturregelung
+   - Luftfeuchtigkeitsregelung
+
+4. **Infotainment**:
+   - Lautsprechersteuerung
+   - Displaysteuerung
+   - USB-Anschlüsse und Ladefunktionen
+
+5. **Sicherheit**:
+   - Airbagsteuerung
+   - Gurtstraffersteuerung
+   - Sitzbelegungserkennung
+
+### Logische Architektur
+
+#### Module und ihre Interaktionen:
+1. **Sitzsteuerungsmodul**:
+   - Interaktion mit Motoren für Sitzverstellung
+   - Kommunikation mit Klimatisierungsmodul für Sitzheizung und -kühlung
+   - Verbindung zum Sicherheitssystem für Airbagsteuerung und Gurtstraffer
+
+2. **Beleuchtungsmodul**:
+   - Steuerung der Innenraumbeleuchtung
+   - Kommunikation mit Infotainmentmodul für Synchronisation der Beleuchtung mit Musik
+
+3. **Klimatisierungsmodul**:
+   - Steuerung der Luftdüsen und Temperaturregelung
+   - Verbindung zum Sitzsteuerungsmodul für Sitzheizung und -kühlung
+
+4. **Infotainmentmodul**:
+   - Steuerung der Lautsprecher und Displays
+   - USB-Anschlüsse und Ladefunktionen
+   - Kommunikation mit Beleuchtungsmodul für Synchronisation
+
+5. **Sicherheitsmodul**:
+   - Steuerung der Airbags und Gurtstraffer
+   - Sitzbelegungserkennung
+
+### Physische Architektur
+
+#### Hardware-Komponenten:
+1. **Motoren und Aktuatoren**:
+   - Für elektrische Sitzverstellung
+   - Für Sitzheizung und -kühlung
+
+2. **Sensoren**:
+   - Temperatur- und Feuchtigkeitssensoren
+   - Sitzbelegungssensoren
+
+3. **Steuergeräte**:
+   - Sitzsteuergerät
+   - Beleuchtungssteuergerät
+   - Klimatisierungssteuergerät
+   - Infotainmentsteuergerät
+   - Sicherheitssteuergerät
+
+4. **Verkabelung und Anschlüsse**:
+   - CAN-Bus für Kommunikation zwischen Steuergeräten
+   - USB-Anschlüsse und Ladebuchsen
+   - Stromversorgung für Motoren und Aktuatoren
+
+### Technische Anforderungen
+
+1. **Sitzverstellung**:
+   - Präzise und schnelle Verstellung
+   - Hohe Zuverlässigkeit und Lebensdauer der Motoren
+   - Sicherheitsabschaltung bei Hindernissen
+
+2. **Innenraumbeleuchtung**:
+   - Energieeffiziente LED-Beleuchtung
+   - Anpassbare Helligkeit und Farbe
+   - Synchronisation mit Infotainment
+
+3. **Klimatisierung**:
+   - Schnelle und präzise Temperaturregelung
+   - Energieeffiziente Klimatisierungssysteme
+   - Benutzerfreundliche Steuerung
+
+4. **Infotainment**:
+   - Hochwertige Audioqualität
+   - Schnelle und zuverlässige Datenübertragung
+   - Kompatibilität mit verschiedenen Geräten
+
+5. **Sicherheit**:
+   - Zuverlässige Airbagsteuerung
+   - Präzise Gurtstrafferfunktion
+   - Zuverlässige Sitzbelegungserkennung
+
+### Schnittstellen zu Nachbarsystemen
+
+1. **Fahrzeugsteuerungssystem**:
+   - Kommunikation mit dem zentralen Steuergerät des Fahrzeugs
+   - Austausch von Daten zur Sitzbelegung und Sicherheitsfunktionen
+
+2. **Klimatisierungssystem**:
+   - Verbindung zur zentralen Klimasteuerung des Fahrzeugs
+   - Austausch von Temperatur- und Feuchtigkeitsdaten
+
+3. **Infotainmentsystem**:
+   - Verbindung zum zentralen Infotainmentsteuergerät
+   - Austausch von Audio- und Displaydaten
+
+4. **Energieversorgungssystem**:
+   - Stromversorgung für Motoren, Aktuatoren und Steuergeräte
+   - Überwachung des Energieverbrauchs
+
+5. **Kommunikationsnetzwerk**:
+   - CAN-Bus für interne Kommunikation zwischen Steuergeräten
+   - Verbindung zu externen Diagnose- und Wartungssystemen

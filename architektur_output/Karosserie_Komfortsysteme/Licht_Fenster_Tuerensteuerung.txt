@@ -1,0 +1,109 @@
+### 1. Funktionale, logische und physische Detailarchitektur
+
+#### Funktionale Architektur
+
+**Hauptfunktionen:**
+- Steuerung der Innen- und Außenbeleuchtung
+- Steuerung der Fensterheber
+- Steuerung der Türverriegelung und -entriegelung
+- Steuerung der Spiegelverstellung und -heizung
+- Integration mit zentralem Fahrzeugsteuerungssystem
+
+**Unterfunktionen:**
+- Automatische Lichtsteuerung (Tag/Nacht)
+- Komfortblinkfunktion
+- Einklemmschutz für Fensterheber
+- Automatische Verriegelung bei Fahrtbeginn
+- Notfallentriegelung
+- Kindersicherung
+
+#### Logische Architektur
+
+**Subsysteme und Module:**
+- **Lichtsteuerungsmodul:**
+  - Sensoren für Umgebungslicht
+  - Steuerung der Scheinwerfer, Rücklichter und Innenbeleuchtung
+- **Fenstersteuerungsmodul:**
+  - Motorsteuerung für Fensterheber
+  - Einklemmschutzsensoren
+- **Türsteuerungsmodul:**
+  - Motorsteuerung für Türverriegelung
+  - Sensoren für Türstatus (offen/geschlossen)
+- **Spiegelsteuerungsmodul:**
+  - Motorsteuerung für Spiegelverstellung
+  - Heizelementsteuerung
+- **Kommunikationsmodul:**
+  - CAN-Bus Schnittstelle zur Kommunikation mit dem zentralen Steuergerät
+
+#### Physische Architektur
+
+**Hardwarekomponenten:**
+- Mikrocontroller für Steuerungslogik
+- Motoren und Aktuatoren für Fenster, Türen und Spiegel
+- Sensoren (Lichtsensoren, Positionssensoren, Einklemmschutzsensoren)
+- Relais und Schalter für Lichtsteuerung
+- CAN-Bus Transceiver für Kommunikation
+- Gehäuse und Steckverbinder für physische Integration ins Fahrzeug
+
+**Softwarekomponenten:**
+- Firmware für Mikrocontroller
+- Treiber für Sensoren und Aktuatoren
+- Kommunikationsprotokolle für CAN-Bus
+- Sicherheits- und Diagnosefunktionen
+
+### 2. Technische Anforderungen an die Komponente
+
+1. **Leistungsanforderungen:**
+   - Reaktionszeit der Steuerung: < 100 ms
+   - Betriebsbereich der Versorgungsspannung: 9V - 16V
+   - Betriebstemperaturbereich: -40°C bis +85°C
+
+2. **Sicherheitsanforderungen:**
+   - Einklemmschutz für Fensterheber gemäß ISO 26262
+   - Notfallentriegelung bei Unfall
+   - Kindersicherung für hintere Türen und Fenster
+
+3. **Kommunikationsanforderungen:**
+   - Unterstützung von CAN-Bus mit einer Baudrate von 500 kbps
+   - Echtzeit-Datenübertragung und Fehlererkennung
+
+4. **Umweltanforderungen:**
+   - Schutzklasse IP67 für Gehäuse
+   - Vibrations- und Stoßfestigkeit gemäß ISO 16750
+
+5. **Diagnoseanforderungen:**
+   - OBD-II kompatible Fehlerspeicherung und -auslesung
+   - Selbstdiagnosefunktionen für Sensoren und Aktuatoren
+
+6. **Komfortanforderungen:**
+   - Automatische Anpassung der Innenbeleuchtung
+   - Komfortschließung und -öffnung der Fenster
+   - Memory-Funktion für Spiegelpositionen
+
+### 3. Relevante Schnittstellen zu Nachbarsystemen
+
+1. **Zentrales Steuergerät (ECU):**
+   - CAN-Bus Schnittstelle für Steuerbefehle und Statusmeldungen
+   - Diagnose- und Update-Schnittstelle
+
+2. **Sensoren und Aktuatoren:**
+   - Lichtsensoren für automatische Lichtsteuerung
+   - Positionssensoren für Fenster und Türen
+   - Motoren für Fensterheber, Türverriegelung und Spiegelverstellung
+
+3. **Fahrzeugbeleuchtungssystem:**
+   - Verbindung zu Scheinwerfern, Rücklichtern und Innenbeleuchtung
+
+4. **Sicherheitssysteme:**
+   - Integration mit Airbag-Steuergerät für Notfallentriegelung
+   - Verbindung zu Alarmanlage und Zentralverriegelung
+
+5. **Benutzerschnittstellen:**
+   - Schalter und Bedienelemente für manuelle Steuerung von Licht, Fenster und Türen
+   - Anzeigeelemente im Armaturenbrett für Statusinformationen
+
+6. **Energieversorgung:**
+   - Verbindung zur Fahrzeugbatterie und Sicherungskasten
+   - Energiemanagement zur Vermeidung von Tiefentladung
+
+Diese umfassende Architektur und die detaillierten Anforderungen stellen sicher, dass die Licht_Fenster_Tuerensteuerung zuverlässig, sicher und benutzerfreundlich funktioniert.

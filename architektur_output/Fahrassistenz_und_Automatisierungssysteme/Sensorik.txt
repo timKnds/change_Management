@@ -1,0 +1,106 @@
+### 1. Funktionale, logische und physische Detailarchitektur der Sensorik-Komponente
+
+#### Funktionale Architektur
+Die funktionale Architektur beschreibt die wesentlichen Funktionen der Sensorik-Komponente:
+
+1. **Erfassung von Umgebungsdaten**:
+   - Messung von physikalischen Größen (z.B. Temperatur, Druck, Beschleunigung, Licht, etc.)
+   - Erkennung von Objekten und Hindernissen (z.B. mittels Radar, Lidar, Ultraschall, Kamera)
+
+2. **Datenverarbeitung**:
+   - Vorverarbeitung der erfassten Daten (z.B. Filterung, Rauschunterdrückung)
+   - Umwandlung der analogen Signale in digitale Daten
+
+3. **Datenübertragung**:
+   - Kommunikation der verarbeiteten Daten an zentrale Steuergeräte oder andere Systeme
+   - Nutzung von Kommunikationsprotokollen (z.B. CAN, LIN, Ethernet)
+
+4. **Selbstdiagnose und Kalibrierung**:
+   - Diagnosefunktionen zur Überwachung der Sensorfunktionalität
+   - Automatische oder manuelle Kalibrierung der Sensoren
+
+#### Logische Architektur
+Die logische Architektur beschreibt die Struktur und Interaktion der verschiedenen logischen Komponenten:
+
+1. **Sensoreinheit**:
+   - Verschiedene Sensortypen (z.B. Temperatur-, Druck-, Beschleunigungssensoren)
+   - Analog-Digital-Wandler
+
+2. **Signalverarbeitungseinheit**:
+   - Mikrocontroller oder DSP zur Verarbeitung der Rohdaten
+   - Algorithmen zur Datenfilterung und -verarbeitung
+
+3. **Kommunikationseinheit**:
+   - Schnittstellenmodule (z.B. CAN-Controller, Ethernet-Transceiver)
+   - Protokoll-Stacks für die Datenübertragung
+
+4. **Diagnose- und Kalibrierungseinheit**:
+   - Diagnosemodule zur Überwachung der Sensoren
+   - Kalibrierungsalgorithmen und -schnittstellen
+
+#### Physische Architektur
+Die physische Architektur beschreibt die tatsächliche Hardware und deren Anordnung:
+
+1. **Sensoren**:
+   - Physische Sensorelemente (z.B. MEMS-Sensoren, optische Sensoren)
+   - Gehäuse und Montagevorrichtungen
+
+2. **Elektronische Steuergeräte**:
+   - Leiterplatten (PCBs) mit Mikrocontrollern, Signalverarbeitungseinheiten und Kommunikationsschnittstellen
+   - Steckverbinder und Kabelbäume
+
+3. **Gehäuse und Schutzvorrichtungen**:
+   - Schutzgehäuse gegen Umwelteinflüsse (z.B. Staub, Feuchtigkeit, Vibrationen)
+   - Thermomanagement (z.B. Kühlkörper, Lüfter)
+
+### 2. Technische Anforderungen an die Komponente
+
+1. **Genauigkeit und Präzision**:
+   - Hohe Messgenauigkeit und Wiederholbarkeit der Sensorwerte
+   - Minimale Abweichung und Drift über die Lebensdauer
+
+2. **Reaktionszeit**:
+   - Schnelle Erfassung und Verarbeitung der Daten
+   - Niedrige Latenz bei der Datenübertragung
+
+3. **Robustheit und Zuverlässigkeit**:
+   - Widerstandsfähigkeit gegen Umwelteinflüsse (Temperatur, Feuchtigkeit, Vibrationen)
+   - Hohe MTBF (Mean Time Between Failures)
+
+4. **Kompatibilität und Integration**:
+   - Unterstützung gängiger Kommunikationsprotokolle (CAN, LIN, Ethernet)
+   - Einfache Integration in bestehende Fahrzeugsysteme
+
+5. **Diagnose- und Kalibrierungsfähigkeit**:
+   - Integrierte Selbstdiagnosefunktionen
+   - Möglichkeit zur automatischen oder manuellen Kalibrierung
+
+6. **Energieeffizienz**:
+   - Niedriger Energieverbrauch im Betrieb und Standby-Modus
+
+7. **Sicherheitsanforderungen**:
+   - Einhaltung von funktionalen Sicherheitsstandards (z.B. ISO 26262)
+   - Schutz vor Manipulation und unbefugtem Zugriff
+
+### 3. Relevante Schnittstellen zu Nachbarsystemen
+
+1. **Fahrzeugsteuergeräte (ECUs)**:
+   - Verbindung zu zentralen Steuergeräten für die Verarbeitung und Nutzung der Sensordaten
+   - Nutzung von Kommunikationsprotokollen wie CAN, LIN, FlexRay, Ethernet
+
+2. **Aktuatoren**:
+   - Schnittstellen zu Aktuatoren, die auf Basis der Sensordaten gesteuert werden (z.B. Bremsen, Lenkung, Motorsteuerung)
+
+3. **Telematik- und Infotainmentsysteme**:
+   - Übertragung von Sensordaten an Telematiksysteme für die Fahrzeugüberwachung und -diagnose
+   - Integration in Infotainmentsysteme zur Anzeige von Sensordaten für den Fahrer
+
+4. **Externe Diagnosegeräte**:
+   - Schnittstellen für den Anschluss von Diagnosegeräten zur Fehleranalyse und Kalibrierung
+   - Nutzung von OBD-II oder proprietären Diagnoseprotokollen
+
+5. **Energieversorgungssysteme**:
+   - Verbindung zu den Bordnetzsystemen für die Energieversorgung der Sensorik-Komponente
+   - Sicherstellung der Energieeffizienz und Stabilität
+
+Diese umfassende Architektur und die Anforderungen stellen sicher, dass die Sensorik-Komponente zuverlässig und effizient in das Fahrzeug integriert werden kann und die notwendigen Daten für die verschiedenen Fahrzeugsysteme bereitstellt.

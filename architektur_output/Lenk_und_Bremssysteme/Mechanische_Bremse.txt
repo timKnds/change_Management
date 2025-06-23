@@ -1,0 +1,77 @@
+### 1. Funktionale, logische und physische Detailarchitektur der Komponente "Mechanische Bremse"
+
+#### Funktionale Architektur:
+- **Primäre Funktion**: Die mechanische Bremse dient dazu, die Geschwindigkeit eines Fahrzeugs zu reduzieren oder es vollständig zum Stillstand zu bringen.
+- **Sekundäre Funktionen**:
+  - Halten des Fahrzeugs im Stillstand (Parkbremse)
+  - Unterstützung von Fahrerassistenzsystemen (z.B. ABS, ESP)
+  - Rückmeldung an den Fahrer über den Zustand der Bremse (z.B. Bremsverschleißanzeige)
+
+#### Logische Architektur:
+- **Eingabekomponenten**:
+  - Bremspedal
+  - Bremskraftverstärker
+  - Bremsflüssigkeitsreservoir
+- **Verarbeitungskomponenten**:
+  - Hauptbremszylinder
+  - Bremsleitungen
+  - Bremsdrucksensoren
+- **Ausgabekomponenten**:
+  - Bremssättel
+  - Bremsbeläge
+  - Bremsscheiben oder Bremstrommeln
+
+#### Physische Architektur:
+- **Materialien**:
+  - Bremsscheiben: Hochwertiger Stahl oder Carbon-Keramik
+  - Bremsbeläge: Reibmaterialien wie Keramik, Metall oder organische Verbindungen
+  - Bremssättel: Aluminium oder Gusseisen
+- **Konstruktion**:
+  - Hydraulisches System mit Bremsleitungen aus Stahl oder verstärktem Kunststoff
+  - Mechanische Verbindungselemente wie Schrauben und Bolzen aus hochfestem Stahl
+- **Montage**:
+  - Integration in das Fahrwerk des Fahrzeugs
+  - Anbindung an das Bremspedal und den Bremskraftverstärker
+
+### 2. Technische Anforderungen an die Komponente
+
+- **Leistungsanforderungen**:
+  - Maximale Bremskraft: Muss in der Lage sein, das Fahrzeug innerhalb einer bestimmten Distanz zum Stillstand zu bringen (z.B. 100-0 km/h in 35 Metern)
+  - Temperaturbeständigkeit: Muss bei hohen Temperaturen (bis zu 800°C) funktionsfähig bleiben
+  - Verschleißfestigkeit: Mindestlebensdauer der Bremsbeläge und -scheiben (z.B. 50.000 km)
+
+- **Sicherheitsanforderungen**:
+  - Redundanz: System muss auch bei Ausfall eines Teils (z.B. eines Bremskreises) funktionsfähig bleiben
+  - Notbremsfunktion: Muss in der Lage sein, das Fahrzeug auch bei Ausfall der Hauptbremse sicher zum Stillstand zu bringen
+  - Kompatibilität mit Fahrerassistenzsystemen: Muss mit ABS, ESP und anderen Systemen zusammenarbeiten
+
+- **Umweltanforderungen**:
+  - Emissionsarm: Minimierung von Feinstaub und anderen Emissionen durch Bremsabrieb
+  - Recyclingfähigkeit: Verwendung von Materialien, die am Ende der Lebensdauer recycelt werden können
+
+- **Regulatorische Anforderungen**:
+  - Erfüllung aller relevanten Normen und Vorschriften (z.B. ECE-R13, FMVSS 135)
+  - Zertifizierung durch entsprechende Behörden (z.B. TÜV, NHTSA)
+
+### 3. Relevante Schnittstellen zu Nachbarsystemen
+
+- **Fahrwerk**:
+  - Mechanische Verbindung der Bremssättel und -scheiben mit den Radaufhängungen
+  - Integration der Bremsleitungen in das Chassis
+
+- **Hydrauliksystem**:
+  - Verbindung zum Hauptbremszylinder und Bremskraftverstärker
+  - Integration der Bremsleitungen und Bremsflüssigkeitsreservoirs
+
+- **Elektronik und Fahrerassistenzsysteme**:
+  - Schnittstellen zu ABS- und ESP-Steuergeräten
+  - Sensoren zur Überwachung des Bremsdrucks und der Bremsbelagstärke
+
+- **Innenraum**:
+  - Verbindung zum Bremspedal und ggf. zur Handbremse
+  - Schnittstellen zu Anzeigen und Warnleuchten im Armaturenbrett
+
+- **Kühlungssystem**:
+  - Bei Hochleistungsbremsen: Integration von Kühlkanälen oder Lüftern zur Wärmeabfuhr
+
+Diese detaillierte Architektur und die technischen Anforderungen stellen sicher, dass die mechanische Bremse zuverlässig, sicher und effizient arbeitet und dabei alle relevanten Normen und Vorschriften erfüllt.

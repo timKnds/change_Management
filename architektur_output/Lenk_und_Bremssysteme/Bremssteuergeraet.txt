@@ -1,0 +1,64 @@
+### 1. Funktionale, logische und physische Detailarchitektur
+
+#### Funktionale Architektur
+
+- **Bremskraftverteilung:** Berechnet und verteilt die Bremskraft auf die einzelnen Räder.
+- **ABS (Antiblockiersystem):** Verhindert das Blockieren der Räder bei starkem Bremsen.
+- **ESP (Elektronisches Stabilitätsprogramm):** Stabilisiert das Fahrzeug durch gezieltes Abbremsen einzelner Räder.
+- **Bremsassistent:** Erhöht den Bremsdruck in Notsituationen.
+- **Regeneratives Bremsen:** Nutzt die Bremsenergie zur Rückgewinnung von Energie (bei Elektro- und Hybridfahrzeugen).
+- **Diagnose und Überwachung:** Überwacht den Zustand des Bremssystems und meldet Fehler.
+
+#### Logische Architektur
+
+- **Sensoren:** 
+  - Raddrehzahlsensoren
+  - Lenkwinkelsensor
+  - Gierratensensor
+  - Bremsdrucksensor
+- **Steuerlogik:**
+  - Eingangsdatenverarbeitung
+  - Regelalgorithmen für ABS, ESP, Bremsassistent
+  - Ausgangsdatenverarbeitung
+- **Aktoren:**
+  - Hydraulikventile
+  - Elektromotoren (für regenerative Bremsen)
+  - Bremslichter
+
+#### Physische Architektur
+
+- **Steuergerät:** 
+  - Mikrocontroller
+  - Speicher (RAM, ROM)
+  - Kommunikationsschnittstellen (CAN, LIN, FlexRay)
+- **Sensoren und Aktoren:** 
+  - Physische Einheiten, die an den entsprechenden Stellen im Fahrzeug montiert sind.
+- **Kabelbaum:** 
+  - Verbindet das Steuergerät mit den Sensoren und Aktoren.
+- **Gehäuse:** 
+  - Schutz des Steuergeräts vor Umwelteinflüssen (Wasser, Staub, Vibration).
+
+### 2. Technische Anforderungen an die Komponente
+
+- **Zuverlässigkeit:** MTBF (Mean Time Between Failures) von mindestens 100.000 Stunden.
+- **Reaktionszeit:** Maximal 10 ms für kritische Regelungen (z.B. ABS).
+- **Betriebstemperatur:** -40°C bis +85°C.
+- **Spannungsversorgung:** 12V Bordnetz mit Toleranz von ±10%.
+- **Kommunikationsprotokolle:** Unterstützung von CAN, LIN und FlexRay.
+- **EMV (Elektromagnetische Verträglichkeit):** Erfüllen der relevanten Normen (z.B. ISO 11452).
+- **Fehlertoleranz:** Fähigkeit zur sicheren Degradation im Fehlerfall.
+- **Software-Update:** Möglichkeit zur Durchführung von Over-the-Air (OTA) Updates.
+- **Datensicherheit:** Schutz vor unbefugtem Zugriff und Manipulation.
+
+### 3. Relevante Schnittstellen zu Nachbarsystemen
+
+- **Motorsteuergerät (ECU):** Austausch von Daten zur Motorleistung und -drehzahl.
+- **Getriebesteuergerät:** Koordination von Brems- und Schaltvorgängen.
+- **Lenksteuergerät:** Austausch von Lenkwinkel- und Gierratendaten.
+- **Fahrdynamikregelung:** Integration von ESP und anderen Stabilitätsprogrammen.
+- **Bordnetzsteuergerät:** Versorgungsspannung und Diagnoseinformationen.
+- **HMI (Human-Machine Interface):** Anzeige von Bremsstatus und Fehlern im Cockpit.
+- **Telematiksteuergerät:** Übermittlung von Diagnoseinformationen und Software-Updates.
+- **Fahrzeugdiagnosesystem:** Schnittstelle für Werkstattdiagnose und Wartung.
+
+Diese Architektur und Anforderungen stellen sicher, dass das Bremssteuergerät zuverlässig, sicher und effizient arbeitet und nahtlos in das Gesamtsystem des Fahrzeugs integriert ist.

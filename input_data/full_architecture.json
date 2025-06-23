@@ -1,0 +1,265 @@
+{
+  "name": "Gesamtfahrzeug",
+  "systems": [
+    {
+      "name": "Fahrsystem",
+      "subsystems": [
+        {
+          "name": "Antriebssystem",
+          "subsystems": [
+            "Vorderachsantriebssystem",
+            "Hinterachsantriebssystem",
+            "Leistungsverteilungssystem",
+            "Antriebssteuerungssystem",
+            "Getriebemanagementsystem"
+          ]
+        },
+        {
+          "name": "Drehmomentverteilungssystem",
+          "subsystems": [
+            "Torque-Vectoring-System",
+            "Achsschlupfregelsystem",
+            "Allradkoordinationssystem",
+            "Drehmomentpriorisierungssystem",
+            "Drehmomentdiagnosesystem"
+          ]
+        },
+        {
+          "name": "Bremssystem",
+          "subsystems": [
+            "Bremsdruckregelsystem",
+            "Antiblockiersystem",
+            "Betriebsbremssteuerungssystem",
+            "Stabilitätsbremsassistenzsystem",
+            "Parkbremssteuerungssystem"
+          ]
+        },
+        {
+          "name": "Lenkungssystem",
+          "subsystems": [
+            "Servolenkungsantriebssystem",
+            "Lenkwinkelregelsystem",
+            "Spurhaltesystem",
+            "Rückstellmomentsystem",
+            "Lenkassistenzsystem"
+          ]
+        },
+        {
+          "name": "Fahrdynamikregelsystem",
+          "subsystems": [
+            "Querdynamikregelsystem",
+            "Längsdynamikregelsystem",
+            "Vertikaldynamikregelsystem",
+            "Fahrmodusmanagementsystem",
+            "Fahrstabilitätsüberwachungssystem"
+          ]
+        },
+        {
+          "name": "Rekuperationssystem",
+          "subsystems": [
+            "GeneratorischesBremssystem",
+            "Rekuperationsleistungsverteilungssystem",
+            "Rekuperationsoptimierungssystem",
+            "Rekuperationsdiagnosesystem",
+            "Fahrerwunsch-Rekuperationssystem"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Energiesystem",
+      "subsystems": [
+        {
+          "name": "Energiespeichersystem",
+          "subsystems": [
+            "Zellenergiemanagementsystem",
+            "Batteriemodulsystem",
+            "Hochvoltbatteriediagnosesystem",
+            "Kapazitätsprognosesystem",
+            "Batteriesicherheitsschutzsystem"
+          ]
+        },
+        {
+          "name": "Ladesystem",
+          "subsystems": [
+            "AC-Ladesystem",
+            "DC-Ladesystem",
+            "Ladeleistungssteuerungssystem",
+            "Ladeauthentifizierungssystem",
+            "Ladekommunikationssystem"
+          ]
+        },
+        {
+          "name": "Spannungswandlungssystem",
+          "subsystems": [
+            "HV-LV-Wandlungssystem",
+            "48V-Boostsystem",
+            "BidirektionalesWandlungssystem",
+            "Niedervoltstabilisierungssystem",
+            "Leistungsverteilungssystem"
+          ]
+        },
+        {
+          "name": "Energiemanagementsystem",
+          "subsystems": [
+            "Energieflusskoordinationssystem",
+            "Reichweitenprognosesystem",
+            "Effizienzoptimierungsystem",
+            "Lade-Entladeplanungssystem",
+            "Energiepriorisierungssystem"
+          ]
+        },
+        {
+          "name": "Batteriethermomanagementsystem",
+          "subsystems": [
+            "Batteriekühlsystem",
+            "Batterieheizsystem",
+            "ThermischeLeistungsregelungssystem",
+            "Wärmepumpensteuerungssystem",
+            "Batterieklimadiagnosesystem"
+          ]
+        },
+        {
+          "name": "Energiesicherheitsabschaltsystem",
+          "subsystems": [
+            "Crashabschaltungssystem",
+            "Überspannungsabschaltungssystem",
+            "Kurzschlussschutzsystem",
+            "Notfallfreischaltsystem",
+            "Rettungszugangssystem"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bodysystem",
+      "subsystems": [
+        {
+          "name": "Karosseriesteuerungssystem",
+          "subsystems": [
+            "Türsteuerungssystem",
+            "Fensterhebersteuerungssystem",
+            "Spiegelsteuerungssystem",
+            "Heckklappensteuerungssystem",
+            "Wischersteuerungssystem"
+          ]
+        },
+        {
+          "name": "Klimatisierungssystem",
+          "subsystems": [
+            "Innenraumkühlsystem",
+            "Innenraumheizungssystem",
+            "Entfeuchtungssystem",
+            "Luftverteilungssystem",
+            "Klimavorkonditionierungssystem"
+          ]
+        },
+        {
+          "name": "Komfortsystem",
+          "subsystems": [
+            "Ambientebeleuchtungssystem",
+            "Luftqualitätsmanagementsystem",
+            "Massagekomfortsystem",
+            "Geräuschkomfortsystem",
+            "Personalisierungssystem"
+          ]
+        },
+        {
+          "name": "Zugangssystem",
+          "subsystems": [
+            "Schlüsselzugangssystem",
+            "Zentralverriegelungssystem",
+            "Wegfahrsperrensystem",
+            "Alarm- und Diebstahlschutzsystem",
+            "Fahrzeugstartfreigabesystem"
+          ]
+        },
+        {
+          "name": "Beleuchtungssystem",
+          "subsystems": [
+            "Außenlichtsystem",
+            "Innenlichtsystem",
+            "AdaptivesFernlichtsystem",
+            "DynamischesSignalisierungssystem",
+            "Lichtanimationssystem"
+          ]
+        },
+        {
+          "name": "Sitzmanagementsystem",
+          "subsystems": [
+            "Sitzverstellsystem",
+            "Sitzheizsystem",
+            "Sitzbelüftungssystem",
+            "Sitzpositionsspeichersystem",
+            "Sitzsicherheitsüberwachungssystem"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Infotainmentsystem",
+      "subsystems": [
+        {
+          "name": "Anzeige- und Bedienungssystem",
+          "subsystems": [
+            "Kombiinstrumentsystem",
+            "Zentraldisplaysystem",
+            "HeadUpDisplaySystem",
+            "Sprachinteraktionssystem",
+            "Gesteninteraktionssystem"
+          ]
+        },
+        {
+          "name": "Navigationssystem",
+          "subsystems": [
+            "Routenplanungssystem",
+            "Verkehrsinformationssystem",
+            "Kartenupdatesystem",
+            "Ladeinfrastrukturplanungssystem",
+            "Navigationsassistenzsystem"
+          ]
+        },
+        {
+          "name": "Audiosystem",
+          "subsystems": [
+            "Klangverarbeitungssystem",
+            "Lautsprechermanagementsystem",
+            "Geräuschkompensationssystem",
+            "Audioquellenverwaltungssystem",
+            "VirtuellerKlanggenerierungssystem"
+          ]
+        },
+        {
+          "name": "Kommunikationssystem",
+          "subsystems": [
+            "Fahrzeuginternedatenkommunikationssystem",
+            "SmartphoneIntegrationssystem",
+            "Internetzugangssystem",
+            "FahrzeugCloudKommunikationssystem",
+            "FahrzeugzuFahrzeugKommunikationssystem"
+          ]
+        },
+        {
+          "name": "OTA-Update-System",
+          "subsystems": [
+            "Softwarepaketmanagementsystem",
+            "Updateauthentifizierungssystem",
+            "Updateverteilungssystem",
+            "Updateinstallationssystem",
+            "Rollbackmanagementsystem"
+          ]
+        },
+        {
+          "name": "App-Integrationssystem",
+          "subsystems": [
+            "AppSchnittstellenmanagementsystem",
+            "AppBerechtigungsmanagementsystem",
+            "AppDatenSynchronisationssystem",
+            "AppLifecycleManagementsystem",
+            "BackendAnbindungssystem"
+          ]
+        }
+      ]
+    }
+  ]
+}

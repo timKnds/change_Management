@@ -1,0 +1,60 @@
+### 1. Funktionale, logische und physische Detailarchitektur
+
+#### Funktionale Architektur
+
+**Zweck der Komponente:**
+Die Sensorfusion-Komponente kombiniert Daten von verschiedenen Sensoren, um ein umfassenderes und genaueres Bild der Umgebung zu erstellen. Dies ist besonders wichtig für autonome Fahrfunktionen, Fahrerassistenzsysteme und Sicherheitsanwendungen.
+
+**Hauptfunktionen:**
+- **Datenakquisition:** Erfassung von Rohdaten aus verschiedenen Sensoren (z.B. Kamera, Radar, Lidar, Ultraschall).
+- **Datenvorverarbeitung:** Filterung und Normalisierung der Sensordaten.
+- **Datenfusion:** Kombination und Integration der Sensordaten zu einem einheitlichen Datenmodell.
+- **Objekterkennung und -verfolgung:** Identifikation und Nachverfolgung von Objekten in der Umgebung.
+- **Situationsbewertung:** Analyse der fusionierten Daten zur Bewertung der aktuellen Verkehrssituation.
+- **Datenweitergabe:** Bereitstellung der fusionierten Daten für andere Systeme (z.B. Fahrassistenzsysteme, Steuergeräte).
+
+#### Logische Architektur
+
+**Hauptkomponenten:**
+- **Sensor-Interface:** Schnittstellen zu den verschiedenen Sensoren.
+- **Vorverarbeitungseinheit:** Module zur Filterung und Normalisierung der Sensordaten.
+- **Fusionsalgorithmus:** Kernalgorithmen zur Datenfusion (z.B. Kalman-Filter, Bayes'sche Netze, neuronale Netze).
+- **Objekterkennungsmodul:** Algorithmen zur Erkennung und Verfolgung von Objekten.
+- **Situationsbewertungsmodul:** Logik zur Analyse und Bewertung der Verkehrssituation.
+- **Kommunikationsmodul:** Schnittstellen zur Weitergabe der fusionierten Daten an andere Systeme.
+
+#### Physische Architektur
+
+**Hardware:**
+- **Rechenplattform:** Hochleistungsfähige ECU (Electronic Control Unit) oder dedizierte Recheneinheit mit ausreichender Rechenleistung und Speicher.
+- **Sensoren:** Kamera, Radar, Lidar, Ultraschall (je nach Anwendung).
+- **Kommunikationsschnittstellen:** CAN, Ethernet, FlexRay, LIN (je nach Fahrzeugarchitektur).
+
+**Software:**
+- **Echtzeitbetriebssystem (RTOS):** Für deterministische Ausführung der Algorithmen.
+- **Middleware:** Kommunikations- und Datenmanagementschichten.
+- **Algorithmen und Bibliotheken:** Implementierung der Fusions- und Erkennungsalgorithmen.
+
+### 2. Technische Anforderungen an die Komponente
+
+- **Rechenleistung:** Die ECU muss in der Lage sein, die Daten von allen angeschlossenen Sensoren in Echtzeit zu verarbeiten.
+- **Speicher:** Ausreichender Speicherplatz für die Verarbeitung und temporäre Speicherung der Sensordaten.
+- **Latenz:** Die gesamte Verarbeitungskette (von der Datenerfassung bis zur Datenweitergabe) muss innerhalb einer definierten Zeitspanne (z.B. 100 ms) abgeschlossen sein.
+- **Genauigkeit:** Die fusionierten Daten müssen eine hohe Genauigkeit und Zuverlässigkeit aufweisen.
+- **Robustheit:** Die Komponente muss unter verschiedenen Umweltbedingungen (Temperatur, Feuchtigkeit, Vibration) zuverlässig arbeiten.
+- **Sicherheit:** Die Komponente muss gegen Manipulation und unbefugten Zugriff geschützt sein.
+- **Fehlertoleranz:** Mechanismen zur Fehlererkennung und -behandlung müssen implementiert sein.
+- **Kompatibilität:** Unterstützung für verschiedene Sensortypen und Kommunikationsprotokolle.
+- **Skalierbarkeit:** Die Architektur muss erweiterbar sein, um zukünftige Sensoren und Algorithmen zu integrieren.
+
+### 3. Relevante Schnittstellen zu Nachbarsystemen
+
+- **Sensoren:** Direkte Schnittstellen zu Kamera, Radar, Lidar, Ultraschall.
+- **Fahrassistenzsysteme:** Schnittstellen zu Systemen wie ACC (Adaptive Cruise Control), Notbremsassistent, Spurhalteassistent.
+- **Steuergeräte:** Kommunikation mit anderen ECUs im Fahrzeug, z.B. Motorsteuergerät, Getriebesteuergerät.
+- **Kommunikationsnetzwerke:** Integration in Fahrzeugnetzwerke wie CAN, Ethernet, FlexRay.
+- **Diagnosesysteme:** Schnittstellen zur Fahrzeugdiagnose und -wartung.
+- **HMI (Human-Machine Interface):** Bereitstellung von Daten für Fahrerassistenzanzeigen oder Warnsysteme.
+- **Cloud-Dienste:** Optionale Schnittstellen für die Übertragung von Daten an externe Server für Analyse und Updates.
+
+Diese umfassende Architektur und die detaillierten Anforderungen gewährleisten, dass die Sensorfusion-Komponente zuverlässig und effizient arbeitet und somit einen wichtigen Beitrag zur Sicherheit und Funktionalität moderner Fahrzeuge leistet.

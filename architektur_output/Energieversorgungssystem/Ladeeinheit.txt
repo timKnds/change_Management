@@ -1,0 +1,50 @@
+### 1. Funktionale, logische und physische Detailarchitektur der Ladeeinheit
+
+#### Funktionale Architektur
+Die Ladeeinheit hat die Aufgabe, die Batterie eines Elektrofahrzeugs sicher und effizient zu laden. Die Hauptfunktionen umfassen:
+- **Energieaufnahme**: Übernahme der elektrischen Energie aus dem Stromnetz oder einer anderen Energiequelle.
+- **Energieumwandlung**: Umwandlung der eingehenden Wechselspannung (AC) in eine geeignete Gleichspannung (DC) für die Batterie.
+- **Ladesteuerung**: Überwachung und Steuerung des Ladeprozesses, um eine optimale Ladegeschwindigkeit und Sicherheit zu gewährleisten.
+- **Kommunikation**: Austausch von Informationen mit dem Fahrzeugbatteriemanagementsystem (BMS) und externen Systemen (z.B. Ladestationen).
+- **Sicherheitsfunktionen**: Schutz vor Überladung, Überhitzung, Kurzschluss und anderen potenziellen Gefahren.
+
+#### Logische Architektur
+Die logische Architektur beschreibt die Struktur und die Beziehungen der funktionalen Komponenten:
+- **Eingangsmodul**: Nimmt die elektrische Energie auf und filtert Störungen.
+- **Gleichrichter**: Wandelt die eingehende Wechselspannung (AC) in Gleichspannung (DC) um.
+- **DC/DC-Wandler**: Regelt die Gleichspannung auf das erforderliche Niveau für die Batterie.
+- **Laderegler**: Überwacht und steuert den Ladeprozess basierend auf den Vorgaben des Batteriemanagementsystems.
+- **Kommunikationsmodul**: Schnittstelle für die Kommunikation mit dem BMS und externen Systemen.
+- **Sicherheitsmodul**: Überwacht sicherheitsrelevante Parameter und greift bei Bedarf ein.
+
+#### Physische Architektur
+Die physische Architektur beschreibt die tatsächliche Hardware und deren Anordnung:
+- **Gehäuse**: Schutz und Montage der internen Komponenten.
+- **Kühlungssystem**: Aktive oder passive Kühlung zur Wärmeabfuhr.
+- **Leistungselektronik**: Enthält Gleichrichter, DC/DC-Wandler und andere Leistungskomponenten.
+- **Steuerplatine**: Enthält Mikrocontroller und andere Steuerungselektronik.
+- **Kommunikationsschnittstellen**: Physische Anschlüsse für die Kommunikation (z.B. CAN-Bus, Ethernet).
+- **Sicherheitskomponenten**: Sicherungen, Überspannungsschutz und andere Schutzvorrichtungen.
+
+### 2. Technische Anforderungen an die Komponente
+
+- **Eingangsspannung**: 110-240V AC, 50/60Hz
+- **Ausgangsspannung**: 200-450V DC (anpassbar je nach Batterietyp)
+- **Ladeleistung**: Bis zu 22 kW (je nach Fahrzeug und Ladeinfrastruktur)
+- **Wirkungsgrad**: Mindestens 95% bei Nennlast
+- **Betriebstemperaturbereich**: -20°C bis +60°C
+- **Schutzklasse**: IP67 (staub- und wasserdicht)
+- **Kommunikationsprotokolle**: CAN-Bus, OCPP (Open Charge Point Protocol), ISO 15118
+- **Sicherheitsfunktionen**: Überstromschutz, Überspannungsschutz, Temperaturüberwachung, Isolationsüberwachung
+- **Zertifizierungen**: CE, UL, RoHS, ISO 26262 (funktionale Sicherheit)
+
+### 3. Relevante Schnittstellen zu Nachbarsystemen
+
+- **Stromnetz**: Verbindung zur externen Energiequelle (z.B. Haushaltssteckdose, Ladestation)
+- **Batteriemanagementsystem (BMS)**: Kommunikation zur Überwachung und Steuerung des Ladeprozesses
+- **Fahrzeugsteuergerät (ECU)**: Austausch von Statusinformationen und Steuerbefehlen
+- **Kühlungssystem**: Anbindung an das Fahrzeugkühlsystem zur Wärmeabfuhr
+- **Externe Kommunikationsschnittstellen**: Verbindung zu externen Systemen (z.B. Ladestationen, Backend-Systeme) für Abrechnung, Fernwartung und Diagnose
+- **Benutzerinterface**: Anzeige von Ladezustand, Fehlern und anderen relevanten Informationen für den Benutzer
+
+Diese detaillierte Architektur und die Anforderungen bieten eine umfassende Grundlage für die Entwicklung einer Ladeeinheit im Automotive-Bereich.

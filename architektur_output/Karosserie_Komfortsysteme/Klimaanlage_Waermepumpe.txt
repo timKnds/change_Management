@@ -1,0 +1,108 @@
+### 1. Funktionale, logische und physische Detailarchitektur
+
+#### Funktionale Architektur
+
+Die funktionale Architektur beschreibt die Hauptfunktionen der Klimaanlage mit Wärmepumpe:
+
+1. **Luftkühlung**:
+   - Kühlen der Innenraumluft auf die gewünschte Temperatur.
+2. **Lufterwärmung**:
+   - Erwärmen der Innenraumluft auf die gewünschte Temperatur.
+3. **Entfeuchtung**:
+   - Reduzierung der Luftfeuchtigkeit im Innenraum.
+4. **Luftzirkulation**:
+   - Zirkulation der Luft im Innenraum.
+5. **Temperaturregelung**:
+   - Automatische Regelung der Innenraumtemperatur basierend auf den Benutzereinstellungen.
+6. **Energieeffizienz**:
+   - Optimierung des Energieverbrauchs durch Nutzung der Wärmepumpenfunktion.
+
+#### Logische Architektur
+
+Die logische Architektur beschreibt die Hauptkomponenten und deren Interaktionen:
+
+1. **Steuergerät (ECU)**:
+   - Zentrale Steuerungseinheit für die Klimaanlage.
+2. **Temperatursensoren**:
+   - Innen- und Außentemperatursensoren zur Messung der Umgebungstemperatur.
+3. **Feuchtigkeitssensoren**:
+   - Sensoren zur Messung der Luftfeuchtigkeit im Innenraum.
+4. **Kompressor**:
+   - Verdichter für das Kältemittel.
+5. **Verdampfer**:
+   - Wärmetauscher zur Kühlung der Luft.
+6. **Kondensator**:
+   - Wärmetauscher zur Erwärmung der Luft.
+7. **Lüfter**:
+   - Gebläse zur Luftzirkulation.
+8. **Ventile und Klappen**:
+   - Regelung der Luftströme und Kältemittelströme.
+9. **Heizelement**:
+   - Elektrisches Heizelement zur Unterstützung der Wärmepumpe bei niedrigen Temperaturen.
+
+#### Physische Architektur
+
+Die physische Architektur beschreibt die Platzierung und Verbindung der physischen Komponenten:
+
+1. **Steuergerät (ECU)**:
+   - Im Armaturenbrett oder im Motorraum platziert.
+2. **Temperatursensoren**:
+   - Innenraumsensoren an strategischen Punkten im Fahrzeug, Außensensoren im Frontbereich.
+3. **Feuchtigkeitssensoren**:
+   - Im Innenraum verteilt.
+4. **Kompressor**:
+   - Im Motorraum montiert.
+5. **Verdampfer**:
+   - Im Lüftungssystem des Fahrzeugs integriert.
+6. **Kondensator**:
+   - Vor dem Kühler im Motorraum platziert.
+7. **Lüfter**:
+   - Im Lüftungssystem und vor dem Kondensator.
+8. **Ventile und Klappen**:
+   - Im Lüftungssystem integriert.
+9. **Heizelement**:
+   - Im Lüftungssystem integriert.
+
+### 2. Technische Anforderungen an die Komponente
+
+1. **Temperaturbereich**:
+   - Betriebstemperatur: -30°C bis +50°C.
+2. **Leistungsaufnahme**:
+   - Maximale Leistungsaufnahme: 2 kW.
+3. **Energieeffizienz**:
+   - COP (Coefficient of Performance) von mindestens 3.5.
+4. **Regelgenauigkeit**:
+   - Temperaturregelung auf ±1°C genau.
+5. **Reaktionszeit**:
+   - Maximal 30 Sekunden zur Erreichung der Solltemperatur.
+6. **Luftdurchsatz**:
+   - Mindestens 400 m³/h.
+7. **Geräuschpegel**:
+   - Maximal 45 dB(A) im Innenraum.
+8. **Kompatibilität**:
+   - Integration in bestehende Fahrzeugarchitekturen.
+9. **Sicherheitsanforderungen**:
+   - Erfüllung der ISO 26262 für funktionale Sicherheit.
+10. **Diagnosefähigkeit**:
+    - OBD-II Konformität für Diagnose und Fehlererkennung.
+
+### 3. Relevante Schnittstellen zu Nachbarsystemen
+
+1. **Fahrzeugsteuergerät (VCU)**:
+   - Kommunikation über CAN-Bus oder LIN-Bus zur Koordination mit anderen Fahrzeugfunktionen.
+2. **Batteriemanagementsystem (BMS)**:
+   - Schnittstelle zur Überwachung und Optimierung des Energieverbrauchs.
+3. **Heizungssystem**:
+   - Integration mit dem bestehenden Heizungssystem des Fahrzeugs.
+4. **Lüftungssystem**:
+   - Steuerung der Luftströme und Integration der Lüfter.
+5. **Sensorik**:
+   - Schnittstellen zu Temperatur- und Feuchtigkeitssensoren.
+6. **Diagnosesystem**:
+   - Verbindung zur OBD-II Schnittstelle für Diagnosezwecke.
+7. **Nutzerinterface**:
+   - Bedienung über das zentrale Infotainmentsystem oder separate Bedienelemente.
+8. **Kältemittelkreislauf**:
+   - Verbindung zu Kompressor, Verdampfer und Kondensator.
+
+Diese detaillierte Architektur und die Anforderungen stellen sicher, dass die Klimaanlage mit Wärmepumpe effizient, zuverlässig und benutzerfreundlich arbeitet.

@@ -1,0 +1,126 @@
+Ebene1;Ebene2;Ebene3;Komponente;ID;Einkaufspreis_EUR
+Fahrsystem;Antriebssystem;Vorderachsantriebssystem;PMSM-E-Motor vorn;ID-e0970253;1538.1
+Fahrsystem;Antriebssystem;Vorderachsantriebssystem;SiC-Inverter;ID-364e75e9;2116.03
+Fahrsystem;Antriebssystem;Vorderachsantriebssystem;Resolver;ID-f160d2da;2358.57
+Fahrsystem;Antriebssystem;Vorderachsantriebssystem;1-Gang-Getriebe;ID-deecf339;3633.62
+Fahrsystem;Antriebssystem;Vorderachsantriebssystem;Achswellen;ID-aae54848;2889.22
+Fahrsystem;Antriebssystem;Vorderachsantriebssystem;HV-Kabel;ID-f1b8d00d;1943.16
+Fahrsystem;Antriebssystem;Vorderachsantriebssystem;Kühlplatte;ID-15b54c31;323.6
+Fahrsystem;Antriebssystem;Hinterachsantriebssystem;PMSM-E-Motor hinten;ID-42371e84;2987.72
+Fahrsystem;Antriebssystem;Hinterachsantriebssystem;SiC-Inverter;ID-13969453;1896.25
+Fahrsystem;Antriebssystem;Hinterachsantriebssystem;Resolver;ID-db0eb800;4561.46
+Fahrsystem;Antriebssystem;Hinterachsantriebssystem;Getriebe;ID-beabdb1b;1587.16
+Fahrsystem;Antriebssystem;Hinterachsantriebssystem;Achswellen;ID-df9d0745;4905.69
+Fahrsystem;Antriebssystem;Hinterachsantriebssystem;HV-Kabel;ID-dfb146a7;1471.11
+Fahrsystem;Antriebssystem;Hinterachsantriebssystem;Kühlung;ID-2cfd1873;3778.3
+Fahrsystem;Antriebssystem;Leistungsverteilungssystem;DC-Link-Bus;ID-879e2f91;4025.86
+Fahrsystem;Antriebssystem;Leistungsverteilungssystem;HV-Kontaktoren;ID-cb0e57fa;3887.06
+Fahrsystem;Antriebssystem;Leistungsverteilungssystem;Pyro-Fuse;ID-d8dceee2;910.55
+Fahrsystem;Antriebssystem;Leistungsverteilungssystem;Kondensatoren;ID-62eb7878;621.43
+Fahrsystem;Antriebssystem;Leistungsverteilungssystem;HV-Verteilerschiene;ID-869c0857;4178.06
+Fahrsystem;Antriebssystem;Antriebssteuerungssystem;Vehicle-Control-Unit (Quad-Core-MCU);ID-82830264;1617.25
+Fahrsystem;Antriebssystem;Antriebssteuerungssystem;Fahrpedal-Sensor;ID-6cddf389;4628.49
+Fahrsystem;Antriebssystem;Antriebssteuerungssystem;Zulieferspannung;ID-b5543fbe;224.23
+Fahrsystem;Antriebssystem;Antriebssteuerungssystem;CAN/Ethernet;ID-d9374eb8;407.98
+Fahrsystem;Antriebssystem;Getriebemanagementsystem;Park-Lock-Aktuator;ID-b2ed03e6;4718.5
+Fahrsystem;Antriebssystem;Getriebemanagementsystem;Öl-Pumpe;ID-a2731070;4192.8
+Fahrsystem;Antriebssystem;Getriebemanagementsystem;Temperatur-Sensoren;ID-2b7fdc7c;1492.95
+Fahrsystem;Antriebssystem;Getriebemanagementsystem;Gang-Positionssensor;ID-1cac253a;4830.4
+Fahrsystem;Drehmomentverteilungssystem;Torque-Vectoring-System;Zweikanal-VCU-Segment;ID-c46af187;2609.92
+Fahrsystem;Drehmomentverteilungssystem;Torque-Vectoring-System;Lenkwinkel- & Gier­rate­-Sensoren;ID-0d1edcd6;3103.38
+Fahrsystem;Drehmomentverteilungssystem;Achsschlupfregelsystem;Raddrehzahl-Sensoren;ID-84458bdb;2363.1
+Fahrsystem;Drehmomentverteilungssystem;Achsschlupfregelsystem;ESC-Hydraulik-Modulator;ID-bc6da0b6;4423.06
+Fahrsystem;Drehmomentverteilungssystem;Allradkoordinationssystem;AWD-Gateway-ECU;ID-4501da05;558.59
+Fahrsystem;Drehmomentverteilungssystem;Allradkoordinationssystem;HV-Stromsensoren je Achse;ID-fdde7085;4298.72
+Fahrsystem;Drehmomentverteilungssystem;Drehmomentpriorisierungssystem;System-Arbiter in VCU;ID-0d942a36;3477.92
+Fahrsystem;Drehmomentverteilungssystem;Drehmomentdiagnosesystem;OBD-Konnektor;ID-7f06969f;3231.54
+Fahrsystem;Drehmomentverteilungssystem;Drehmomentdiagnosesystem;DC-Stromsensor;ID-c0619983;3086.45
+Fahrsystem;Bremssystem;Bremsdruckregelsystem;Brake-Booster-Motor;ID-4ed68d13;3065.0
+Fahrsystem;Bremssystem;Bremsdruckregelsystem;Drucksensoren;ID-d89b995a;3629.8
+Fahrsystem;Bremssystem;Bremsdruckregelsystem;ESC-Modulator;ID-3f742ca0;692.73
+Fahrsystem;Bremssystem;Antiblockiersystem;Wheel-Speed-Sensoren;ID-cb4051e0;2689.21
+Fahrsystem;Bremssystem;Antiblockiersystem;Hydraulikventile;ID-e2dfd70f;3356.69
+Fahrsystem;Bremssystem;Betriebsbremssteuerungssystem;Bremspedal-Sensor;ID-2d725c75;2878.45
+Fahrsystem;Bremssystem;Betriebsbremssteuerungssystem;Bremslicht-Schalter;ID-69bdf4db;3806.89
+Fahrsystem;Bremssystem;Stabilitätsbremsassistenzsystem;Gier- & Querbeschleunigungs-Sensoren;ID-820e80bf;4998.61
+Fahrsystem;Bremssystem;Parkbremssteuerungssystem;Elektromechanische Parkbremse;ID-db0c7107;4920.14
+Fahrsystem;Bremssystem;Parkbremssteuerungssystem;Kraftsensor;ID-7ee9e3f0;4727.22
+Fahrsystem;Lenkungssystem;Servolenkungsantriebssystem;EPS-Motor;ID-0c3e5817;3255.09
+Fahrsystem;Lenkungssystem;Servolenkungsantriebssystem;Stromwandler;ID-95e39522;4777.97
+Fahrsystem;Lenkungssystem;Servolenkungsantriebssystem;Lenkwinkelsensor-IC;ID-3d9d5188;1949.85
+Fahrsystem;Lenkungssystem;Lenkwinkelregelsystem;Zweikanal-Lenkwinkelsensor;ID-34cd21d6;1952.18
+Fahrsystem;Lenkungssystem;Lenkwinkelregelsystem;Safety-MCU;ID-57e28c33;3624.17
+Fahrsystem;Lenkungssystem;Spurhaltesystem;Kameras (Front);ID-be97ae3a;62.73
+Fahrsystem;Lenkungssystem;Spurhaltesystem;EPS-Gateway;ID-56d76ee6;4174.54
+Fahrsystem;Lenkungssystem;Rückstellmomentsystem;EPS-Sensorpaket;ID-380dd858;2551.49
+Fahrsystem;Lenkungssystem;Rückstellmomentsystem;Federpaket;ID-83afd812;1219.41
+Fahrsystem;Lenkungssystem;Lenkassistenzsystem;EPS-Controller;ID-a41f9252;1597.96
+Fahrsystem;Fahrdynamikregelsystem;Querdynamikregelsystem;Gier- & Quer-Sensorik;ID-546ea6cc;678.69
+Fahrsystem;Fahrdynamikregelsystem;Querdynamikregelsystem;ESC-Hydraulik;ID-1d6995dc;1859.18
+Fahrsystem;Fahrdynamikregelsystem;Längsdynamikregelsystem;Long-Accel-Sensor;ID-ecb5da6c;1777.22
+Fahrsystem;Fahrdynamikregelsystem;Längsdynamikregelsystem;Bremse/Inverter-Interface;ID-2f21707c;1173.07
+Fahrsystem;Fahrdynamikregelsystem;Vertikaldynamikregelsystem;CDC-Ventile;ID-98984679;3372.71
+Fahrsystem;Fahrdynamikregelsystem;Vertikaldynamikregelsystem;Luftfeder-Level-Sensoren;ID-db4a2b69;1352.33
+Fahrsystem;Fahrdynamikregelsystem;Fahrmodusmanagementsystem;Drive-Mode-Schalter;ID-8247ee34;327.64
+Fahrsystem;Fahrdynamikregelsystem;Fahrmodusmanagementsystem;VCU-Gateway;ID-59e36688;2477.38
+Fahrsystem;Fahrdynamikregelsystem;Fahrstabilitätsüberwachungssystem;Multi-Sensor-Fusion (IMU;ID-37c26693;2232.54
+Fahrsystem;Fahrdynamikregelsystem;Fahrstabilitätsüberwachungssystem;ESC);ID-7c088f08;668.42
+Fahrsystem;Rekuperationssystem;GeneratorischesBremssystem;Inverter;ID-472f4d81;1161.11
+Fahrsystem;Rekuperationssystem;GeneratorischesBremssystem;PMSM;ID-545daf49;2817.71
+Fahrsystem;Rekuperationssystem;GeneratorischesBremssystem;HV-Verkabelung;ID-158eb3d0;1653.97
+Fahrsystem;Rekuperationssystem;Rekuperationsleistungsverteilungssystem;HV-Bussensor;ID-71393a70;772.13
+Fahrsystem;Rekuperationssystem;Rekuperationsleistungsverteilungssystem;BMS-Schnittstelle;ID-9f286fe4;4576.25
+Fahrsystem;Rekuperationssystem;Rekuperationsoptimierungssystem;Wetter-& Topografie-Daten (Cloud);ID-dffe914b;666.74
+Fahrsystem;Rekuperationssystem;Rekuperationsoptimierungssystem;VCU-Calc;ID-7e75e40b;3223.2
+Fahrsystem;Rekuperationssystem;Rekuperationsdiagnosesystem;HV-Strom-Sensor;ID-3acc660a;4377.3
+Fahrsystem;Rekuperationssystem;Rekuperationsdiagnosesystem;Onboard-Datalogger;ID-4b66b269;4664.21
+Fahrsystem;Rekuperationssystem;Fahrerwunsch-Rekuperationssystem;Paddles/Display-Input;ID-238208e3;1796.67
+Fahrsystem;Rekuperationssystem;Fahrerwunsch-Rekuperationssystem;HMI-CAN;ID-db33cbcf;2334.07
+Energiesystem;Energiespeichersystem;Zellenergiemanagementsystem;Zell-Balancing-ICs;ID-739f2650;988.43
+Energiesystem;Energiespeichersystem;Zellenergiemanagementsystem;Shunt-Widerstände;ID-1799cd65;485.09
+Energiesystem;Energiespeichersystem;Zellenergiemanagementsystem;Flex-PCB;ID-4c21b728;3824.16
+Energiesystem;Energiespeichersystem;Batteriemodulsystem;Zellmodule;ID-bcf3d303;1003.48
+Energiesystem;Energiespeichersystem;Batteriemodulsystem;Bonding-Busbars;ID-ad058d22;1204.75
+Energiesystem;Energiespeichersystem;Batteriemodulsystem;Modul-Controller;ID-a9ea9f94;520.73
+Energiesystem;Energiespeichersystem;Hochvoltbatteriediagnosesystem;HV-Sicherung;ID-3f885c9d;1577.57
+Energiesystem;Energiespeichersystem;Hochvoltbatteriediagnosesystem;Isolations-Sensor;ID-55b58bb6;2101.7
+Energiesystem;Energiespeichersystem;Hochvoltbatteriediagnosesystem;HV-Interlock;ID-74ccfa29;3918.1
+Energiesystem;Energiespeichersystem;Kapazitätsprognosesystem;BMS-MCU Flash;ID-63ebbf5a;649.16
+Energiesystem;Energiespeichersystem;Kapazitätsprognosesystem;Langzeit-Datenlogger;ID-393adb70;3707.74
+Energiesystem;Energiespeichersystem;Batteriesicherheitsschutzsystem;Pyro-Fuse;ID-a8ad77ca;3082.22
+Energiesystem;Energiespeichersystem;Batteriesicherheitsschutzsystem;HV-Relais;ID-e6420044;1164.66
+Energiesystem;Energiespeichersystem;Batteriesicherheitsschutzsystem;Temperatur-Mats;ID-29206eb8;171.75
+Energiesystem;Ladesystem;AC-Ladesystem;Type-2-Inlet;ID-9344db39;2879.55
+Energiesystem;Ladesystem;AC-Ladesystem;OBC-PFC-Stufe;ID-2a01a25b;2787.93
+Energiesystem;Ladesystem;AC-Ladesystem;PE-Relais;ID-343c521d;1859.32
+Energiesystem;Ladesystem;DC-Ladesystem;CCS-Inlet Combo-2;ID-caef0a35;2023.72
+Energiesystem;Ladesystem;DC-Ladesystem;HV-Kontaktoren;ID-ed4ec4fd;3716.16
+Energiesystem;Ladesystem;Ladeleistungssteuerungssystem;OBC-MCU;ID-438d5753;964.93
+Energiesystem;Ladesystem;Ladeleistungssteuerungssystem;Strom-Sensor;ID-4cf97e34;1428.44
+Energiesystem;Ladesystem;Ladeleistungssteuerungssystem;Temperatursensor;ID-5968d731;2494.04
+Energiesystem;Ladesystem;Ladeauthentifizierungssystem;RFID;ID-43538d58;701.55
+Energiesystem;Ladesystem;Ladeauthentifizierungssystem;Plug-&-Charge-HSM;ID-06a87f9f;137.32
+Energiesystem;Ladesystem;Ladekommunikationssystem;PLC-Modem;ID-efc29cbf;1437.88
+Energiesystem;Ladesystem;Ladekommunikationssystem;Ethernet-Switch;ID-d2b3ad9d;4973.58
+Energiesystem;Spannungswandlungssystem;HV-LV-Wandlungssystem;2-Phasen-DC/DC;ID-65d30024;1029.08
+Energiesystem;Spannungswandlungssystem;HV-LV-Wandlungssystem;Planar-Trafo;ID-66f6dcdd;4254.64
+Energiesystem;Spannungswandlungssystem;HV-LV-Wandlungssystem;CoolMOS;ID-10823521;2852.75
+Energiesystem;Spannungswandlungssystem;48V-Boostsystem;Bidirektionaler DCDC 48 ↔ 400 V;ID-1ba55f85;370.45
+Energiesystem;Spannungswandlungssystem;48V-Boostsystem;Supercaps;ID-03d0bfa0;1156.87
+Energiesystem;Spannungswandlungssystem;BidirektionalesWandlungssystem;H-Bridge;ID-33ac4064;4947.85
+Energiesystem;Spannungswandlungssystem;BidirektionalesWandlungssystem;LCL-Filter;ID-ccba29a8;4405.35
+Energiesystem;Spannungswandlungssystem;Niedervoltstabilisierungssystem;LV-Sensorik;ID-6275a1b7;366.72
+Energiesystem;Spannungswandlungssystem;Niedervoltstabilisierungssystem;Redundante 12 V-Batterien;ID-4fd8b7dd;1008.66
+Energiesystem;Spannungswandlungssystem;Leistungsverteilungssystem;LV-Fuse-Box;ID-23fcfc77;700.39
+Energiesystem;Spannungswandlungssystem;Leistungsverteilungssystem;Solid-State-Relais;ID-b137e1c3;2833.2
+Energiesystem;Energiemanagementsystem;Energieflusskoordinationssystem;Gateway-ECU;ID-a7bba048;2585.74
+Energiesystem;Energiemanagementsystem;Energieflusskoordinationssystem;HV/LV-Current-Sensors;ID-85d7eaca;336.82
+Energiesystem;Energiemanagementsystem;Reichweitenprognosesystem;Telematik-Daten;ID-52f9dd7d;342.53
+Energiesystem;Energiemanagementsystem;Reichweitenprognosesystem;SOC-Sensor;ID-51c4aae1;1345.2
+Energiesystem;Energiemanagementsystem;Effizienzoptimierungssystem;GPS;ID-12d1a3c2;4262.23
+Energiesystem;Energiemanagementsystem;Effizienzoptimierungssystem;Topografie-Map;ID-9c3624fe;1812.17
+Energiesystem;Energiemanagementsystem;Effizienzoptimierungssystem;Motor-Maps;ID-b5660784;573.79
+Energiesystem;Energiemanagementsystem;Lade-Entladeplanungssystem;Calendar-Scheduler;ID-6c0d9d05;3158.58
+Energiesystem;Energiemanagementsystem;Lade-Entladeplanungssystem;Cloud-API;ID-d53bb018;4432.54
+Energiesystem;Energiemanagementsystem;Energiepriorisierungssystem;Load-Hierarchy-Table;ID-0fd76a70;2767.9
+Energiesystem;Energiemanagementsystem;Energiepriorisierungssystem;CAN-Broads;ID-1ea23664;1385.32

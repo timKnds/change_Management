@@ -1,0 +1,77 @@
+### 1. Funktionale, logische und physische Detailarchitektur
+
+#### Funktionale Architektur
+Die funktionale Architektur beschreibt die Hauptfunktionen des elektronischen Lenksystems (EPS - Electric Power Steering):
+
+- **Lenkunterstützung**: Bereitstellung der erforderlichen Lenkunterstützung basierend auf Fahrzeuggeschwindigkeit und Lenkwinkel.
+- **Rückmeldung**: Bereitstellung von Feedback an den Fahrer durch das Lenkrad.
+- **Sicherheitsfunktionen**: Überwachung und Notfallprotokolle zur Gewährleistung der Sicherheit.
+- **Kommunikation**: Austausch von Daten mit anderen Fahrzeugsystemen wie ABS, ESP und dem zentralen Steuergerät.
+- **Diagnose und Wartung**: Selbstdiagnosefunktionen und Schnittstellen für Wartungszwecke.
+
+#### Logische Architektur
+Die logische Architektur beschreibt die Struktur und Interaktionen der Subsysteme:
+
+- **Sensoren**:
+  - Lenkwinkelsensor
+  - Drehmomentsensor
+  - Geschwindigkeitssensor
+- **Steuergerät (ECU)**:
+  - Mikrocontroller
+  - Softwaremodule für Lenkunterstützung, Sicherheitsüberwachung und Kommunikation
+- **Aktuatoren**:
+  - Elektromotor zur Lenkunterstützung
+- **Kommunikationsschnittstellen**:
+  - CAN-Bus
+  - LIN-Bus
+- **Stromversorgung**:
+  - Batterie
+  - Sicherungen und Schutzschaltungen
+
+#### Physische Architektur
+Die physische Architektur beschreibt die tatsächliche Hardware und deren Anordnung:
+
+- **Lenkrad**: Mechanische Verbindung zum Lenksystem.
+- **Lenksäule**: Mechanische Verbindung zwischen Lenkrad und Zahnstangenlenkung.
+- **Zahnstangenlenkung**: Mechanische Umsetzung der Lenkbewegung.
+- **Elektromotor**: Montiert an der Zahnstangenlenkung zur Unterstützung der Lenkbewegung.
+- **Steuergerät (ECU)**: Zentral montiert, verbunden mit Sensoren und Aktuatoren.
+- **Sensoren**: Montiert an relevanten Stellen wie Lenkrad und Lenkgetriebe.
+- **Kabelbaum**: Verbindet alle elektrischen Komponenten.
+
+### 2. Technische Anforderungen
+
+- **Leistungsanforderungen**:
+  - Maximaler Unterstützungsdrehmoment: [X] Nm
+  - Reaktionszeit: < [Y] ms
+- **Sicherheitsanforderungen**:
+  - Redundante Sensoren für kritische Messungen
+  - Failsafe-Mechanismen bei Sensorausfall
+  - Konformität mit ISO 26262 (Funktionale Sicherheit)
+- **Umweltanforderungen**:
+  - Betriebstemperaturbereich: -40°C bis +85°C
+  - Schutzklasse: IP67
+- **Kommunikationsanforderungen**:
+  - Unterstützung von CAN-Bus und LIN-Bus
+  - Echtzeit-Datenübertragung mit einer Latenz von < [Z] ms
+- **Diagnoseanforderungen**:
+  - On-Board-Diagnose (OBD) Unterstützung
+  - Fehlercodespeicherung und -auslesung
+- **Mechanische Anforderungen**:
+  - Kompatibilität mit bestehenden Lenksystemen
+  - Vibrations- und Stoßfestigkeit nach [relevanter Norm]
+
+### 3. Relevante Schnittstellen zu Nachbarsystemen
+
+- **ABS/ESP-System**:
+  - Datenaustausch über CAN-Bus zur Koordination von Lenk- und Bremsmanövern.
+- **Zentrales Steuergerät (ECU)**:
+  - Kommunikation über CAN-Bus für zentrale Steuerungs- und Diagnosefunktionen.
+- **Geschwindigkeitssensoren**:
+  - Datenbereitstellung zur Anpassung der Lenkunterstützung basierend auf der Fahrzeuggeschwindigkeit.
+- **Bordnetz**:
+  - Stromversorgung und Sicherungen.
+- **Diagnosegeräte**:
+  - Schnittstellen für Wartung und Fehlerdiagnose (OBD-II).
+
+Diese Architektur und Anforderungen stellen sicher, dass das elektronische Lenksystem zuverlässig, sicher und effizient arbeitet und nahtlos in das Gesamtsystem des Fahrzeugs integriert ist.
