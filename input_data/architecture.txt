@@ -1,0 +1,153 @@
+FAHRZEUGARCHITEKTUR: GESAMTFAHRZEUG
+
+1. FAHRSYSTEM
+  └─ Antriebssystem
+     - Vorderachsantriebssystem
+     - Hinterachsantriebssystem
+     - Leistungsverteilungssystem
+     - Antriebssteuerungssystem
+     - Getriebemanagementsystem
+  └─ Drehmomentverteilungssystem
+     - Torque-Vectoring-System
+     - Achsschlupfregelsystem
+     - Allradkoordinationssystem
+     - Drehmomentpriorisierungssystem
+     - Drehmomentdiagnosesystem
+  └─ Bremssystem
+     - Bremsdruckregelsystem
+     - Antiblockiersystem
+     - Betriebsbremssteuerungssystem
+     - Stabilitätsbremsassistenzsystem
+     - Parkbremssteuerungssystem
+  └─ Lenkungssystem
+     - Servolenkungsantriebssystem
+     - Lenkwinkelregelsystem
+     - Spurhaltesystem
+     - Rückstellmomentsystem
+     - Lenkassistenzsystem
+  └─ Fahrdynamikregelsystem
+     - Querdynamikregelsystem
+     - Längsdynamikregelsystem
+     - Vertikaldynamikregelsystem
+     - Fahrmodusmanagementsystem
+     - Fahrstabilitätsüberwachungssystem
+  └─ Rekuperationssystem
+     - Generatorisches Bremssystem
+     - Rekuperationsleistungsverteilungssystem
+     - Rekuperationsoptimierungssystem
+     - Rekuperationsdiagnosesystem
+     - Fahrerwunsch-Rekuperationssystem
+
+2. ENERGIESYSTEM
+  └─ Energiespeichersystem
+     - Zellenergiemanagementsystem
+     - Batteriemodulsystem
+     - Hochvoltbatteriediagnosesystem
+     - Kapazitätsprognosesystem
+     - Batteriesicherheitsschutzsystem
+  └─ Ladesystem
+     - AC-Ladesystem
+     - DC-Ladesystem
+     - Ladeleistungssteuerungssystem
+     - Ladeauthentifizierungssystem
+     - Ladekommunikationssystem
+  └─ Spannungswandlungssystem
+     - HV-LV-Wandlungssystem
+     - 48V-Boostsystem
+     - Bidirektionales Wandlungssystem
+     - Niedervoltstabilisierungssystem
+     - Leistungsverteilungssystem
+  └─ Energiemanagementsystem
+     - Energieflusskoordinationssystem
+     - Reichweitenprognosesystem
+     - Effizienzoptimierungssystem
+     - Lade-Entladeplanungssystem
+     - Energiepriorisierungssystem
+  └─ Batteriethermomanagementsystem
+     - Batteriekühlsystem
+     - Batterieheizsystem
+     - Thermische Leistungsregelungssystem
+     - Wärmepumpensteuerungssystem
+     - Batterieklimadiagnosesystem
+  └─ Energiesicherheitsabschaltsystem
+     - Crashabschaltungssystem
+     - Überspannungsabschaltungssystem
+     - Kurzschlussschutzsystem
+     - Notfallfreischaltsystem
+     - Rettungszugangssystem
+
+3. BODYSYSTEM
+  └─ Karosseriesteuerungssystem
+     - Türsteuerungssystem
+     - Fensterhebersteuerungssystem
+     - Spiegelsteuerungssystem
+     - Heckklappensteuerungssystem
+     - Wischersteuerungssystem
+  └─ Klimatisierungssystem
+     - Innenraumkühlsystem
+     - Innenraumheizungssystem
+     - Entfeuchtungssystem
+     - Luftverteilungssystem
+     - Klimavorkonditionierungssystem
+  └─ Komfortsystem
+     - Ambientebeleuchtungssystem
+     - Luftqualitätsmanagementsystem
+     - Massagekomfortsystem
+     - Geräuschkomfortsystem
+     - Personalisierungssystem
+  └─ Zugangssystem
+     - Schlüsselzugangssystem
+     - Zentralverriegelungssystem
+     - Wegfahrsperrensystem
+     - Alarm- und Diebstahlschutzsystem
+     - Fahrzeugstartfreigabesystem
+  └─ Beleuchtungssystem
+     - Außenlichtsystem
+     - Innenlichtsystem
+     - Adaptives Fernlichtsystem
+     - Dynamisches Signalisierungssystem
+     - Lichtanimationssystem
+  └─ Sitzmanagementsystem
+     - Sitzverstellsystem
+     - Sitzheizsystem
+     - Sitzbelüftungssystem
+     - Sitzpositionsspeichersystem
+     - Sitzsicherheitsüberwachungssystem
+
+4. INFOTAINMENTSYSTEM
+  └─ Anzeige- und Bedienungssystem
+     - Kombiinstrumentsystem
+     - Zentraldisplaysystem
+     - Head-Up-Display-System
+     - Sprachinteraktionssystem
+     - Gesteninteraktionssystem
+  └─ Navigationssystem
+     - Routenplanungssystem
+     - Verkehrsinformationssystem
+     - Kartenupdatesystem
+     - Ladeinfrastrukturplanungssystem
+     - Navigationsassistenzsystem
+  └─ Audiosystem
+     - Klangverarbeitungssystem
+     - Lautsprechermanagementsystem
+     - Geräuschkompensationssystem
+     - Audioquellenverwaltungssystem
+     - Virtuelles Klanggenerierungssystem
+  └─ Kommunikationssystem
+     - Fahrzeuginterne Datenkommunikation
+     - Smartphone-Integrationssystem
+     - Internetzugangssystem
+     - Fahrzeug-Cloud-Kommunikation
+     - Fahrzeug-zu-Fahrzeug-Kommunikation
+  └─ OTA-Update-System
+     - Softwarepaketmanagementsystem
+     - Updateauthentifizierungssystem
+     - Updateverteilungssystem
+     - Updateinstallationssystem
+     - Rollbackmanagementsystem
+  └─ App-Integrationssystem
+     - App-Schnittstellenmanagementsystem
+     - App-Berechtigungsmanagementsystem
+     - App-Daten-Synchronisationssystem
+     - App-Lifecycle-Managementsystem
+     - Backend-Anbindungssystem

@@ -1,8 +1,20 @@
 import streamlit as st
 from answer_chain import easy_answer, stream_answer
-import time
+import io
 
 
+def extract_csv(text):
+    """
+    Extrahiert einen CSV-Block aus dem Text (zwischen ```csv ... ```).
+    Gibt None zurück, falls kein CSV gefunden.
+    """
+    import re
+    match = re.search(r"```csv\s*(.*?)```", text, re.DOTALL)
+    if match:
+        return match.group(1).strip()
+    return None
+
+st.set_page_config(layout=None)
 # Musst du hier anpassen
 st.image("static/unity-logo.svg")
 
@@ -32,5 +44,12 @@ if prompt := st.chat_input("Stelle irgendeine Frage"):
     with st.chat_message("assistant"):
         # Antwort wird angezeigt als stream
         response = st.write_stream(stream_answer(st.session_state.messages))
+        csv_data = extract_csv(response)
+        if csv_data:
+            st.download_button(
+                label="CSV herunterladen",
+                data=io.BytesIO(csv_data.encode("utf-8")),
+                file_name="antwort.csv",
+                mime="text/csv")
     # Assistant Antwort wird in deinem session_state reingpackt
     st.session_state.messages.append({"role": "assistant", "content": response})
