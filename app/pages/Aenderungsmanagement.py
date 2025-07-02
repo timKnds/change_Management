@@ -1,8 +1,8 @@
 import streamlit as st
 from agent.answer_chain import problem_statement,relevant_regularies,relevant_systems,technical_difficulty,cost_calculation
 
-# st.image("./app/static/unity-logo.svg")
-# st.logo("./app/static/unity-logo.svg")
+st.image("./app/static/unity-logo.svg")
+st.logo("./app/static/unity-logo.svg")
 st.title("Use Case AI basiertes Änderungsmanagement")
 
 

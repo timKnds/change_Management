@@ -298,7 +298,7 @@ def relevant_regularies(input):
 
 # Ich brauch eine Funktion die alle betroffenen Systeme wiedergibt und auflistet.
 def relevant_systems(input):
-    with open("../input_data/architecture.txt") as f:
+    with open("./input_data/architecture.txt") as f:
         architecture=f.read()
     chain= prompt_architecture|llm|StrOutputParser()
     return chain.invoke({"change_description": input, "architecture": architecture})
