@@ -1,0 +1,60 @@
+Ebene-1,Ebene-2,Ebene-3,SNS_number,Komponente
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,7df589c5-6657-4357-ad5b-b8cf2772f8b0,Sensoren für Radgeschwindigkeit
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,12407919-c3c0-417d-a9f8-df34f0f76a08,Drehmomentsensoren
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,52b962ae-9c0a-4808-969a-6cb22e564c60,Lenkwinkelsensoren
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,1b2c0e04-4fb1-4294-8843-f32347e22b46,Giergeschwindigkeitssensoren
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,8c59a308-85a8-4ca7-bc6a-c3041af58ec4,Beschleunigungssensoren
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,7b745e2a-c564-4b89-8461-cec835840987,Steuergerät für Drehmomentverteilung
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,cf55298b-935f-434e-b3d7-cddf5a1ba6ca,Hydraulikventile
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,f1db3e3d-ece5-4cb2-9d22-788f2542cd26,Elektromotoren für Drehmomentsteuerung
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,2fc968bf-61ed-448d-a907-fd98c0025f96,Getriebeaktuatoren
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,27385b7a-f195-48ca-a81a-ec69f512efda,Kommunikationsmodule
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,874e18c6-51a6-4c66-aef7-4684a6c6b553,Temperatursensoren
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,c5e2a80c-7429-4a29-80bf-49370ad947f9,Spannungswandler
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,45db4219-a2f7-4164-9f18-de7ef6e5f790,Stromsensoren
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,f05b0ecf-a85b-4042-8e15-7869b1bec7be,Diagnoseanschluss
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,dcd5a560-7e7b-4cd7-b443-062c59e35a0e,Leistungselektronikmodule
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,35f74d3d-bcf6-4033-a535-3caac3518f87,Relaismodule
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,a2af053d-ef0e-4f09-8c43-3cace3ed7b96,Steckverbinder
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,2a2c1489-ef33-4d69-97ba-e78f1d24ef05,Kabelbäume
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,5a141e2f-a405-4db0-a32c-486698f7a264,Schutzgehäuse
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,6b58bcf8-af2a-4072-8221-4d96f818db85,Montagehalterungen
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,02e47b6f-d089-4569-9876-d1a10a474c93,Schrauben und Bolzen
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,bcc79f24-2698-40b4-a0c3-8b98c083a047,Kühlkörper
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,ec133b1c-c7b4-40b8-b1e8-430d9e8afa69,Magnetventile
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,dbab1427-015c-4f7d-a984-1a459e83a808,Positionssensoren
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,53a90ef0-12e5-4951-870d-bda4feb95634,Lastsensoren
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,da77091d-7d04-4f51-9076-81510a90d5cf,Signalverstärker
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,eacba169-b848-4b6d-8c60-e60c06deeb49,Schwingungsdämpfer
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,11da0b67-4c62-4d24-a67d-1a2b93c82877,Isolationsmaterialien
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,72a02822-5fe0-4b3a-9464-c71900afc986,Schaltkreise
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,edf7a910-a364-4e6e-9819-2051777f0fe2,PCB-Boards
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,b85e3eda-b47b-4e77-84f0-25575d17e5d2,Drehmomentsteuerungssoftware
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,d8c7cc35-fcb2-43b7-9ac3-d60cd2584995,Regelalgorithmen für Drehmomentverteilung
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,51094b8e-f57f-4a60-90da-91496247c146,Sensor-Datenverarbeitung
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,602a4251-5696-44ad-882b-dd63c6371692,Kommunikationsprotokolle
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,8b31011d-7150-4732-83d8-fdc698c135b7,Fehlerdiagnosesoftware
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,ecdd9e6c-f5cc-4363-b415-36d43d7204ed,Software für Echtzeitsteuerung
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,601c54b0-d8e2-4b74-884c-24683df22a92,Kalibrierungssoftware
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,8b12b3a0-287f-46cc-a44d-c793126dba69,Simulationssoftware
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,62964ece-65bb-4594-88c7-3f6d75ed954d,Update-Management-Software
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,0e98db07-0986-415c-81d5-490e4b96e547,Software für Sicherheitsüberwachung
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,7a32e873-e2d1-435f-8a35-a25afb8a2f7d,Software für Lastverteilung
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,fbd56ef2-b186-4cc2-901e-8d2390441867,Software für Gierregelung
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,9f62dbe7-dd0a-4e78-acdb-3c1c3b25dc09,Software für Achsschlupfregelung
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,f31d8829-03ad-4298-bf7f-8a354779c33f,Software für Datenlogging
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,154dd426-c50e-4eda-a7ae-453e751ac137,Software für Systemüberwachung
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,f9f47b83-219f-4736-97e4-5b9c18082072,Software für Energieoptimierung
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,7e5104fa-24ac-46d1-83cf-3afad0b3928e,Software für Temperaturmanagement
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,5c11f6f7-2475-4d36-935a-39d3f9baedc7,Software für Aktuatorsteuerung
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,56c039e1-2f39-43a9-90f2-57f8a105410b,Software für Hydraulikregelung
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,bdac89e9-3258-40fd-9624-fcfc0f0387bd,Software für Motorsteuerung
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,e0ae2b55-15de-4b85-b1d1-60c76203038e,Software für Positionsregelung
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,2bb2dfbb-d072-47cc-8c6a-4c7934f9506c,Software für Signalfilterung
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,2fefa6f8-cfc6-4251-b7cf-bb60c60ac95b,Software für Datenanalyse
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,8dc78a2c-a40f-47a4-ab94-9ccaf4879b76,Software für Benutzerinteraktion
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,b1379a79-ecf0-4940-8826-ff599c5a575b,Software für Fahrzeugkommunikation
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,4ef0866e-3cd5-4b7d-b971-743dd8d89469,Software für Sensorfusion
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,317b3fbf-6e61-4540-9f67-34b4ec3ed366,Software für Fehlerprognose
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,b7a0af01-d854-4a95-a802-76e09db73d69,Software für Echtzeitdiagnose
+Fahrsystem,Drehmomentverteilungssystem,Torque-Vectoring-System,edaf1540-afdb-47f8-b271-158c84726a61,Software für Systemintegration

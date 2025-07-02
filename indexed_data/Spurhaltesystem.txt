@@ -1,0 +1,61 @@
+Ebene-1,Ebene-2,Ebene-3,SNS_number,Komponente
+Fahrsystem,Lenkungssystem,Spurhaltesystem,47e062c9-5b1b-423f-8237-fc1ad38c69fd,Sensor für Lenkwinkel
+Fahrsystem,Lenkungssystem,Spurhaltesystem,fb4b96de-0b61-49eb-9d3b-77b5f2799edb,Sensor für Fahrzeuggeschwindigkeit
+Fahrsystem,Lenkungssystem,Spurhaltesystem,34e0b9d6-e624-4b76-8e00-7dadfb7bf884,Sensor für Querbeschleunigung
+Fahrsystem,Lenkungssystem,Spurhaltesystem,44039e9c-b1c0-443c-b2bc-4a3c238a695a,Sensor für Längsbeschleunigung
+Fahrsystem,Lenkungssystem,Spurhaltesystem,210cc86f-40a2-495a-93aa-5cf82fc6bf6a,Sensor für Gierrate
+Fahrsystem,Lenkungssystem,Spurhaltesystem,f1293bea-ad45-4c0c-bec9-732b1f3b253e,Sensor für Radgeschwindigkeit
+Fahrsystem,Lenkungssystem,Spurhaltesystem,5f6bddeb-e8a3-4038-8e60-c894029f2ec5,Steuergerät für Spurhaltesystem
+Fahrsystem,Lenkungssystem,Spurhaltesystem,127d4fc6-1b29-4aa6-bd7f-4322240cb736,Servomotor für Lenkung
+Fahrsystem,Lenkungssystem,Spurhaltesystem,ee5b034f-2953-4366-8aae-0c3da9f05cca,Lenkwinkelsensor
+Fahrsystem,Lenkungssystem,Spurhaltesystem,3db50aee-4edd-41af-826b-a5915bcc1891,Lenkungsaktuator
+Fahrsystem,Lenkungssystem,Spurhaltesystem,cebafe14-626a-4401-9a75-c968cc8160f9,Spannungsversorgungseinheit
+Fahrsystem,Lenkungssystem,Spurhaltesystem,820d7e36-128a-4423-8811-e499ac24816b,Kommunikationsmodul
+Fahrsystem,Lenkungssystem,Spurhaltesystem,2d8e1aa0-2e92-4585-bcc8-a21655aa005a,Diagnoseanschluss
+Fahrsystem,Lenkungssystem,Spurhaltesystem,3423d3cc-88b4-4377-929f-41fc9e615004,Temperatursensor
+Fahrsystem,Lenkungssystem,Spurhaltesystem,deef076b-c604-45b3-86d7-ac1546bbb3a0,Positionssensor
+Fahrsystem,Lenkungssystem,Spurhaltesystem,93ceb841-d4ae-4713-9b16-073174d8e9a2,Inertialsensor
+Fahrsystem,Lenkungssystem,Spurhaltesystem,656198ba-d0bd-4b7c-b109-2aeb6b1cb5e9,IMU-Modul
+Fahrsystem,Lenkungssystem,Spurhaltesystem,c46bd8ef-467f-4ec1-a58e-eec01c290a77,Kamera für Spurhaltung
+Fahrsystem,Lenkungssystem,Spurhaltesystem,0ac24743-4075-4936-b9aa-189549aee53e,LiDAR-Sensor
+Fahrsystem,Lenkungssystem,Spurhaltesystem,d0446f50-c3b1-4e90-aacc-8e834ab70d09,Ultraschallsensor
+Fahrsystem,Lenkungssystem,Spurhaltesystem,acd23aef-f934-4e41-a1fe-c91020e54d49,Radarsensor
+Fahrsystem,Lenkungssystem,Spurhaltesystem,36b6ac6c-922f-441a-9731-5c64bedff503,ECU-Kühlkörper
+Fahrsystem,Lenkungssystem,Spurhaltesystem,e7727759-e588-4c42-8bfa-dc32c835ceb1,Steckverbinder
+Fahrsystem,Lenkungssystem,Spurhaltesystem,fccb4ea4-8f5c-466e-956b-0ab55e3a9b3f,Leiterplatte
+Fahrsystem,Lenkungssystem,Spurhaltesystem,99a7e89f-3bfe-4781-9545-a373aaae8ae4,Signalverstärker
+Fahrsystem,Lenkungssystem,Spurhaltesystem,7494292d-24e6-43e5-b9e3-8c05db1f15e7,Relaismodul
+Fahrsystem,Lenkungssystem,Spurhaltesystem,2eadfb37-3fde-4749-8f03-198e3029fced,Schutzgehäuse
+Fahrsystem,Lenkungssystem,Spurhaltesystem,0710787e-fc89-4cd4-b712-80c1c4189b7d,Montagehalterung
+Fahrsystem,Lenkungssystem,Spurhaltesystem,19d292d6-e812-4a38-821e-5c706ab96bdd,Kabelbaum
+Fahrsystem,Lenkungssystem,Spurhaltesystem,03fa9162-75e4-4b83-8db1-4e15752a0e76,LED-Anzeige
+Fahrsystem,Lenkungssystem,Spurhaltesystem,f2ffe2d7-22de-4579-b2a2-9a4dda482d17,Spurhaltealgorithmus
+Fahrsystem,Lenkungssystem,Spurhaltesystem,40dbfda4-3362-4213-9567-28365dc0ebd1,Lenkwinkelregelungssoftware
+Fahrsystem,Lenkungssystem,Spurhaltesystem,6f6b8370-a169-45c7-8de7-00ad129662bf,Querbeschleunigungsanalysemodul
+Fahrsystem,Lenkungssystem,Spurhaltesystem,5ae93022-3c0f-42dc-8c80-02d7e57006a5,Gierratenanalysemodul
+Fahrsystem,Lenkungssystem,Spurhaltesystem,790e0cdf-5b12-46fc-bca5-bf195897a5e6,Fahrzeuggeschwindigkeitsregelung
+Fahrsystem,Lenkungssystem,Spurhaltesystem,55faef75-6c00-44a8-99c9-4f260748ce73,Radgeschwindigkeitsüberwachung
+Fahrsystem,Lenkungssystem,Spurhaltesystem,b831a3b5-d87a-4909-adff-684bea7ec91f,Kommunikationsprotokollsoftware
+Fahrsystem,Lenkungssystem,Spurhaltesystem,c4b79a78-f1be-4d51-a4e9-d6dc82d8639d,Diagnosesoftware
+Fahrsystem,Lenkungssystem,Spurhaltesystem,545afada-f22b-40d5-96c9-458b920e4ed8,Fehlermanagementsystem
+Fahrsystem,Lenkungssystem,Spurhaltesystem,0a2fd7a2-5011-4950-bd50-2ab5714c4b70,Sensorfusion-Algorithmus
+Fahrsystem,Lenkungssystem,Spurhaltesystem,45a5f7c5-eba4-44d2-bdda-88a0c898efa4,Spurerkennungssystem
+Fahrsystem,Lenkungssystem,Spurhaltesystem,2c391339-c7dd-4c38-8b2e-a3048631f6a2,Spurverfolgungsalgorithmus
+Fahrsystem,Lenkungssystem,Spurhaltesystem,b65e887d-17dc-4f01-83f4-41a616773a9e,Lenkungssteuerungslogik
+Fahrsystem,Lenkungssystem,Spurhaltesystem,40b722b9-c784-42bb-a81f-03d94e42a01e,Software für Kameraverarbeitung
+Fahrsystem,Lenkungssystem,Spurhaltesystem,4894337f-67a3-4b33-9c0c-f4fade35c977,LiDAR-Datenverarbeitung
+Fahrsystem,Lenkungssystem,Spurhaltesystem,1b0fd19b-09af-48d7-b246-94bc2ca3d597,Ultraschall-Datenverarbeitung
+Fahrsystem,Lenkungssystem,Spurhaltesystem,45d34564-f185-4fd8-9e27-f184fa1583e4,Radar-Datenverarbeitung
+Fahrsystem,Lenkungssystem,Spurhaltesystem,876a398e-4000-4a5f-9331-442d6f5245ee,IMU-Datenverarbeitung
+Fahrsystem,Lenkungssystem,Spurhaltesystem,1684d13c-5ade-463c-86d4-e23f1f2bd3e8,Positionsberechnungssystem
+Fahrsystem,Lenkungssystem,Spurhaltesystem,469883c2-4f6d-4bec-97e2-4cd8ac6a840d,Software für Fahrzeugdynamikmodell
+Fahrsystem,Lenkungssystem,Spurhaltesystem,cd486807-0e39-4f9b-89f6-dffe25aaa89f,Software für Sicherheitsüberwachung
+Fahrsystem,Lenkungssystem,Spurhaltesystem,1c191023-f5c8-4483-b365-7641c3b01dc7,Software für Fahrerwarnung
+Fahrsystem,Lenkungssystem,Spurhaltesystem,66320917-269f-4f4f-b6dd-a11ca57dbf9f,Software für Systemkalibrierung
+Fahrsystem,Lenkungssystem,Spurhaltesystem,74bfd83c-ab69-4a41-81f0-1498f9475ba7,Software für Echtzeitsteuerung
+Fahrsystem,Lenkungssystem,Spurhaltesystem,4a11abf2-5bd7-4ae8-b97c-ca5819763f0d,Software für Datenlogging
+Fahrsystem,Lenkungssystem,Spurhaltesystem,2f43550d-ce13-499e-8475-069131c9fdf6,Software für OTA-Updates
+Fahrsystem,Lenkungssystem,Spurhaltesystem,c9ec463a-5dbc-4636-a909-c60bee77aef6,Software für Energieoptimierung
+Fahrsystem,Lenkungssystem,Spurhaltesystem,191c66dc-6ef9-42de-b2d5-c336452a0e5b,Software für Fehlertoleranz
+Fahrsystem,Lenkungssystem,Spurhaltesystem,6046bb36-bb4e-48c8-8d93-b2a40f77384f,Software für Benutzerinteraktion
+Fahrsystem,Lenkungssystem,Spurhaltesystem,2904866f-9136-4f92-8cbf-00ef124ad46a,Software für Systemdiagnose

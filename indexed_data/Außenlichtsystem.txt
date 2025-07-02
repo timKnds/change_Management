@@ -1,0 +1,61 @@
+Ebene-1,Ebene-2,Ebene-3,SNS_number,Komponente
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,94f36c4a-2bad-48ef-817a-cdd88abbaf50,LED-Modul
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,15206204-5d75-4417-a13c-cda18fa722a6,Scheinwerfergehäuse
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,9ac635ff-d737-4191-a3e1-124873207fa9,Reflektorlinse
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,13b3c0b4-b02d-42b0-a505-246126c283fe,Projektionslinse
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,4fa22ce8-bf30-45c8-99b4-cd28cc509259,Leuchtmittelhalterung
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,109e6ca3-897c-4f7f-985b-81fe7029ba12,Kühlkörper
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,49eaed10-27d1-453c-ae33-cc4ffd332a1f,Steckverbinder
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,5fc9f96f-77c1-4144-9ce6-a7f33bbd2aca,Kabelbaum
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,3a5c5287-b726-4443-ac2f-97d30b725333,Spannungswandler
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,e5ee980c-ce75-4754-9b7b-08d617f9f3db,Leistungsmodul
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,85c69640-7cc2-4c06-abae-d40497b2e481,Sensor für Umgebungslicht
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,ceec8f0f-96e5-4a30-bdf7-79c57e2a6c44,Sensor für Regen
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,665568fc-a10f-4be5-a23a-02ed05073e22,Sensor für Dämmerung
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,7fefe39a-925b-44c4-9738-410062a2e081,Motor für adaptive Scheinwerfer
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,b0166938-957c-4cfb-bc74-c05c31b52bf8,Motorsteuerung für Lichtausrichtung
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,2a667a56-8c14-4681-bf77-c9746a0ae797,Schutzabdeckung
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,b5679988-e1a6-4043-ab13-c626797537e2,Glaslinse
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,7a735700-35ed-4058-a43b-f457797747dc,Schutzfolie
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,773e1d78-6068-4a3b-8f8d-d1402466445b,Montagehalterung
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,6b5e6af5-2522-4b3a-afe5-03f56252e3ea,Schrauben und Befestigungselemente
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,a7df0b90-8508-4519-94cd-bf272e3495b6,Dichtungen
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,f03f6d32-5cdd-41a9-853e-215486a55efc,Temperatursensor
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,be8be5a3-a840-47e0-a92a-c61e3ea2239f,Feuchtigkeitssensor
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,7953c4c1-d546-4bf9-957f-0ee62a26f8a2,Schaltrelais
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,3ae1ae97-5615-46ad-affa-feea00f83722,Stromversorgungseinheit
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,901cb3ae-bb8f-4dec-aaab-5c255febfe54,Diagnoseanschluss
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,2990afba-33b5-4761-a274-6bb768b0b338,Steuergerätgehäuse
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,b9e3751f-d62a-4a8d-9f9e-57b7f0450dd8,EMV-Abschirmung
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,993abd66-25f0-40ba-925e-d88c81a4eaad,Optische Filter
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,5351b1a3-fa25-4ee0-99d1-4d12025a07c5,Signalverstärker
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,1ea0ea59-0868-48ef-a0b9-64184b19a31a,Lichtsteuerungssoftware
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,838bf480-f724-47b8-a77b-2c3a0d69c24e,AdaptivesLichtmanagementsystem
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,09a7dfaf-a188-4cee-ac40-b41d47c0e6a3,Fehlerdiagnosesoftware
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,b4b027d6-f9f8-4dd1-a80d-a80c5f100955,Umgebungslichtanpassungssoftware
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,ae120054-f9f6-4fcf-a201-76dd677f6fdb,Regenlichtsteuerungssoftware
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,88b00476-de05-4055-8810-d496b6ad1585,Dämmerungslichtsteuerungssoftware
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,8d8863cf-5bfc-4085-88f0-396c6260fa6d,Software für Fernlichtassistent
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,a08d3df1-b6e2-4cc9-8d63-8ce120b43677,Software für Kurvenlichtsteuerung
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,084ff299-b866-4876-8a32-29f5beb154d6,Software für Lichtintensitätsregelung
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,b3ec6ef8-31ad-441c-b9f2-67c5470a7e81,Software für Lichtanimation
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,2608c8d5-1e52-47de-b7bb-486269e8f96b,Software für Blinkersteuerung
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,89a0044b-9210-4d41-b028-1ac64f838e50,Software für Tagfahrlichtsteuerung
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,a8f54771-79f0-49c2-ac90-8fe473efaa48,Software für Rücklichtsteuerung
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,0b966245-2aa4-4459-9c41-d20e92d462b0,Software für Bremslichtsteuerung
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,7d707b35-411c-4a55-932d-5a63b9625ad6,Software für Nebelscheinwerfersteuerung
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,986a2432-a4a2-4598-98f5-ae87a78e1d1a,Software für Scheinwerferausrichtung
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,fa056c47-5cc6-4ad7-84ed-4d5ce2f57259,Software für Lichtmodulkommunikation
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,e03dc431-62ba-48bd-8f50-93f29aa87350,Software für Energieoptimierung
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,ccde9b1e-9805-46b3-9e4d-201d017c8082,Software für Lichtpriorisierung
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,085ec881-5c19-4ac7-960f-594d1e003967,Software für Lichtdiagnose
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,aa7611e6-169b-48b8-81d4-e63d8bc4f7a1,Software für OTA-Updates
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,74764c30-1177-4a6f-8d88-7a3775d4cce5,Software für Lichtsensorintegration
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,27ec8d53-69f1-4319-a6e1-73c3ebf26aa6,Software für Fahrzeugkommunikation
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,9bfacb79-79c2-4099-b2c7-f2dff4cfa233,Software für Lichtmodulkalibrierung
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,0df2c743-49a6-4949-bafe-914f35fa178b,Software für Lichtmodulüberwachung
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,ba07413c-df48-4896-8efa-14490ef10925,Software für Lichtmodulprotokollierung
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,eaa97c1c-4545-43c1-9a1e-fec44294d118,Software für Lichtmodulauthentifizierung
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,fa1aa95b-3c9c-45d1-9390-a292a235c7ee,Software für Lichtmodulkonfiguration
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,fcfbfd85-446e-4575-9402-f963457669e8,Software für Lichtmodultest
+Bodysystem,Beleuchtungssystem,Außenlichtsystem,9f769d2d-c890-43cb-9f15-57e18ea55ad0,Software für Lichtmodulfehlerbehebung

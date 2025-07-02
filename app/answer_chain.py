@@ -5,20 +5,65 @@ from langchain_core.prompts import ChatPromptTemplate
 import os
 from langchain_community.retrievers import AzureAISearchRetriever
 from langchain_core.runnables import RunnablePassthrough
+from langchain_core.runnables import RunnableParallel
+from langchain_community.vectorstores.azuresearch import AzureSearch
+from langchain_openai import AzureOpenAIEmbeddings
+import csv
+import time
 from dotenv import load_dotenv
 # Azure Search connection
 load_dotenv()
+
+############ Vektorstore Connection############
+azure_openai_api_key=os.getenv("AZURE_OPENAI_API_KEY")
+azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT") 
+azure_openai_api_version: str = "2023-05-15"
+azure_deployment: str = "embedding"
+vector_store_address: str =os.getenv("YOUR_AZURE_SEARCH_ENDPOINT")
+vector_store_password: str = os.getenv("YOUR_AZURE_SEARCH_ADMIN_KEY")
+# Option 2: Use AzureOpenAIEmbeddings with an Azure account
+embeddings: AzureOpenAIEmbeddings = AzureOpenAIEmbeddings(
+    azure_deployment=azure_deployment,
+    openai_api_version=azure_openai_api_version,
+    azure_endpoint=azure_endpoint,
+    api_key=azure_openai_api_key,
+)
+index_name: str = "components-index"
+vector_store: AzureSearch = AzureSearch(
+    azure_search_endpoint=vector_store_address,
+    azure_search_key=vector_store_password,
+    index_name=index_name,
+    embedding_function=embeddings.embed_query,
+)
+
+
+
+# csv lesen
+def csv_to_text(path):
+    with open(path, encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        lines = []
+        for row in reader:
+            line = ", ".join(f"{key}: {value}" for key, value in row.items())
+            lines.append(line)
+    return "\n".join(lines)
 
 # connection zum Retriever
 retriever = AzureAISearchRetriever(
     content_key="chunk", top_k=5
 )
 
+# Retriever für die Komponenten
+retriever_components = AzureAISearchRetriever(
+    content_key="content", top_k=2, index_name="components-index"
+)
 
 
 # Das eine Funktion, um die retrieveden Dokuemnte als ein gemeinsamen String zu formatieren
 def doc_to_string(docs):
     return "\n\n".join(doc.page_content for doc in docs)
+
+
 
 llm = AzureChatOpenAI(
     azure_deployment="gpt-4o",  # or your deployment
@@ -185,6 +230,45 @@ Dir stehen folgende Informationen zur Verfügung:
 {context}
 """)
 
+# Prompt schreiben, damit er sagen kann, welche Komponenten betroffen sind von der Änderung 
+prompt_components = PromptTemplate.from_template("""
+Du bist ein technischer Analytiker bei Mercedes-Benz. Du erhältst zwei Eingaben:
+
+1. Eine technische Analyse, die beschreibt, welche Teilsysteme oder Systeme von einer Fahrzeugänderung betroffen sind.
+2. Eine vollständige Liste aller Fahrzeugkomponenten im CSV-Format. Jede Zeile enthält:
+   - Komponentenname
+   - SNS_number
+   - Zugeordnetes System
+
+---
+
+### Deine Aufgabe:
+
+- **Lies die technische Analyse sorgfältig.**
+- **Finde alle Komponenten in der CSV**, die zu den betroffenen Teilsystemen oder Systemen gehören.
+- **Gib ausschließlich diese relevanten Komponenten zurück.**
+
+Die technische Analyse wird separat angezeigt – du brauchst sie nicht erneut auszugeben.
+
+### Ausgabeformat:
+
+- **Komponentenname**
+  - SNS_number: …
+  - System: …
+
+---
+
+### Eingabedaten:
+
+**Technische Analyse:**  
+{system_analysis}
+
+**Fahrzeugkomponenten (CSV):**  
+{context}
+""")
+
+
+
 # eine sehr einfache basis Funktion, um Antworten zu generieren
 def easy_answer(messages):
     ans = llm.invoke(messages).content
@@ -239,7 +323,20 @@ def technical_difficulty(input):
         "change_description": lambda _:input,
         "system_analysis": lambda _:systems
     } | prompt_technical_difficulty | llm | StrOutputParser()
-    return chain.invoke({})
+
+    #csv_text= csv_to_text("./input_data/fahrzeugsysteme_komponenten.csv")
+
+    system_analysis = chain.invoke({})
+
+    docs = vector_store.similarity_search(query=system_analysis,k=3,search_type="similarity")
+
+    context=doc_to_string(docs)
+
+    chain_components=prompt_components | llm | StrOutputParser()
+    
+    
+    
+    return system_analysis +"\n\n" +chain_components.invoke({"context":context,"system_analysis":system_analysis})
 
 def cost_calculation(input):
     systems = relevant_systems(input)
@@ -256,3 +353,15 @@ def cost_calculation(input):
         "system_analysis": lambda _:systems
     } | prompt_cost_estimation | llm | StrOutputParser()
     return chain.invoke({})
+
+
+
+
+# if __name__ == "__main__":
+#     docs = vector_store.similarity_search(
+#     query="Scheinwerfer finden",
+#     k=3,
+#     search_type="similarity",)
+#     time.sleep(2)
+#     print(docs[0].page_content)
+#     print(len(docs))

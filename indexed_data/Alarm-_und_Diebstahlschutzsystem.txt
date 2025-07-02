@@ -1,0 +1,61 @@
+Ebene-1,Ebene-2,Ebene-3,SNS_number,Komponente
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,e358b657-6a82-4e00-9378-9d33b865a25d,Sensor für Glasbruch
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,4c0ae1ce-11f8-4c56-827d-065948cadae8,Sensor für Türöffnung
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,94e68293-3a69-4307-b020-6d9284567ed6,Sensor für Innenraumbewegung
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,32adab88-0fe1-4dcf-a72b-32e0595ed36d,Sensor für Neigung
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,c75be24a-310b-4ad2-96ab-9e2d960ac2da,Sensor für Radbewegung
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,b9f6c66b-5b8b-4e21-b1db-ae0e748062db,Sensor für Fahrzeugbewegung
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,0209181c-d9b6-47b9-8f8d-db232894bff1,Sensor für Fensterbruch
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,914ab53a-b31e-4068-a407-3d799cd479b1,Sensor für Heckklappenöffnung
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,dc462626-d39f-4f8e-924c-3be4c98b6cf0,Sensor für Motorhaubenöffnung
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,f4f1e233-52ad-49db-8629-b5ee22251e3c,Sensor für Sitzdruck
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,00352214-c835-4ae0-a44f-53cc52f9a9fb,Sensor für Schlüsselpräsenz
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,5a6ab1b6-bfdc-42e4-875f-b289b11a3582,Sensor für Batteriezustand
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,4360a3df-3f85-485e-9af0-3d8a192d003e,Sensor für Stromunterbrechung
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,d87da33d-a883-4bd9-ac6a-6e7cc169769d,Sensor für GPS-Position
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,e3073058-7275-4d24-8b05-e3b6e809be4f,Sensor für Funkstörung
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,ad7c6485-89c8-45b9-9df2-1c7e60338e3c,Sensor für Ultraschall
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,8f04bfcf-839c-47f7-a5bb-1e0ed3b10832,Sensor für Magnetfeldänderung
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,72953218-d3c7-450b-9924-97998b4c26cc,Sensor für Vibrationsmuster
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,61bf1cb5-5def-4f06-9fa2-1fad6f2c2d76,Sensor für Temperaturänderung
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,7785ad6b-980d-4c49-b20c-b218d0bfca6d,Sensor für Lichtintensität
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,231b623f-5f47-49d8-8bb6-4d53116fcad6,Sensor für Geräuschpegel
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,dbdb633e-488c-4335-825d-b1a12a47acdc,Sensor für RFID-Erkennung
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,57c46e1c-67ee-47c1-ba2e-823b8eb274db,Sensor für Fingerabdruck
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,9e7128e3-14f7-480f-a8a8-42a4b26194eb,Sensor für Gesichtserkennung
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,65c3f573-ab72-491d-8746-52f701596274,Sensor für Herzfrequenz
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,cb8ece62-3de4-4a7e-8191-c03eb3e502f4,Sensor für Luftdruckänderung
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,a332e334-ead9-4efe-ab08-cc492e9429bd,Sensor für Feuchtigkeit
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,77ca3ae6-212f-45b3-abf4-22e03fd8618a,Sensor für CO2-Konzentration
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,b0a092b6-10f1-4e7d-b009-9f195c46031e,Sensor für Ozonkonzentration
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,2e899460-9806-4cea-a9d6-079f6eb069ed,Sensor für chemische Substanzen
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,13d48790-61ad-49fc-9b04-b9916debf939,Diebstahlschutzsoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,c42e6692-7e8f-4a48-854e-fe8cd6ea8903,Alarmsteuerungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,6680c008-eabd-4e64-967a-556b6bbd4cac,Bewegungserkennungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,45f7bc9d-c399-4023-9f9b-aaa9852316f1,Glasbrucherkennungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,7da227ef-ae7e-4e84-9d3b-f461cd9f6f63,Neigungserkennungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,e4c5eaad-c8a5-4843-9634-4e66944c24a2,Radbewegungserkennungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,468ef1b7-9a0c-4e0d-bd97-05dd2d7dbb93,Fensterbrucherkennungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,27e81500-a70a-4180-8f4b-c3299cd58f76,Heckklappenöffnungserkennungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,d9c1651f-fcf7-40d9-99d8-c1b9fc633aca,Motorhaubenöffnungserkennungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,55d410e7-7112-4881-87a7-38215eed56fc,Sitzdruckerkennungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,7693afaa-c1b4-40cc-9441-c280e90c55c1,Schlüsselpräsenzsoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,1a7b01cc-cac6-4672-9b18-2e954993d71d,Batteriezustandsüberwachungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,86d6c21d-3597-4cce-b4e2-abb09e441322,Stromunterbrechungserkennungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,bce80479-7360-4d77-9c85-de331c723313,GPS-Trackingsoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,78c5931c-aabd-4b70-9dbf-503b3a485c8f,Funkstörungserkennungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,fbe2f8c1-e569-48a9-b366-d63f0cdea7df,Ultraschallverarbeitungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,fbe4a861-93f3-42e3-9e4d-b9cd00018253,Magnetfeldänderungserkennungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,8e0035da-8e10-43e9-aaec-1d4591bbb8f7,Vibrationsmustererkennungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,7e13c6cd-3f81-404a-b131-104aef91c32a,Temperaturänderungserkennungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,323f127c-59ea-4d4c-99e4-0790af8ed4a3,Lichtintensitätserkennungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,f6e47cc8-204c-437f-99a5-0a869957109e,Geräuschpegelverarbeitungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,c44182b6-f940-47bd-97ba-7ec1b52d1e6a,RFID-Erkennungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,2df4e51d-d7da-4c17-ba36-7309484109b9,Fingerabdruckverarbeitungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,3865715b-eae8-48ba-9e2d-603023608405,Gesichtserkennungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,2b09604d-7345-4c62-bc82-bfa1492dbc21,Herzfrequenzüberwachungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,3a475c8d-5988-4630-bcbf-9ab3e36a51e0,Luftdruckänderungserkennungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,47a4dfc0-349b-4945-a3b3-bd38ed05ce59,Feuchtigkeitsüberwachungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,a4fa4dd9-f4bd-4c9b-96a4-34e4c9692de7,CO2-Konzentrationsüberwachungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,d9ea3a45-0638-442d-b49c-650b37343c32,Ozonkonzentrationsüberwachungssoftware
+Bodysystem,Zugangssystem,Alarm- und Diebstahlschutzsystem,850dd310-1b84-402e-9882-c5baa2270ae0,chemischeSubstanzenüberwachungssoftware

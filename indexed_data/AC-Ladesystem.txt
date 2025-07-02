@@ -1,0 +1,61 @@
+Ebene-1,Ebene-2,Ebene-3,SNS_number,Komponente
+Energiesystem,Ladesystem,AC-Ladesystem,b7a3e090-2349-4a05-917f-c124a143deb6,Ladestecker
+Energiesystem,Ladesystem,AC-Ladesystem,7dfe8558-4d31-4d9a-a951-61575267e3e2,Leitungsschutzschalter
+Energiesystem,Ladesystem,AC-Ladesystem,4152bf5d-a4fe-4b87-a633-b2f744607cc5,AC-Ladegerät
+Energiesystem,Ladesystem,AC-Ladesystem,389f7f68-a8f5-4d55-9b0d-36ad45136619,Leistungswandler
+Energiesystem,Ladesystem,AC-Ladesystem,7f6d9305-5a7e-4fa5-bf40-173762ac86e3,Netzanschlussmodul
+Energiesystem,Ladesystem,AC-Ladesystem,772c40ee-1c75-4f82-9a94-e885d6f9abd4,Temperatursensor
+Energiesystem,Ladesystem,AC-Ladesystem,0fbf0654-969d-4d7f-9a13-2ac25aeb6842,Spannungssensor
+Energiesystem,Ladesystem,AC-Ladesystem,e417b41e-a6e2-4469-83a6-b6f338ed5bc6,Stromsensor
+Energiesystem,Ladesystem,AC-Ladesystem,41529cf3-4571-49c0-8506-103b703bc2bb,Kommunikationsmodul
+Energiesystem,Ladesystem,AC-Ladesystem,3c2b7084-c104-4644-b33f-d9dd9e4a97e4,Relais
+Energiesystem,Ladesystem,AC-Ladesystem,b95d3c6c-8f59-4ee2-a5a5-c7e268635468,Induktive Spule
+Energiesystem,Ladesystem,AC-Ladesystem,c862dbf1-23d0-4404-a22d-305c8d7d889e,Transformator
+Energiesystem,Ladesystem,AC-Ladesystem,9c19cac7-e77e-4fc2-af88-52bb434bc17e,Kühlkörper
+Energiesystem,Ladesystem,AC-Ladesystem,4a272491-7ecc-4902-9200-3a5d86dbb069,Steckverbindung
+Energiesystem,Ladesystem,AC-Ladesystem,a1c41dd3-b0a0-42f3-b4c8-8a40224da9a9,Schutzgehäuse
+Energiesystem,Ladesystem,AC-Ladesystem,6eadf809-feeb-4ade-8061-47f037765e31,Isolationsüberwachungseinheit
+Energiesystem,Ladesystem,AC-Ladesystem,19caf42a-6a73-40e9-9317-8509ba953187,Netzfilter
+Energiesystem,Ladesystem,AC-Ladesystem,308a10f1-31b6-4f21-9bac-a100c7f4b658,EMV-Abschirmung
+Energiesystem,Ladesystem,AC-Ladesystem,1fd0fffc-9b2b-4d29-b15e-91f576e628b2,Leistungsmodul
+Energiesystem,Ladesystem,AC-Ladesystem,3dfac771-d49f-4806-b9e3-b08f54754467,Schutzschalter
+Energiesystem,Ladesystem,AC-Ladesystem,1828a51b-6c6a-464f-b94f-ca6cabe28429,Phasenüberwachungseinheit
+Energiesystem,Ladesystem,AC-Ladesystem,79c2dd6d-3562-433c-b697-5ea6db150125,Netzanschlusskabel
+Energiesystem,Ladesystem,AC-Ladesystem,9cac593c-e4ea-4ef6-9110-1dcc1c8c0bd2,Steckdose
+Energiesystem,Ladesystem,AC-Ladesystem,fe65513e-b81a-4ce1-82a3-6d8e83324cfb,Schutzleiteranschluss
+Energiesystem,Ladesystem,AC-Ladesystem,917664d7-8b5a-42bd-a84e-28c99a43bd60,Leistungsverteiler
+Energiesystem,Ladesystem,AC-Ladesystem,70b7327d-78a9-42af-87a1-c23ee85b9d40,Netzanschlussadapter
+Energiesystem,Ladesystem,AC-Ladesystem,9d60eafd-f294-4bd7-8f09-722b73b389e4,Fehlerstromschutzschalter
+Energiesystem,Ladesystem,AC-Ladesystem,1aa58310-6e1d-49ae-afe5-cfb696844e82,Leistungsüberwachungseinheit
+Energiesystem,Ladesystem,AC-Ladesystem,c969d9ed-9fcc-4537-aae1-96f26000a045,Netzfrequenzsensor
+Energiesystem,Ladesystem,AC-Ladesystem,92726e2a-d235-4c7e-9b66-9f67bef69954,Temperaturüberwachungseinheit
+Energiesystem,Ladesystem,AC-Ladesystem,852de375-8755-4050-999a-9597324546a4,Ladeprotokollsoftware
+Energiesystem,Ladesystem,AC-Ladesystem,2abb3fd7-53f3-4039-b911-c8067b65a44d,Kommunikationsprotokollsoftware
+Energiesystem,Ladesystem,AC-Ladesystem,c2c25555-5d09-4fe7-934d-0a87909a4fc0,Leistungsregelungssoftware
+Energiesystem,Ladesystem,AC-Ladesystem,29b98c45-87f8-4fb3-8a87-46106d664b61,Fehlerdiagnosesoftware
+Energiesystem,Ladesystem,AC-Ladesystem,28e83bbd-7008-4e74-80f4-5e22c7c59bb0,Netzüberwachungssoftware
+Energiesystem,Ladesystem,AC-Ladesystem,c98a7a05-b543-4e96-b814-1a94bf4eff1d,Temperaturmanagementsoftware
+Energiesystem,Ladesystem,AC-Ladesystem,a6cc4a09-0b53-4b2f-bb22-61b93804dae8,Spannungsregelungssoftware
+Energiesystem,Ladesystem,AC-Ladesystem,6c964400-e4a0-4892-b427-f8d3e92944f4,Stromregelungssoftware
+Energiesystem,Ladesystem,AC-Ladesystem,bebc5bce-1b91-4907-bb3f-41ae9a7eb970,Isolationsüberwachungssoftware
+Energiesystem,Ladesystem,AC-Ladesystem,c62fdc33-c2fd-4cd6-a987-62bd402da6bf,EMV-Managementsoftware
+Energiesystem,Ladesystem,AC-Ladesystem,5f1cfe16-3b1d-44bb-b0f0-7f8ce3ee044c,Phasenüberwachungssoftware
+Energiesystem,Ladesystem,AC-Ladesystem,7af81525-9e31-4c83-827f-98d20a8e9c01,Netzfrequenzmanagementsoftware
+Energiesystem,Ladesystem,AC-Ladesystem,c7c161c7-d919-4c1c-b4d1-740d221154ca,Fehlerstromüberwachungssoftware
+Energiesystem,Ladesystem,AC-Ladesystem,1e6addf0-8d09-4591-8f4b-046b864b8bb2,Update-Managementsoftware
+Energiesystem,Ladesystem,AC-Ladesystem,e28a7ec5-76b5-448d-8d0e-6fc084676480,Authentifizierungssoftware
+Energiesystem,Ladesystem,AC-Ladesystem,5efa3ddd-c5cf-48c1-b474-5c5cc04b3688,Netzanschlusssoftware
+Energiesystem,Ladesystem,AC-Ladesystem,47784d02-3c7a-405a-9fdd-2487c0e18201,Leistungsoptimierungssoftware
+Energiesystem,Ladesystem,AC-Ladesystem,2bc4dc4c-6c54-4147-94eb-610e90593ef1,Diagnosedatenmanagementsoftware
+Energiesystem,Ladesystem,AC-Ladesystem,6b0b8d17-49be-4885-81bd-2fc81c8a29ea,Software für Ladezeitplanung
+Energiesystem,Ladesystem,AC-Ladesystem,ee5e5b47-7aeb-4e41-b744-640dc1e7ac2a,Software für Ladeleistungssteuerung
+Energiesystem,Ladesystem,AC-Ladesystem,0f6221a0-46b5-4d51-bac1-399699155f32,Software für Ladehistorie
+Energiesystem,Ladesystem,AC-Ladesystem,353cd666-64f5-404d-976a-8dc07a3e7d03,Software für Ladeprotokollanalyse
+Energiesystem,Ladesystem,AC-Ladesystem,bd40a036-d0e0-47dc-8c66-12851d93715f,Software für Netzkommunikation
+Energiesystem,Ladesystem,AC-Ladesystem,744348b5-c2e3-4b13-b936-09a51bea2d69,Software für Energieflussmanagement
+Energiesystem,Ladesystem,AC-Ladesystem,c4809910-7005-47ce-981f-70831ca160bd,Software für Sicherheitsabschaltung
+Energiesystem,Ladesystem,AC-Ladesystem,935cfc1d-a3ae-4c28-8577-bcca9838b6a7,Software für Benutzerinteraktion
+Energiesystem,Ladesystem,AC-Ladesystem,aeb85a24-93ba-40e9-8743-b1ce890af78d,Software für Ladezustandsanzeige
+Energiesystem,Ladesystem,AC-Ladesystem,efe4c8e9-bd26-4626-961c-d2e525c39ef0,Software für Ladeleistungsprognose
+Energiesystem,Ladesystem,AC-Ladesystem,b7bf41b7-2196-44a9-8567-8bf945553be9,Software für Ladefehleranalyse
+Energiesystem,Ladesystem,AC-Ladesystem,2c32663f-8c02-4e3e-8b00-d46d90fb45c5,Software für Ladeinfrastrukturkommunikation

@@ -1,0 +1,61 @@
+Ebene-1,Ebene-2,Ebene-3,SNS_number,Komponente
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,d8c98d53-1d46-4d88-82e1-7950580a05eb,Leistungstransformator
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,f4ba30de-fcb3-453d-8838-22774399e6ac,DC-DC-Wandler
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,29f512fa-9c3a-4bc3-a3b7-24e3e1b06838,AC-DC-Wandler
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,f0bbfbf8-7592-4ac5-8dd1-15d4dd2d2732,Spannungsregler
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,392e1357-c99c-4233-8714-5b4060c0a4a0,Induktive Spule
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,fbcc04f1-e891-453a-b9ef-aed4a2959dd6,Kondensator
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,403ebf60-c0a9-482f-83a1-ed0e0ccc3ccc,Leistungshalbleiter
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,18b77b6f-b1ad-4487-8425-48582b2d9271,Schutzdiode
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,d0cfc701-ef23-41ad-9d1d-b3eb049c7f1e,Leistungsschalter
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,bcbe37cd-3667-4bec-a9f5-0ab55ddb834c,Relais
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,18b593cf-aff1-436b-9c19-ad00dc133921,Temperatursensor
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,7451d56b-4ccc-4347-9ff0-9f78901cb8d6,Stromsensor
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,bfb969ef-4c56-467c-9383-640cb4ae9272,Spannungssensor
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,cf315fbf-891a-4085-bd58-77475bdfb909,Isolationsüberwachungseinheit
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,93ae042e-a678-4daf-bdfc-a88c3460f7e7,Kühlkörper
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,a571c95f-aadb-440f-b331-03630fdbf31a,Leistungsmodul
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,a1f2fd51-c160-4abd-8dbe-625651d5e3bc,Steckverbinder
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,9983f5e4-c85f-4c22-824d-0306080d2f9d,Leiterplatte
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,f49380d6-1a54-4461-a947-468725062317,EMV-Filter
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,e7ab713b-2d33-4a7f-b2ad-186703f4435a,Schutzgehäuse
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,6e476973-1026-4748-aad7-5c8de3c30b7a,Signalverstärker
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,581351fc-6756-437f-91b0-7d9df4830b28,Transformator
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,d34f0fe4-ca0f-44a8-8481-935b39629fa1,Schutzschaltung
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,d9069af1-bde2-406e-b563-777572dd45fb,Schaltkreis
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,849ce9b0-7d6e-4918-bf87-167f39b1eab7,Leistungsverteiler
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,ca14275d-b693-4254-8496-14abbc03b153,Busbar
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,b9593d48-287a-4b43-93d4-d6121a7764d5,Schutzsicherung
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,5323fb22-3289-469e-afe0-92b8fbaacf34,Kommunikationsschnittstelle
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,ee7869fc-35a0-4e6d-b5f6-758a5aa19aa9,Diagnoseanschluss
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,017c8554-dd07-4748-b095-2147c8d57498,Leistungsüberwachungseinheit
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,31613b2e-2e61-4ccb-acc6-e80d652666cf,Spannungsregelungssoftware
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,2252b57c-b19c-479f-a162-fb279bcad95f,Leistungssteuerungssoftware
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,1458dc9a-548e-4275-aa1f-e54d1938ef10,Diagnosesoftware
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,698f452f-adbb-4bbd-87ae-c413dde4e5ef,Kommunikationsprotokollsoftware
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,a6bbc8fe-526a-44a7-93a2-1b069d9ab971,Fehlererkennungssoftware
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,8f30e32b-09f3-47d4-9ce5-16b9f52c42f3,Isolationsüberwachungssoftware
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,77af6fe9-7df6-4851-96cf-2d6e921362fa,Temperaturüberwachungssoftware
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,2441aa26-5196-45d2-bc72-f10084d16228,Stromüberwachungssoftware
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,9f736535-7fd9-4644-a1e7-5ad381baab95,Spannungsüberwachungssoftware
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,1035e2c2-e39e-4e9d-a1a6-843ab509c75e,EMV-Filtersoftware
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,672549f0-9b8a-465e-a74a-454ebe1b0523,Schutzschaltungssoftware
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,fa0bedc0-c8a6-42f9-bf6b-4f422e9dbf39,Leistungsmodulsteuerung
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,1d645cbd-ab71-4310-8e67-4815fbfca755,Relaissteuerungssoftware
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,1a6e3b50-a54d-44ed-93d1-0d250a9b7da2,Schaltkreissteuerung
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,ef597b50-0a00-4030-bf16-daef41ed605b,Transformatorsteuerung
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,84c55f3b-66f0-48b1-904c-b6f3e5e351c4,Busbarsteuerung
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,e62077ea-c96d-4c39-8eaa-3625a392eddd,Leistungsverteilersteuerung
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,53b1f1ec-f5d3-4d56-8b72-1ce121b3c80d,Signalverstärkungssoftware
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,810b133d-4a87-4706-a77b-aeec4ef6658d,Software für Schutzsicherung
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,942e9d2c-de04-428d-8829-9023b872f3b8,Software für Steckverbinder
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,8af497f6-a8b5-4262-ac97-ae53d35917ae,Software für Leiterplatte
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,8f52b9f5-3385-4503-81b4-966fab2df582,Software für Schutzgehäuse
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,10f5dcbd-e5b1-4305-a689-647f58f5ae64,Software für Kühlkörper
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,7f073ab9-2824-4a82-98db-10a7de5fd8a6,Software für Leistungshalbleiter
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,13345544-413f-43e6-b907-0bf1f01f724f,Software für Schutzdiode
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,3a9c7027-31e6-4db1-9483-b18560bd99a4,Software für Induktive Spule
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,e6e107c1-8fa3-4a6e-9a6e-92ff476701e6,Software für Kondensator
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,98a6354f-b790-45da-bb51-d0bd3c6fa6c9,Software für AC-DC-Wandler
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,9a280861-90d1-4ebe-a845-ca58219835a4,Software für DC-DC-Wandler
+Energiesystem,Spannungswandlungssystem,HV-LV-Wandlungssystem,f5b91d6e-ef41-4e72-bd6c-3478ee55cb1d,Software für Leistungstransformator

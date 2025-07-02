@@ -1,0 +1,61 @@
+Ebene-1,Ebene-2,Ebene-3,SNS_number,Komponente
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,3d7fc4b2-f687-4db9-bf51-94e76080691b,Thermosensor
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,c852c565-c984-4101-9348-7c79a9fa12ea,Heizelement
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,72db5558-1afe-41b1-ae85-bc855d0f52eb,Temperaturfühler
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,ef890da0-bfc1-475f-a6b2-539c5d0969b4,Leistungsschalter
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,67760cf3-0114-49cd-aec7-da77094928e5,Relais
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,dc1c3565-9256-4086-a7b5-a09f2e5e7ae6,Steckverbinder
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,c41dac31-eaf2-475c-9599-d38a45d74443,Kabelbaum
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,a9ea5548-527d-44f1-9968-7a7ce897aa4d,Spannungsregler
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,4afd9bc0-956c-46a2-83ae-576bf86756b9,Isolationsmaterial
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,249a0c29-1303-4734-bebe-dc5359a3ae6c,Sitzpolster
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,735b7ee1-22bb-4b85-8b13-29d47637159a,Heizdraht
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,1b180a04-fff9-46de-9b11-4aa473a0b3b8,Steuergerätgehäuse
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,59ce5637-d0c4-46f0-bf5e-42329feaf9d6,Schutzsicherung
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,3e7a140f-d3d1-421a-a06b-624067d13019,Spannungswandler
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,cadabd97-1cea-4608-9133-2019f3329af7,Steckdose
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,2bab378d-2ed9-4b54-8172-801e4e30f810,Montagehalterung
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,bd966aa7-ddbf-41b6-a751-3fa062d59e2b,Schrauben
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,6071c0ac-5506-473a-aa2e-01755eacb365,Steuerplatine
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,9fec6deb-8f31-4b1c-bd7d-f444b6a52354,Leiterplatte
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,96d0b78c-34e1-4dac-9ed2-734aeb060299,Kontaktsensor
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,a4b3f70f-67aa-4900-9301-cf9ef09675a3,Stromverteiler
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,a8b0e5e9-4292-4d62-b611-cddb90ac485e,Diagnoseanschluss
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,a234d05e-66e3-48d4-83be-6091f73f1e5d,Schutzabdeckung
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,a481049e-a06a-4262-b9d2-d04f01f1b883,Montageclip
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,521b06e5-9c3b-4ff0-a20e-28aeeb55221d,Heizmatte
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,713abe0f-415b-4208-838d-175150757392,Temperaturanzeige
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,959271b8-50af-4a40-8da7-f79abaf635de,Spannungsprüfer
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,9a8d113b-a277-4c20-a0b1-8a71abdafdd7,Schaltkreis
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,70c1dedb-0bdd-426c-9f6f-14b2e838f556,Stromsensor
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,fd8636e1-59f8-4434-9e06-1cf9b469ab45,Verbindungskabel
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,b0321597-c543-4a82-9257-9b66acaaa1fd,Temperaturregelungssoftware
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,0270116d-7c22-44e1-93b8-e5473a0cf45f,Diagnosesoftware
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,32868dad-cd59-4354-be13-882f4c28db0e,Leistungssteuerungssoftware
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,ab63ed02-f9e3-4bf0-9c62-30f332b9d106,Fehlerüberwachungssystem
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,273cd053-3d1c-462b-ae57-67103fa72cf0,Heizprofilmanagement
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,3317fd37-1b48-4446-bb2c-f280d0fd69dd,Sensorabgleichsoftware
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,15a6a68d-0666-4895-b793-63283e634382,Spannungsüberwachungssystem
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,8cd33e59-b7a1-4e7f-afe2-e6ec7099b9c9,Kommunikationsprotokollsoftware
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,0bd3a17c-5a2d-4f71-85d6-73ccf8defcdf,Firmware-Update-Software
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,fb0001fe-b2e8-4e41-9d91-90e1fef365e4,Diagnosedatenprotokollierung
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,702414a1-008b-4503-8706-db28b6e82329,Stromverbrauchsoptimierung
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,0857f87d-4836-4162-a352-941529ff21dd,Heizintensitätssteuerung
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,6181544d-dfe7-4b46-b65b-5d4d266b27f8,Fehlerspeicherverwaltung
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,e4837ad3-6f48-461f-a6fb-0c6d702c86ee,Software für Sitzpositionserkennung
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,99aff66b-0a2e-4b94-93da-db20c7aa639e,Heizzeitsteuerung
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,712a835d-23ef-4c76-8396-3e7e5f9fba19,Software für Benutzerpräferenzen
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,34e50812-9911-449b-9f2a-02ced92b89fb,Software für Energieeffizienz
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,2a9e2b13-0bd5-40b1-95c6-ef405baf368d,Software für Sicherheitsabschaltung
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,0d156400-cb52-4600-a746-d40627e7ffb2,Software für Temperaturgrenzwerte
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,ce2969eb-4ea6-4d42-87b8-5dec1b435088,Software für Sitzkomfortanpassung
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,c12b333f-dc91-4182-b38d-20e2da677ee0,Software für Echtzeitüberwachung
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,565c0f4e-dba4-4edd-a4de-b5e91eb719dd,Software für Systeminitialisierung
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,2b55e17b-3c20-424d-9a3a-54ca57055da2,Software für Systemkalibrierung
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,9614036d-ef5a-4667-9f32-18792c10b639,Software für Sitzheizungsaktivierung
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,6770070c-c3fe-4b53-9fc2-8e83d396838d,Software für Sitzheizungsdeaktivierung
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,fc4162d3-8057-4056-b825-577ff4d6d966,Software für Sitzheizungsmodi
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,69ab2253-8c86-4845-806c-75beaceed611,Software für Sitzheizungsdiagnose
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,13938cf7-58ef-41be-b9ce-8dccf828e27a,Software für Sitzheizungsprotokollierung
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,65e44fa2-45af-434b-809c-78e67fd9e6bd,Software für Sitzheizungssteuerung
+Bodysystem,Sitzmanagementsystem,Sitzheizsystem,93a38941-e31d-4b77-82d4-f3e4bb40378b,Software für Sitzheizungsintegration

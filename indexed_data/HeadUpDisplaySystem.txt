@@ -1,0 +1,61 @@
+Ebene-1,Ebene-2,Ebene-3,SNS_number,Komponente
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,976b6169-60f0-487f-a0fe-e24242c288b4,Displaypanel
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,8d166b7e-062b-4d1e-a2c1-7f5f1fd1e0da,Projektionslinse
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,166120b4-c8f3-454a-9e81-cc7253849924,Spiegelmodul
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,b4c5a071-b9a2-43fd-83b0-a725f647e7d8,LED-Lichtquelle
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,f4c93da6-0005-4151-8886-f2d53c244be0,Optischer Filter
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,12f0bd0d-6616-4d21-86d8-fc0fc6abd95e,Reflektierende Folie
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,1e770440-d4eb-4f71-9266-8d117f2404e2,Glasabdeckung
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,55230398-584c-4d01-bba2-b8f108184b6b,Temperatursensor
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,3329b7d8-8d63-40b4-9083-c20b21e6016f,Umgebungslichtsensor
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,7d32ad4d-2909-45d6-85ab-5c8d22cf9686,Neigungssensor
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,db7bdbc5-67e9-4bd1-bc27-77d2963212fd,Gyroskop
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,1be7b187-b0b2-433d-ac96-92c7650f07ab,Magnetometer
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,39fed5f9-d5ce-4603-b259-d9408c23af41,Steuerplatine
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,60878804-1f17-4a90-a2ee-57b1e75735f7,Flexkabel
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,53119f09-f5c7-4838-b79e-7b32adfc0bd8,Spannungsregler
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,63f87392-20cd-432c-aaa8-23adb54ca338,Stromversorgungseinheit
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,89187582-7c12-4411-beb1-e76ab86281d6,Kühlkörper
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,88bb97c1-101c-4c03-b5d6-e32a51bce128,Lüftermodul
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,9ee31a75-3b1a-40fa-8df9-4dae9fa74637,Montagerahmen
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,79f63f7f-99da-4308-80eb-3f08642d538c,Schraubenhalterung
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,46a3aa2a-c3c3-493f-a5ce-81936c31a276,Isolationsmaterial
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,424931ae-7e2b-45bf-9946-de1c7608be0a,EMV-Abschirmung
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,d556e9ea-f1bf-4c9c-ba47-45bea7ee4773,Verbindungskabel
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,e04394c4-a44f-4f30-9d5e-4baf83010527,Steckverbinder
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,21029283-516e-44f8-bc39-a0698132ab60,Diagnoseanschluss
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,7f02ef3e-c542-4ee2-b140-bca9e3a5c94d,Schutzgehäuse
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,81e64fcd-5c3b-49df-b9cf-ed0088acb5f6,Feuchtigkeitssensor
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,b1e69d40-215f-4bf4-8fc4-e3ad020e5324,Schwingungsdämpfer
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,f92da388-6c2b-4985-b73a-a2c3439cb4e3,Optische Kalibrierungseinheit
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,3eda9abf-2ffc-4988-a938-bb571114ffc6,Mechanische Halterung
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,a9482be7-df5d-40b1-b7f6-fd12245b8caf,Bildverarbeitungssoftware
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,6f54527f-dc3e-484d-abe3-9949b4bcfb15,Projektionstreiber
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,29718782-b07e-4965-b85d-7ba7cf017591,Kalibrierungssoftware
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,c82e360b-7c2d-41b4-a74c-8058b7c3eb86,Sensorsteuerungssoftware
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,700b779d-5d8d-42ec-898a-7ac2aaac2744,Neigungsregelungsalgorithmus
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,2c350ecb-944a-409c-84c8-9cba3525d256,Umgebungslichtanpassungssoftware
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,33c2c138-8e78-4a10-b79c-587c4fc0594a,Diagnosesoftware
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,925b1f73-6fe0-4b7d-ad9e-a1232f5b0bb1,Fehlererkennungssystem
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,5f167a5a-a650-4d43-9d77-c7cf2b0df2ac,Update-Management-Software
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,caa74802-fe10-4336-a656-97193ca0b7ae,Kommunikationsprotokollsoftware
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,06864a6e-98d4-4ab5-a33b-1fcd71cfecae,Displaysteuerungssoftware
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,d8f72f30-3f21-4c2c-9b96-e9702997c76a,Optische Korrektursoftware
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,4f66df0e-abb0-435d-ac87-4a24b0a3d0d4,Spiegelsteuerungssoftware
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,782703d2-3b82-4f11-b63f-ffc93fd2e832,Temperaturregelungssoftware
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,6c67bd45-e255-4941-ba45-c7ea933b5cca,Strommanagementsoftware
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,a8bedb44-4c71-4d61-988d-8def0be3f21d,EMV-Filtersoftware
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,12c1bc80-5e48-422b-87ed-d2eaa9282e65,Positionierungsalgorithmus
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,2fe39ceb-0cf7-4c65-899f-9e971da3f474,Sprachsteuerungsintegration
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,bd4bbb9c-565e-43a4-a6fa-59c9a6bee575,Gestensteuerungsintegration
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,61c8ce56-1dfb-415a-835c-1c62964ba160,Benutzeroberflächensoftware
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,dea89191-1944-49d6-9776-e8750ec8d644,Farbanpassungssoftware
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,2a963ce3-f4b2-4269-926e-7e72d09669ac,Kontrastregelungssoftware
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,a3fbc04e-f3ee-4e38-855c-7071fdb371b5,Helligkeitsregelungssoftware
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,07326f32-a8e0-4f95-97ed-1c5ee8695d19,Software für adaptive Inhalte
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,3fa24660-4c3b-4461-814d-ddb5f077ab8d,Software für dynamische Anzeigen
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,12d11608-e697-421f-98e9-33540a71548f,Software für Sicherheitswarnungen
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,36ebcb9e-4a98-46ca-940b-5a8b7f667cd0,Software für Navigationsintegration
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,01a32407-0e3d-4705-9494-ddfc960d3e83,Software für Fahrzeugstatusanzeige
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,a0082372-8640-4977-a72b-9c75057068d6,Software für Fahrassistenzintegration
+Infotainmentsystem,Anzeige- und Bedienungssystem,HeadUpDisplaySystem,e35e757e-c5da-48ce-8030-3456153d50b0,Software für OTA-Updates

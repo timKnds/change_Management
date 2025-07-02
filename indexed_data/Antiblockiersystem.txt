@@ -1,0 +1,61 @@
+Ebene-1,Ebene-2,Ebene-3,SNS_number,Komponente
+Fahrsystem,Bremssystem,Antiblockiersystem,65a5712e-7f2c-4572-afd1-d049823e95d8,Hydraulikpumpe
+Fahrsystem,Bremssystem,Antiblockiersystem,37333d93-d244-48d3-8b00-568edb6f6fb9,Bremsdrucksensor
+Fahrsystem,Bremssystem,Antiblockiersystem,cca42c3f-312e-44d2-bbe3-be9be1cb4a5b,Bremskraftverstärker
+Fahrsystem,Bremssystem,Antiblockiersystem,0795dd8d-f011-4b09-82af-6d3fc3ef59be,Hydraulikventil
+Fahrsystem,Bremssystem,Antiblockiersystem,0de297a3-7ccf-409c-8e0a-b069c58856ec,ABS-Steuergerät
+Fahrsystem,Bremssystem,Antiblockiersystem,14adaabe-f4cd-4f48-9fbe-d92352edc635,Radgeschwindigkeitssensor
+Fahrsystem,Bremssystem,Antiblockiersystem,ead54fc4-15ee-4454-9aac-7b55ba01cdf6,Bremsflüssigkeitsbehälter
+Fahrsystem,Bremssystem,Antiblockiersystem,78a9dc01-5c76-49ba-9931-195e11b14a3d,Bremsleitungen
+Fahrsystem,Bremssystem,Antiblockiersystem,00c5e535-3a59-4a2e-8388-5cee4ca49adb,Bremszylinder
+Fahrsystem,Bremssystem,Antiblockiersystem,236ef37e-faf6-4cff-a36b-24da7b1a030e,Bremsbeläge
+Fahrsystem,Bremssystem,Antiblockiersystem,14ba09fd-f353-45e6-85be-d3cb64a8f60e,Bremsscheiben
+Fahrsystem,Bremssystem,Antiblockiersystem,2fe35b94-dae0-4698-8c9c-a023181d522c,Bremsbacken
+Fahrsystem,Bremssystem,Antiblockiersystem,551000fe-cae4-43ed-8033-0773f3b6fb91,Magnetventil
+Fahrsystem,Bremssystem,Antiblockiersystem,cf3569e0-bcfe-4125-a118-9d4781793c97,Relais
+Fahrsystem,Bremssystem,Antiblockiersystem,de42888b-70ae-4138-a550-999a998a73e2,Steckverbinder
+Fahrsystem,Bremssystem,Antiblockiersystem,821a6ac4-dee6-4da6-8a15-8420f43e5072,Kabelbaum
+Fahrsystem,Bremssystem,Antiblockiersystem,422cd0ee-3023-4f6f-bade-131bebd77465,Temperatursensor
+Fahrsystem,Bremssystem,Antiblockiersystem,ddbcca05-5669-4ca6-b44e-26f8739fd8a0,Diagnosestecker
+Fahrsystem,Bremssystem,Antiblockiersystem,350102cf-fe9f-416f-9dce-370546f1bb42,Elektronische Steuerungseinheit
+Fahrsystem,Bremssystem,Antiblockiersystem,cd0ea0ad-fcc1-4c80-b7e6-fbf7e7770a3c,Spannungswandler
+Fahrsystem,Bremssystem,Antiblockiersystem,28126bb5-47ef-4c30-8d74-a61a410638e2,Stromversorgungseinheit
+Fahrsystem,Bremssystem,Antiblockiersystem,e8af0cb1-980c-40ae-92c4-277d019dd23d,ABS-Ring
+Fahrsystem,Bremssystem,Antiblockiersystem,5b98803d-d293-4b0e-bb4e-ad7c83c580b8,Radlager
+Fahrsystem,Bremssystem,Antiblockiersystem,d623f2b8-caeb-42a5-a776-61f97cd5f0bc,Montagehalterung
+Fahrsystem,Bremssystem,Antiblockiersystem,f15ae0da-ee4c-417b-b110-cd3ac57e4b49,Schrauben
+Fahrsystem,Bremssystem,Antiblockiersystem,a0834873-8621-483d-bd7a-05a48e92aed9,Muttern
+Fahrsystem,Bremssystem,Antiblockiersystem,9e3e91e7-50f3-4832-b5ac-c27569dd54ac,Isolationsmaterial
+Fahrsystem,Bremssystem,Antiblockiersystem,5c0e78ae-b5f5-42c2-af07-a18f3d8569db,Schutzgehäuse
+Fahrsystem,Bremssystem,Antiblockiersystem,4974929c-05ff-4269-9a78-81a45deaa427,Signalverstärker
+Fahrsystem,Bremssystem,Antiblockiersystem,ccd4d8b4-ca62-4620-9d85-373082a18bf8,Diagnosemodul
+Fahrsystem,Bremssystem,Antiblockiersystem,7905fb1e-362d-4d44-9b65-ab6fdaff6172,Bremsdruckregelungssoftware
+Fahrsystem,Bremssystem,Antiblockiersystem,a2e8e337-f95a-46ee-810f-d559daa363cc,Radgeschwindigkeitsüberwachung
+Fahrsystem,Bremssystem,Antiblockiersystem,6b718723-b94d-40e5-a73e-f3ef1402bf9d,Hydraulikventilsteuerung
+Fahrsystem,Bremssystem,Antiblockiersystem,b1775208-f942-4bcc-a171-a01969feff6b,ABS-Fehlerdiagnose
+Fahrsystem,Bremssystem,Antiblockiersystem,63c6dbab-99bf-45b6-8d41-caa06438c610,Stabilitätskontrollalgorithmus
+Fahrsystem,Bremssystem,Antiblockiersystem,6f7cf41c-bbb8-4498-9470-85bf6f742d69,Schlupfregelungssoftware
+Fahrsystem,Bremssystem,Antiblockiersystem,1abf9a6e-6ef9-4138-8ae7-74e8c25f79ef,Notbremsassistenzsoftware
+Fahrsystem,Bremssystem,Antiblockiersystem,879eb530-317d-49d1-aeec-cde53d262cff,Sensor-Datenfusion
+Fahrsystem,Bremssystem,Antiblockiersystem,c561078a-a5bc-4525-bf88-a95c110cf756,Kommunikationsprotokollsoftware
+Fahrsystem,Bremssystem,Antiblockiersystem,c7bc979a-889d-4cc5-bf57-c283d93cd183,Software für Bremskraftverteilung
+Fahrsystem,Bremssystem,Antiblockiersystem,386834fe-b48d-4b7c-8a9e-dca3a934299e,Fehlerspeicherverwaltung
+Fahrsystem,Bremssystem,Antiblockiersystem,41a93141-3a48-4487-bb22-f736ea13f84e,Software für Echtzeitsteuerung
+Fahrsystem,Bremssystem,Antiblockiersystem,660a6676-acfb-442d-97da-e8e67ee29ee4,Signalfilterung
+Fahrsystem,Bremssystem,Antiblockiersystem,977600f6-76f4-420d-b58e-8912b4c90e45,Software für Systeminitialisierung
+Fahrsystem,Bremssystem,Antiblockiersystem,39ec34ea-c65d-4a0b-87c4-562bafd95023,Software für Selbsttest
+Fahrsystem,Bremssystem,Antiblockiersystem,9280b17a-10be-495a-a24b-905bdbb067a5,Software für Datenlogging
+Fahrsystem,Bremssystem,Antiblockiersystem,6b7e245d-8101-4107-b111-36677fd204f2,Software für Fahrzeugkommunikation
+Fahrsystem,Bremssystem,Antiblockiersystem,70806c53-ff07-4381-bc39-e40c9ce46d0b,Software für Energieoptimierung
+Fahrsystem,Bremssystem,Antiblockiersystem,fada4a7e-2273-4445-b2a7-ab4269397ff6,Software für Temperaturüberwachung
+Fahrsystem,Bremssystem,Antiblockiersystem,76d667fe-4093-4c99-86d9-456adecb06f8,Software für Magnetventilsteuerung
+Fahrsystem,Bremssystem,Antiblockiersystem,2f9cfe30-81dd-44e6-aef8-d706de0861a3,Software für Bremslichtsteuerung
+Fahrsystem,Bremssystem,Antiblockiersystem,87ba0467-bbdd-4f56-9d7d-74dd1157d65c,Software für Radgeschwindigkeitskalibrierung
+Fahrsystem,Bremssystem,Antiblockiersystem,ab1a4dff-dde3-4908-855c-12029a56603c,Software für Bremsdruckkalibrierung
+Fahrsystem,Bremssystem,Antiblockiersystem,b3639b6f-7913-4b32-a0c2-ecfb75ddaf1c,Software für Systemaktualisierung
+Fahrsystem,Bremssystem,Antiblockiersystem,a1f23c20-b0ee-410e-9ad0-f778c76f2ad8,Software für Sicherheitsabschaltung
+Fahrsystem,Bremssystem,Antiblockiersystem,8524944c-b1ec-42d2-b71c-36f46a2603ab,Software für Bremsflüssigkeitsüberwachung
+Fahrsystem,Bremssystem,Antiblockiersystem,3c8388df-8446-4c8b-aa74-b74e24bce645,Software für Sensorvalidierung
+Fahrsystem,Bremssystem,Antiblockiersystem,d89b41f5-3fa6-4282-b79a-85f2597b3f40,Software für Systempriorisierung
+Fahrsystem,Bremssystem,Antiblockiersystem,8caaf7c0-240f-4961-9f8f-4ba59c77b7e8,Software für Fahrdynamiküberwachung
+Fahrsystem,Bremssystem,Antiblockiersystem,f912a5f0-542a-457c-b7c3-cdc4890df0af,Software für Benutzerwarnung

@@ -1,0 +1,60 @@
+Ebene-1,Ebene-2,Ebene-3,SNS_number,Komponente
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,58b783f4-967b-423d-bf5c-4316660169a5,LED-Modul
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,7a9aef22-cb47-4aec-8e7d-ce543b700ce3,Lichtleiter
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,fde525e3-cf77-40fa-8565-8a474f16d2eb,Innenraumleuchte
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,9059798f-20cc-47fd-a551-6f45eedc2c74,Dimmer-Schaltung
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,a7fe387d-0cad-4e15-b194-fed4b623215f,Lichtsteuergerät
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,1a4b7551-6607-489c-a2ad-ab8967b5d193,Optische Sensoren
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,b3aec601-a99f-492b-8b69-05fd27091a66,Spannungsregler
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,2f1c2036-5f50-4e7a-bd40-f7b732de788e,Leiterplatte
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,25138426-6bb1-4b41-a733-7b7009608391,Kabelbaum
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,ee2d286f-ce43-4046-9a46-7bea0d965fb3,Steckverbinder
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,3d0a33dd-0d55-448e-b6a9-4aaf09ee92d9,Schalter
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,0621b2ac-968d-41b9-becd-8b2124f41105,Relais
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,909d5f4f-eae4-4045-8abb-30e74c7f773d,Temperatursensor
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,a3211a48-0c26-4049-bd31-fcd87d5b152f,Feuchtigkeitssensor
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,51a335eb-77da-43db-83a6-22c74607267d,Stromversorgungseinheit
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,ab4a15a7-493f-47fe-b310-37d44c198d74,Montagehalterung
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,589db9bf-d72e-4101-81e4-7f25aef03f79,Reflektor
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,29b3125e-a8bd-453f-a36c-2d091606c000,Diffusor
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,450a970e-7611-41f7-8c5f-c27c6b75d082,Isolationsmaterial
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,eaf3f50a-4308-4bac-8ea5-e50a7c884595,Abdeckglas
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,dfee6dbc-f322-40a8-acae-3560e30f5383,Schrauben
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,a7efb882-5d61-4fb7-8cf6-3c0b4cf2f69e,Halteclips
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,710fe4c4-15e0-47c5-83a8-6bb3225ab074,Schutzgehäuse
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,d2dd5482-f676-46dd-aae3-f88d30622ea1,EMV-Filter
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,bdd83810-30ec-4e0b-8f03-3a3f22d84deb,Leuchtmittelhalterung
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,6b8e68ae-dd98-47dd-8df6-cf34c9786600,Optische Filter
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,de14b7ba-240b-410d-bb4f-e09831971750,Infrarot-Sensor
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,26a50336-da48-4702-8172-ca73da387b84,Farbsensor
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,9c217829-1d59-4524-96bd-f81cac457835,Steuerungsknopf
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,0aaf862e-5b51-4216-951b-b55dabb51f6b,Montageplatte
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,0f8d337c-951f-4992-bc16-94ad68ec83b0,Lichtsteuerungssoftware
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,0a94e0c8-6365-4581-b86f-c860682dbf46,Dimmersteuerungssoftware
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,8c79661d-c46a-4231-a4bc-1515a9950d8e,Farbanpassungssoftware
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,7e6b5ad7-d16b-4631-b940-0adec5dc51c3,Leuchtmustersteuerung
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,5eb3ff76-3937-4c77-a1de-87ecadda9eb9,Sensorintegrationssoftware
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,176a6a51-8574-4af3-8f87-bfa8b3cc0ed7,Feuchtigkeitsmanagementsoftware
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,cf530905-cc7d-443c-9c09-2b7706f810df,Temperaturmanagementsoftware
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,080370e3-fe6d-4634-a105-c3b1335fcf5d,Diagnosesoftware
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,5890cba1-e12d-4157-82ad-c6f80dc82e30,Fehlererkennungssystem
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,fe066ac4-13e9-4d12-a495-6fea7de107b7,Update-Managementsoftware
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,828859f3-9bc6-449a-ba31-53f7e33282c2,Kommunikationsprotokollsoftware
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,d0f8c011-4b86-4f63-9f83-81c8ec8ea760,Sprachsteuerungssoftware
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,24d6148c-6ba1-4f0f-8acb-7ba051f8debf,Gestensteuerungssoftware
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,485f84d1-a8f6-4746-bc57-2322c79eb19c,App-Integrationssoftware
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,3db49912-f10a-41c9-ac63-57858292675b,Personalisierungssoftware
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,bdf66010-b78a-4c1f-9e1b-802e4fa0c875,AutomatischeDimmungssoftware
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,7c7588d8-0e0e-4011-8b91-61ecf0ade5b2,Zeitschaltsoftware
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,44ae865c-48c1-4557-a683-5dbb5f1172cd,Umgebungslichtanpassungssoftware
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,fe3e28a7-4400-435a-b25e-cf0dd653713a,EMV-Filtersoftware
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,434f2a62-3788-4c01-866e-90417422d248,Leistungsmanagementsoftware
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,f3e3616d-17cb-4498-9b46-f1cf1c673627,Stromverbrauchsüberwachung
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,1da67e55-0902-40e2-ad7a-15f29cd5f39f,Software für Lichtanimation
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,93b972b2-3a3a-4785-a401-7726054948dc,Software für Lichtintensitätseinstellung
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,d2f897e6-fd70-4877-8cae-605b576b1786,Software für Lichtfarbeinstellung
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,1ed8318d-e55a-4151-95e4-b4cf6f632cb6,Software für Lichtmodulation
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,a3599b4b-cefc-4b04-af14-12f20cc5d33a,Software für Lichtsequenzen
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,df6a987e-a249-4c21-bacb-7df9f526d367,Software für Lichtpriorisierung
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,ff0e3a52-6714-470b-8be0-fd750c91cdf1,Software für Lichtdiagnose
+Bodysystem,Beleuchtungssystem,Innenlichtsystem,5bcfa089-e9a9-4df9-b8ce-4f947e0c761a,Software für Lichtsteuerung
