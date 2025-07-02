@@ -1,5 +1,5 @@
 import streamlit as st
-from answer_chain import easy_answer, stream_answer
+from agent.answer_chain import easy_answer, stream_answer
 import io
 
 
@@ -16,9 +16,9 @@ def extract_csv(text):
 
 st.set_page_config(layout=None)
 # Musst du hier anpassen
-st.image("./app/static/unity-logo.svg")
+# st.image("./app/static/unity-logo.svg")
 
-st.logo("./app/static/unity-logo.svg")
+# st.logo("./app/static/unity-logo.svg")
 st.title("Änderungsmanagement Agent 🤖")
 
 # Hier lege ich ein Key an in meinem session_state, falls dieser noch nicht angelegt wurde
